@@ -1,0 +1,664 @@
+<stallionsden>
+<append xpath="/items">
+<item name="whispererClothingMaster">
+<property name="CreativeMode" value="None"/>
+<property name="CustomIcon" value="apparelHazmatBoots"/>
+<property name="CustomIconTint" value="87,87,87"/>
+<property name="DisplayType" value="clothing"/>
+<property name="Stacknumber" value="1"/>
+<property name="Material" value="MmilitaryFiber"/>
+<property name="DegradationBreaksAfter" value="false"/>
+<property name="Weight" value="5" />
+<property name="EconomicValue" value="400"/>
+<property name="HoldType" value="45"/>
+<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+<property name="DescriptionKey" value="hazmatClothesGroupDesc"/>
+<property name="Group" value="Clothing"/>
+<property name="ActionSkillGroup" value="Clothing/Armor"/>
+<property name="CraftingSkillGroup" value="craftSkillScience"/>
+</item>
+
+<item name="whispererBoots">
+<property name="Extends" value="whispererClothingMaster" param1="CustomIcon"/>
+<property name="CustomIcon" value="apparelHazmatBoots"/>
+<property name="CustomIconTint" value="87,87,87"/>
+<property name="Tags" value="lowerbody,feet,clothing,canHaveCosmetic"/>
+<property name="EquipSlot" value="Feet"/>
+<property class="UMA">
+<property name="Mesh" value="armor_hazmat_feet"/>
+<property name="Overlay0" value="armor_hazmat_boots"/>
+<property name="Layer" value="0"/>
+<property name="UISlot" value="Footwear"/>
+</property>
+
+<effect_group name="Base Whisperer Group" tiered="false">
+<passive_effect name="ModSlots" operation="base_set" value="1"/>
+<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" target="self" cvar="whispererSet" operation="add" value="1"/>
+<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" target="self" cvar="whispererSet" operation="subtract" value="1"/>
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffWhisperer"/>
+
+  <requirement name="NotHasBuff" buff="buffAntiWhisperer"/>
+
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="buffAntiWhisperer" operation="add" value="20"/>
+        <display_value name="buffAntiWhisperer" value=".15"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffWhisperer"/>
+
+<triggered_effect trigger="onSelfJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfLandJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouch" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfStand" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchWalk" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<passive_effect name="Mobility" operation="perc_subtract" value="0.01"/>
+<passive_effect name="StaminaChangeOT" operation="perc_subtract" value="0.0001" tags="walking"/>
+<passive_effect name="StaminaChangeOT" operation="perc_subtract" value="0.0010" tags="running"/>
+<display_value name="dStaminaChangeOT" value="-.102"/>
+</effect_group>
+</item>
+
+<item name="whispererPants">
+<property name="Extends" value="whispererClothingMaster" param1="CustomIcon"/>
+<property name="CustomIcon" value="apparelHazmatPants"/>
+<property name="CustomIconTint" value="87,87,87"/>
+<property name="Tags" value="lowerbody,legs,clothing,pocketMod,canHaveCosmetic"/>
+<property name="EquipSlot" value="Legs"/>
+<property class="UMA">
+<property name="Mesh" value="armor_hazmat_legs"/>
+<property name="Mask0" value="legs" param1="middle"/>
+<property name="Overlay0" value="armor_hazmat_pants"/>
+<property name="Layer" value="1"/>
+<property name="UISlot" value="Pants"/>
+</property>
+
+<effect_group name="Base Whisperer Group" tiered="false">
+<passive_effect name="ModSlots" operation="base_set" value="1"/>
+<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" target="self" cvar="whispererSet" operation="add" value="1"/>
+<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" target="self" cvar="whispererSet" operation="subtract" value="1"/>
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffWhisperer"/>
+
+  <requirement name="NotHasBuff" buff="buffAntiWhisperer"/>
+
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="buffAntiWhisperer" operation="add" value="20"/>
+        <display_value name="buffAntiWhisperer" value=".15"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffWhisperer"/>
+
+<triggered_effect trigger="onSelfJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfLandJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouch" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfStand" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchWalk" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<passive_effect name="Mobility" operation="perc_subtract" value="0.01"/>
+<passive_effect name="StaminaChangeOT" operation="perc_subtract" value="0.0001" tags="walking"/>
+<passive_effect name="StaminaChangeOT" operation="perc_subtract" value="0.0010" tags="running"/>
+<display_value name="dStaminaChangeOT" value="-.102"/>
+</effect_group>
+</item>
+
+<item name="whispererShirt">
+<property name="Extends" value="whispererClothingMaster" param1="CustomIcon"/>
+<property name="CustomIcon" value="apparelHazmatJacket"/>
+<property name="CustomIconTint" value="87,87,87"/>
+<property name="Tags" value="upperbody,chest,clothing,pocketMod,canHaveCosmetic"/>
+<property name="EquipSlot" value="Chest"/>
+<property class="UMA">
+<property name="Mesh" value="armor_hazmat_chest"/>
+<property name="Overlay0" value="armor_hazmat_chest"/>
+<property name="Layer" value="3"/>
+<property name="Mask0" value="chest" param1="middle"/>
+<property name="Mask2" value="chest" param1="inner"/>
+<property name="UISlot" value="Jacket"/>
+</property>
+
+<effect_group name="Base Whisperer Group" tiered="false">
+<passive_effect name="ModSlots" operation="base_set" value="1"/>
+<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" target="self" cvar="whispererSet" operation="add" value="1"/>
+<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" target="self" cvar="whispererSet" operation="subtract" value="1"/>
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffWhisperer"/>
+
+  <requirement name="NotHasBuff" buff="buffAntiWhisperer"/>
+
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="buffAntiWhisperer" operation="add" value="20"/>
+        <display_value name="buffAntiWhisperer" value=".15"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffWhisperer"/>
+
+<triggered_effect trigger="onSelfJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfLandJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouch" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfStand" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchWalk" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<passive_effect name="Mobility" operation="perc_subtract" value="0.01"/>
+<passive_effect name="StaminaChangeOT" operation="perc_subtract" value="0.0001" tags="walking"/>
+<passive_effect name="StaminaChangeOT" operation="perc_subtract" value="0.0010" tags="running"/>
+<display_value name="dStaminaChangeOT" value="-.102"/>
+</effect_group>
+</item>
+
+<item name="whispererGloves">
+<property name="Extends" value="whispererClothingMaster" param1="CustomIcon"/>
+<property name="CustomIcon" value="apparelHazmatGloves"/>
+<property name="CustomIconTint" value="87,87,87"/>
+<property name="Tags" value="upperbody,hands,clothing,canHaveCosmetic"/>
+<property name="EquipSlot" value="Hands"/>
+<property class="UMA">
+<property name="Mesh" value="armor_hazmat_hands"/>
+<property name="Overlay0" value="armor_hazmat_gloves"/>
+<property name="Layer" value="0"/>
+<property name="UISlot" value="Gloves"/>
+</property>
+
+<effect_group name="Base Whisperer Group" tiered="false">
+<passive_effect name="ModSlots" operation="base_set" value="1"/>
+<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" target="self" cvar="whispererSet" operation="add" value="1"/>
+<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" target="self" cvar="whispererSet" operation="subtract" value="1"/>
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffWhisperer"/>
+
+  <requirement name="NotHasBuff" buff="buffAntiWhisperer"/>
+
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="buffAntiWhisperer" operation="add" value="20"/>
+        <display_value name="buffAntiWhisperer" value=".15"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffWhisperer"/>
+
+<triggered_effect trigger="onSelfJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfLandJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouch" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfStand" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchWalk" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<passive_effect name="Mobility" operation="perc_subtract" value="0.01"/>
+<passive_effect name="StaminaChangeOT" operation="perc_subtract" value="0.0001" tags="walking"/>
+<passive_effect name="StaminaChangeOT" operation="perc_subtract" value="0.0010" tags="running"/>
+<display_value name="dStaminaChangeOT" value="-.102"/>
+</effect_group>
+</item>
+
+<item name="whispererMask">
+<property name="Extends" value="whispererClothingMaster" param1="CustomIcon"/>
+<property name="CustomIcon" value="apparelHazmatMask"/>
+<property name="CustomIconTint" value="87,87,87"/>
+<property name="Tags" value="head,clothing,canHaveCosmetic"/>
+<property name="EquipSlot" value="Head"/>
+<property class="UMA">
+<property name="Mesh" value="armor_hazmat_head"/>
+<property name="Overlay0" value="armor_hazmat_hood"/>
+<property name="Layer" value="middle"/>
+<property name="UISlot" value="Headgear"/>
+<property name="Mask1" value="Head" param1="inner"/>
+<property name="Mask3" value="Face" param1="inner"/>
+<property name="Mask4" value="Face" param1="middle"/>
+<property name="Mask5" value="Face" param1="outer"/>
+<property name="ShowAltHair" value="true"/>
+<property name="LightValue" value="0"/>
+</property>
+
+<effect_group name="Base Whisperer Group" tiered="false">
+<passive_effect name="ModSlots" operation="base_set" value="1"/>
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffWhisperer"/>
+<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" target="self" cvar="whispererSet" operation="add" value="1"/>
+<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" target="self" cvar="whispererSet" operation="subtract" value="1"/>
+
+  <requirement name="NotHasBuff" buff="buffAntiWhisperer"/>
+
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="buffAntiWhisperer" operation="add" value="20"/>
+        <display_value name="buffAntiWhisperer" value=".15"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffWhisperer"/>
+
+<triggered_effect trigger="onSelfJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfLandJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouch" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfStand" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchWalk" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" parent_transform="CameraNode" prefab="Entities/Lighting/miningHelmetLightSource"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Lighting/miningHelmetLightSource" parent_transform="CameraNode" local_rotation="-90,0,0" local_position="0,0,0"/>
+
+			<triggered_effect trigger="onSelfItemActivate" action="SetTransformActive" active="true" parent_transform="CameraNode" transform_path="tempPrefab_miningHelmetLightSource">
+				<requirement name="IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfItemActivate" action="SetTransformActive" active="false" parent_transform="Spotlight" transform_path="tempPrefab_miningHelmetLightSource">
+				<requirement name="IsFPV"/>
+			</triggered_effect>
+
+			<triggered_effect trigger="onSelfItemDeactivate" action="SetTransformActive" active="false" parent_transform="CameraNode" transform_path="tempPrefab_miningHelmetLightSource">
+				<requirement name="IsFPV"/>
+			</triggered_effect>
+
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" parent_transform="Spotlight" prefab="Entities/Lighting/miningHelmetLightSource"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="Entities/Lighting/miningHelmetLightSource" parent_transform="Spotlight" local_rotation="90,0,0" local_position="0,0,0"/>
+
+			<triggered_effect trigger="onSelfItemActivate" action="SetTransformActive" active="true" parent_transform="Spotlight" transform_path="tempPrefab_miningHelmetLightSource">
+				<requirement name="IsFPV" invert="true"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfItemDeactivate" action="SetTransformActive" active="false" parent_transform="Spotlight" transform_path="tempPrefab_miningHelmetLightSource">
+				<requirement name="IsFPV" invert="true"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="false" parent_transform="Spotlight" transform_path="tempPrefab_miningHelmetLightSource"/>
+			<passive_effect name="Mobility" operation="perc_subtract" value="0.01"/>
+<passive_effect name="StaminaChangeOT" operation="perc_subtract" value="0.0001" tags="walking"/>
+<passive_effect name="StaminaChangeOT" operation="perc_subtract" value="0.0010" tags="running"/>
+<display_value name="dStaminaChangeOT" value="-.102"/>
+</effect_group>
+</item>
+
+	<item name="zombieSkin">
+				<property name="CustomIcon" value="zombieSkin"/>
+				<property name="CustomIconTint" value="87,87,87"/> 
+				<property name="HoldType" value="45"/>
+				<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+				<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+				<property name="Material" value="MresourceLeather"/>
+				<property name="Weight" value="5"/>
+				<property name="Stacknumber" value="250"/> <!-- STK resource -->
+				<property name="FuelValue" value="5"/>
+				<property name="EconomicValue" value="22"/>
+				<property name="Group" value="Resources"/>
+				<property name="CraftingIngredientTime" value="2"/>
+		</item>
+   </append>
+   
+<!-- ************************************************************************************************  -->
+<!-- ************************************************************************************************  -->
+<!-- ************************************************************************************************  -->
+<!-- ********************************CHOOSE YOUR OWN MODLET/S****************************************  -->
+<!-- ********************************CHOOSE YOUR OWN MODLET/S****************************************  -->
+<!-- ********************************CHOOSE YOUR OWN MODLET/S****************************************  -->
+<!-- ********************************CHOOSE YOUR OWN MODLET/S****************************************  -->
+<!-- ********************************CHOOSE YOUR OWN MODLET/S****************************************  -->
+<!-- ************************************************************************************************  -->
+<!-- ************************************************************************************************  -->
+<!-- ************************************************************************************************  -->  
+   
+<!-- Vanilla start -->   
+<!--<append xpath="/items/item[starts-with(@name, 'melee')]/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[starts-with(@name, 'tool')]/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[starts-with(@name, 'gun')]/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[starts-with(@name, 'thrown')]/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>-->
+<!--<remove xpath="items/item[@name='gunWoodenBow']/effect_group/triggered_effect[@trigger='onSelfEquipStart']"/>
+<remove xpath="items/item[@name='gunCompoundBow']/effect_group/triggered_effect[@trigger='onSelfEquipStart']"/>
+<remove xpath="items/item[@name='gunCrossbow']/effect_group/triggered_effect[@trigger='onSelfEquipStart']"/>
+<remove xpath="items/item[@name='meleeToolMachete']/effect_group/triggered_effect[@trigger='onSelfEquipStart']"/> -->
+<!-- Vanilla end -->
+<!-- ACP Fishing-A17 start -->
+<!--
+<append xpath="/items/item[@name='Fishing Rod']">
+<effect_group><triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/></effect_group>
+</append> -->
+
+<!-- zACP Fishing-A17 end -->
+<!-- TacticalAction start -->
+<!--
+<append xpath="/items/item[@name='CSword']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='KatanaBlack']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='MK23']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Colt1911']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='USP9']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='P99']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Beretta93R']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Glock18c']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='RagingBull']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Colt_M1873']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='MP5N']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='UMP']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M4A1']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HK416']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='ACR']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M249']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='gatling']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='WinchesterM1894']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Kar98K']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M1Garand']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M110']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='AWP']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M82a1']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+-->
+<!-- TacticalAction end -->
+<!--  SovietWeaponPack start -->
+<!--
+<append xpath="/items/item[@name='AKMS']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='MP-133']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='AK74u']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='RustyMachete']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='KS23']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='VSS Vintorez']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='AK74']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='AS VAL']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='RPK74']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='AK Bayonet']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='SVU']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='STG44']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='AKM']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Binocular']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Makarov']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='RPK']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='AK74m']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Military Shovel']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Canteen']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Canteen Half']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+-->
+<!--  SovietWeaponPack end -->
+<!-- Salvaged Bats start --><!-- HAS ALREADY BEEN DONE TOP OF THIS SECTION ** -->
+
+<!-- <append xpath="/items/item[@name='meleeWoodBat']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='meleeAluminumBat']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='MeleeBatLegendarySawBat']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append> -->
+
+<!-- Salvaged Bats end -->
+<!-- Pilles Super Brush start -->
+<!--
+<append xpath="/items/item[@name='superBrush']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+-->
+<!-- Pilles Super Brush end -->
+<!-- Mayics Custom Firearms start -->
+<!--
+<append xpath="/items/item[@name='Luger']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='38 Snubnose']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Glock 40']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='1911']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Desert Eagle']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Klob']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Mac 10']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='MP5']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M1A1 Thompson']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='MP 40']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Double Barrel Shotgun']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Mossberg 590A1']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Spaz12']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='FN FAL']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Rust AK']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='AR15']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='AK47']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M16']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M4A1']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='SCAR']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M1']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M249 Saw']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M240']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='SR25']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M82']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Golden Gun']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Chaingun']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Hand Cannon']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M79 GL40']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Argh']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+-->
+<!-- Mayics Custom Firearms end -->
+<!-- Khelldon-GetNailed start -->
+<!-- <append xpath="/items/item[@name='khelldonCrowbar']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append> -->
+<!-- Khelldon Get-Nailed end -->
+<!-- HDHQItems start -->
+<!--
+<append xpath="/items/item[@name='HDHQmeleeToolTorch']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+-->
+<!-- HDHQItems end -->
+<!-- HDHQGuns start -->
+<!--
+<append xpath="/items/item[starts-with(@name, 'HDHQ')]/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append> -->
+
+<!-- HDHQGuns end -->
+<!-- GuppysTorchSystem start -->
+<!--
+<append xpath="/items/item[@name='handTorch']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>  -->
+
+<!-- GuppysTorchSystem end -->
+<!-- GuppysLightSystem start -->
+<!--
+<append xpath="/items/item[@name='handLantern']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='handFlashlight']">
+<effect_group><triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/></effect_group>
+</append> -->
+
+<!-- GuppysLightSystem end -->
+<!-- FarmLifeMod start -->
+<!--
+<append xpath="/items/item[@name='Pitch Fork']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+-->
+<!-- FarmLifeMod end -->
+<!-- Farming-master start -->
+<!--
+<append xpath="/items/item[@name='Pitchfork']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Rusty Frying Pan']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Butcher Knife']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Scythe']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append> 
+-->
+<!-- Farming-master end -->
+
+</stallionsden>

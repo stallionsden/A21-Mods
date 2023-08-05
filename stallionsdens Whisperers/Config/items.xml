@@ -1,0 +1,266 @@
+<stallionsden>
+<append xpath="/items">
+<item name="whispererClothingMaster">
+<property name="CreativeMode" value="None"/>
+<property name="CustomIcon" value="apparelHazmatBoots"/>
+<property name="CustomIconTint" value="87,87,87"/>
+<property name="DisplayType" value="clothing"/>
+<property name="Stacknumber" value="1"/>
+<property name="Material" value="MmilitaryFiber"/>
+<property name="DegradationBreaksAfter" value="false"/>
+<property name="Weight" />
+<property name="EconomicValue" value="400"/>
+<property name="HoldType" value="45"/>
+<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+<property name="DescriptionKey" value="hazmatClothesGroupDesc"/>
+<property name="Group" value="Clothing"/>
+<property name="ActionSkillGroup" value="Clothing/Armor"/>
+<property name="CraftingSkillGroup" value="craftSkillScience"/>
+</item>
+
+<item name="whispererBoots">
+<property name="Extends" value="whispererClothingMaster" param1="CustomIcon"/>
+<property name="CustomIcon" value="apparelHazmatBoots"/>
+<property name="CustomIconTint" value="87,87,87"/>
+<property name="Tags" value="lowerbody,feet,clothing"/>
+<property name="EquipSlot" value="Feet"/>
+<property class="UMA">
+<property name="Mesh" value="armor_hazmat_feet"/>
+<property name="Overlay0" value="armor_hazmat_boots"/>
+<property name="Layer" value="0"/>
+<property name="UISlot" value="Footwear"/>
+</property>
+
+<effect_group name="Base Whisperer Group" tiered="false">
+<passive_effect name="ModSlots" operation="base_set" value="1"/>
+<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" target="self" cvar="whispererSet" operation="add" value="1"/>
+<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" target="self" cvar="whispererSet" operation="subtract" value="1"/>
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffWhisperer"/>
+
+  <requirement name="NotHasBuff" buff="buffAntiWhisperer"/>
+
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="buffAntiWhisperer" operation="add" value="20"/>
+        <display_value name="buffAntiWhisperer" value=".15"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffWhisperer"/>
+
+<triggered_effect trigger="onSelfJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfLandJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouch" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfStand" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchWalk" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</effect_group>
+</item>
+
+<item name="whispererPants">
+<property name="Extends" value="whispererClothingMaster" param1="CustomIcon"/>
+<property name="CustomIcon" value="apparelHazmatPants"/>
+<property name="CustomIconTint" value="87,87,87"/>
+<property name="Tags" value="lowerbody,legs,clothing"/>
+<property name="EquipSlot" value="Legs"/>
+<property class="UMA">
+<property name="Mesh" value="armor_hazmat_legs"/>
+<property name="Mask0" value="legs" param1="middle"/>
+<property name="Overlay0" value="armor_hazmat_pants"/>
+<property name="Layer" value="1"/>
+<property name="UISlot" value="Pants"/>
+</property>
+
+<effect_group name="Base Whisperer Group" tiered="false">
+<passive_effect name="ModSlots" operation="base_set" value="1"/>
+<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" target="self" cvar="whispererSet" operation="add" value="1"/>
+<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" target="self" cvar="whispererSet" operation="subtract" value="1"/>
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffWhisperer"/>
+  <requirement name="NotHasBuff" buff="buffAntiWhisperer"/>
+
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="buffAntiWhisperer" operation="add" value="20"/>
+        <display_value name="buffAntiWhisperer" value=".15"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffWhisperer"/>
+
+<triggered_effect trigger="onSelfJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfLandJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouch" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfStand" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchWalk" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</effect_group>
+</item>
+
+<item name="whispererShirt">
+<property name="Extends" value="whispererClothingMaster" param1="CustomIcon"/>
+<property name="CustomIcon" value="apparelHazmatJacket"/>
+<property name="CustomIconTint" value="87,87,87"/>
+<property name="Tags" value="upperbody,chest,clothing"/>
+<property name="EquipSlot" value="Chest"/>
+<property class="UMA">
+<property name="Mesh" value="armor_hazmat_chest"/>
+<property name="Overlay0" value="armor_hazmat_chest"/>
+<property name="Layer" value="3"/>
+<property name="Mask0" value="chest" param1="middle"/>
+<property name="Mask2" value="chest" param1="inner"/>
+<property name="UISlot" value="Jacket"/>
+</property>
+
+<effect_group name="Base Whisperer Group" tiered="false">
+<passive_effect name="ModSlots" operation="base_set" value="1"/>
+<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" target="self" cvar="whispererSet" operation="add" value="1"/>
+<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" target="self" cvar="whispererSet" operation="subtract" value="1"/>
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffWhisperer"/>
+  <requirement name="NotHasBuff" buff="buffAntiWhisperer"/>
+
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="buffAntiWhisperer" operation="add" value="20"/>
+        <display_value name="buffAntiWhisperer" value=".15"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffWhisperer"/>
+
+<triggered_effect trigger="onSelfJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfLandJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouch" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfStand" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchWalk" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</effect_group>
+</item>
+
+<item name="whispererGloves">
+<property name="Extends" value="whispererClothingMaster" param1="CustomIcon"/>
+<property name="CustomIcon" value="apparelHazmatGloves"/>
+<property name="CustomIconTint" value="87,87,87"/>
+<property name="Tags" value="upperbody,hands,clothing"/>
+<property name="EquipSlot" value="Hands"/>
+<property class="UMA">
+<property name="Mesh" value="armor_hazmat_hands"/>
+<property name="Overlay0" value="armor_hazmat_gloves"/>
+<property name="Layer" value="0"/>
+<property name="UISlot" value="Gloves"/>
+</property>
+
+<effect_group name="Base Whisperer Group" tiered="false">
+<passive_effect name="ModSlots" operation="base_set" value="1"/>
+<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" target="self" cvar="whispererSet" operation="add" value="1"/>
+<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" target="self" cvar="whispererSet" operation="subtract" value="1"/>
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffWhisperer"/>
+  <requirement name="NotHasBuff" buff="buffAntiWhisperer"/>
+
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="buffAntiWhisperer" operation="add" value="20"/>
+        <display_value name="buffAntiWhisperer" value=".15"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffWhisperer"/>
+
+<triggered_effect trigger="onSelfJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfLandJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouch" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfStand" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchWalk" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</effect_group>
+</item>
+
+<item name="whispererMask">
+<property name="Extends" value="whispererClothingMaster" param1="CustomIcon"/>
+<property name="CustomIcon" value="apparelHazmatMask"/>
+<property name="CustomIconTint" value="87,87,87"/>
+<property name="Tags" value="head,clothing"/>
+<property name="EquipSlot" value="Head"/>
+<property class="UMA">
+<property name="Mesh" value="armor_hazmat_head"/>
+<property name="Overlay0" value="armor_hazmat_hood"/>
+<property name="Layer" value="middle"/>
+<property name="UISlot" value="Headgear"/>
+<property name="Mask1" value="Head" param1="inner"/>
+<property name="Mask3" value="Face" param1="inner"/>
+<property name="Mask4" value="Face" param1="middle"/>
+<property name="Mask5" value="Face" param1="outer"/>
+<property name="ShowAltHair" value="true"/>
+</property>
+
+<effect_group name="Base Whisperer Group" tiered="false">
+<passive_effect name="ModSlots" operation="base_set" value="1"/>
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffWhisperer"/>
+<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" target="self" cvar="whispererSet" operation="add" value="1"/>
+<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" target="self" cvar="whispererSet" operation="subtract" value="1"/>
+  <requirement name="NotHasBuff" buff="buffAntiWhisperer"/>
+
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="buffAntiWhisperer" operation="add" value="20"/>
+        <display_value name="buffAntiWhisperer" value=".15"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffWhisperer"/>
+
+<triggered_effect trigger="onSelfJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfLandJump" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouch" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfStand" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfAimingGunStop" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchRun" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfCrouchWalk" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+<triggered_effect trigger="onSelfSwimStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</effect_group>
+</item>
+
+	<item name="zombieSkin">
+				<property name="CustomIcon" value="zombieSkin"/>
+				<property name="CustomIconTint" value="87,87,87"/> 
+				<property name="HoldType" value="45"/>
+				<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+				<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+				<property name="Material" value="MresourceLeather"/>
+				<property name="Weight" value="5"/>
+				<property name="Stacknumber" value="250"/> <!-- STK resource -->
+				<property name="FuelValue" value="5"/>
+				<property name="EconomicValue" value="22"/>
+				<property name="Group" value="Resources"/>
+				<property name="CraftingIngredientTime" value="2"/>
+		</item>
+   </append>
+</stallionsden>

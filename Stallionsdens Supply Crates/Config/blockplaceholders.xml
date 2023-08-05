@@ -1,0 +1,41 @@
+<stallionsden>
+<append xpath="/blockplaceholders/placeholder[@name='carsRandomHelper']">
+<block name="SupplyContainer(Locked)" prob="0.000003"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='carWrecksRandomHelper']">
+<block name="SupplyContainer(Locked)" prob="0.00033"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntForestRandomLootHelper']">
+<block name="SupplyContainer(Locked)" prob="0.00033"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntWastelandRandomLootHelper']">
+<block name="SupplyContainer(Locked)" prob="0.00033"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntDesertRandomLootHelper']">
+<block name="SupplyContainer(Locked)" prob="0.00033"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntBurntForestRandomLootHelper']">
+<block name="SupplyContainer(Locked)" prob="0.00033"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntHouseRandomLootHelper']">
+<block name="SupplyContainer(Locked)" prob="0.00033"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntStreetRandomLootHelper']">
+<block name="SupplyContainer(Locked)" prob="0.00033"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntYardRandomLootHelper']">
+<block name="SupplyContainer(Locked)" prob="0.00033"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntGarageRandomLootHelper']">
+<block name="SupplyContainer(Locked)" prob="0.00033"/>
+</append>
+</stallionsden>

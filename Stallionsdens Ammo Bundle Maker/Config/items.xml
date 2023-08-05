@@ -1,0 +1,31 @@
+<Stallionsden>
+<append xpath="/items">
+<item name="ammoBundleGasCan">
+	<property name="Extends" value="ammoBundle9mmBulletBall"/>
+	<property name="CustomIcon" value="ammoGasCan"/>
+	<property name="EconomicValue" value="500"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammoGasCan"/>
+		<property name="Create_item_count" value="10000"/>
+	</property>
+</item>
+<item name="ammoBundleRocketFrag">
+	<property name="Extends" value="ammoBundle9mmBulletBall"/>
+	<property name="CustomIcon" value="ammoRocketHE"/>
+	<property name="EconomicValue" value="1140"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammoRocketFrag"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+<item name="ammoBundleRocketHE">
+	<property name="Extends" value="ammoBundle9mmBulletBall"/>
+	<property name="CustomIcon" value="ammoRocketHE"/>
+	<property name="EconomicValue" value="4400"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammoRocketHE"/>
+		<property name="Create_item_count" value="100"/>
+	</property>
+</item>
+</append>
+</Stallionsden>

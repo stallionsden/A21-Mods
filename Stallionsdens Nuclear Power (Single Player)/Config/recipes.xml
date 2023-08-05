@@ -1,0 +1,74 @@
+<Stallionsden>
+<append xpath="/recipes">
+<recipe name="nuclearGeneratorBank" count="1" craft_area="chemistryStation" tags="learnable,perkAdvancedEngineering,nuclearGeneratorSchematic">
+	<ingredient name="resourceForgedSteel" count="100"/>
+	<ingredient name="modFuelTankLarge" count="4"/>
+	<ingredient name="generatorbank" count="2"/>
+	<ingredient name="nuclearPoweredEngine" count="2"/>
+	<ingredient name="resourceElectricParts" count="6"/>
+</recipe>
+<recipe name="nuclearPoweredEngine" count="1" craft_area="chemistryStation" tags="learnable,perkAdvancedEngineering,nuclearGeneratorSchematic">
+	<ingredient name="resourceForgedSteel" count="12"/>
+	<ingredient name="resourceOil" count="50"/>
+	<ingredient name="smallEngine" count="2"/>
+	<ingredient name="resourceScrapBrass" count="12"/>
+	<ingredient name="resourceGoldNugget" count="6"/>
+</recipe>
+<recipe name="nuclearBatteryBank" count="1" craft_area="chemistryStation" tags="learnable,perkAdvancedEngineering,nuclearBatterySchematic">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceRawDiamond" count="12"/>
+	<ingredient name="batterybank" count="2"/>
+	<ingredient name="nuclearPoweredBattery" count="1"/>
+	<ingredient name="resourceElectricParts" count="3"/>
+</recipe>
+<recipe name="nuclearPoweredBattery" count="1" craft_area="chemistryStation" tags="learnable,perkAdvancedEngineering,nuclearBatterySchematic">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceGoldNugget" count="8"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+	<ingredient name="resourceScrapBrass" count="12"/>
+	<ingredient name="carBattery" count="4"/>
+</recipe>
+<recipe name="nuclearSolarBank" count="1" craft_area="chemistryStation" tags="learnable,perkAdvancedEngineering,nuclearSolarSchematic">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceRawDiamond" count="12"/>
+	<ingredient name="solarbank" count="5"/>
+	<ingredient name="nuclearSolarCell" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="3"/>
+</recipe>
+<recipe name="nuclearSolarCell" count="1" craft_area="chemistryStation" tags="learnable,perkAdvancedEngineering,nuclearSolarSchematic">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceGoldNugget" count="8"/>
+	<ingredient name="solarCell" count="5"/>
+	<ingredient name="resourceScrapBrass" count="12"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+<recipe name="solarbank" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceBrokenGlass" count="18"/>
+	<ingredient name="resourceScrapBrass" count="10"/>
+	<ingredient name="resourceMetalPipe" count="12"/>
+	<ingredient name="resourceElectricParts" count="4"/>
+	<ingredient name="resourceMechanicalParts" count="6"/>
+	</recipe>
+<recipe name="carBattery" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedSteel" count="3"/>
+	<ingredient name="resourceAcid" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="12"/>
+	<ingredient name="resourceScrapBrass" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="3"/>
+</recipe>
+<recipe name="smallEngine" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="15"/>
+	<ingredient name="resourceMetalPipe" count="4"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceScrapLead" count="2"/>
+</recipe>
+<recipe name="solarCell" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceScrapBrass" count="10"/>
+	<ingredient name="resourceForgedIron" count="8"/>
+	<ingredient name="resourceBrokenGlass" count="4"/>
+	<ingredient name="resourceElectricParts" count="3"/>
+	<ingredient name="resourceRawDiamond" count="1"/>
+</recipe>
+</append>
+</Stallionsden>

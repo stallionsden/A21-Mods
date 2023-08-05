@@ -1,0 +1,7 @@
+<stallionsden>
+ <append xpath="/items/item">
+
+       <property name="SellableToTrader" value="true"/>
+
+</append> 
+</stallionsden>

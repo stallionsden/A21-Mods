@@ -1,0 +1,31 @@
+<configs>
+	<!-- <set xpath="/lootcontainers/lootcontainer/@size">15,43</set>   -->
+	<!-- empty, storage containers the player crafts-->
+	<set xpath="/lootcontainers/lootcontainer[@id='1']/@size">8,20</set> <!-- Default 8,6 -->
+
+  <!-- Player dropped backpack-->
+	<set xpath="/lootcontainers/lootcontainer[@id='2']/@size">15,43</set> <!-- Default 7,10 -->
+
+  <!-- paintable cube storage containers the player crafts-->
+	<set xpath="/lootcontainers/lootcontainer[@id='5']/@size">8,20</set> <!-- Default 8,9 -->
+
+  <!-- reinforced chest the player crafts (cntLootChestHero) -->
+	<set xpath="/lootcontainers/lootcontainer[@id='41']/@size">8,20</set> <!-- Default 8,9 -->
+	
+  <!-- vehicleBicycle storage, vehicle storage max is 90 slots, width has worked up to 16+ -->
+  <set xpath="/lootcontainers/lootcontainer[@id='76']/@size">9,5</set> <!-- Default 9,1 -->
+	
+  <!-- vehicleMinibike storage -->
+	<set xpath="/lootcontainers/lootcontainer[@id='77']/@size">9,11</set> <!-- Default 9,3 -->
+
+  <!-- vehicleMotorcycle storage -->
+	<set xpath="/lootcontainers/lootcontainer[@id='78']/@size">9,11</set> <!-- Default 9,4 -->
+
+  <!-- vehicle4x4Truck storage -->
+	<set xpath="/lootcontainers/lootcontainer[@id='79']/@size">9,15</set> <!-- Default 8,9 -->
+
+  <!-- vehicleGyrocopter storage -->
+	<set xpath="/lootcontainers/lootcontainer[@id='80']/@size">9,15</set> <!-- Default 9,4 -->
+
+</configs>
+

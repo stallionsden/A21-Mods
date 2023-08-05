@@ -1,0 +1,5 @@
+Key,File,Type,english
+ammoBundleGasCan,items,Ammo,Gas Can Bundle (1000)
+ammoBundleRocketFrag,items,Ammo,Box of Rocket Frag (100)
+ammoBundleRocketHE,items,Ammo,Box of Rocket HE (100)
+ammoBundleJunkTurret,items,Ammo,Box of Junk Turret Ammo (1000)

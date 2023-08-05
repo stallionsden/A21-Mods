@@ -1,0 +1,9 @@
+<stallionsden>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='foodSupplies']" >
+		<item name="activatedCarbon" count="2,6"/>
+		<item name="Clingwrap" count="2,6"/>
+		</append>	
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='workstations']" >
+		<item name="TheWeber9000" count="1,2"/>
+		</append>	
+</stallionsden>

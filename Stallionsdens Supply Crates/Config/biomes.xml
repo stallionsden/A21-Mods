@@ -1,0 +1,32 @@
+<stallionsden>
+	<append xpath="/worldgeneration/biomes/biome[@name='snow']/decorations">
+			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.0001"/>
+	</append>	
+	<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations">
+			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.0001"/>
+	</append>
+	<append xpath="/worldgeneration/biomes/biome[@name='desert']/decorations">
+			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.0001"/>
+	</append>	
+	<append xpath="/worldgeneration/biomes/biome[@name='wasteland']/decorations">
+			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.0001"/>
+	</append>			
+	
+		
+	
+	<!-- <append xpath="/worldgeneration/pois/poi[@name='City Asphalt']">
+	<blockontop blockname="SupplyContainer(Locked)" prob="0.000003" />
+	</append>	
+	<append xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']">
+	<blockontop blockname="SupplyContainer(Locked)" prob="0.000003" />
+	</append>
+	<append xpath="/worldgeneration/pois/poi[@name='Road Gravel']">
+	<blockontop blockname="SupplyContainer(Locked)" prob="0.00033" />
+	</append>
+	<append xpath="/worldgeneration/biomes/biome[@name='water']/decorations">
+			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.0001"/>
+	</append>
+	<append xpath="/worldgeneration/biomes/biome[@name='underwater']/decorations">
+			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.0001"/>
+	</append>-->
+</stallionsden>

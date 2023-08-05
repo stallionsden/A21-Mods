@@ -1,0 +1,6 @@
+<stallionsden>
+<append xpath="/entity_classes/entity_class[@name='playerMale']/effect_group">
+<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" target="self" cvar="whispererSet" operation="set" value="0"/>
+<triggered_effect trigger="onSelfRespawn" action="ModifyCVar" target="self" cvar="whispererSet" operation="set" value="0"/>
+</append>
+</stallionsden>

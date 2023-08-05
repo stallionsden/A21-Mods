@@ -1,0 +1,115 @@
+<stallionsden>
+<!-- <set xpath="/items/item/property[@name='Stacknumber' and not(@value='1')]/@value">30000</set> --> <!-- This increases all stacksizes to one value -->
+
+<!-- set xpath changes a value already in a item/append xpath adds a line the item doesnt have -->
+
+<!-- insertAfter xpath inserts item after another item etc at a specific spot IE: hand master has to be exact spot -->
+
+<!-- insertBefore xpath does the opposite of insertAfter so it places code before another item etc. -->
+
+<!-- this changes a value with in code to the value you wish -->
+<set xpath="/items/item[starts-with(@name, 'food')]/property[@name='Stacknumber']/@value">1000</set>
+
+<set xpath="/items/item[starts-with(@name, 'drink')]/property[@name='Stacknumber']/@value">1000</set>
+
+<set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">1000</set>
+
+<set xpath="/items/item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">1000</set>
+
+<set xpath="/items/item[starts-with(@name, 'drug')]/property[@name='Stacknumber']/@value">1000</set>
+											
+<set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">10000</set>
+
+<set xpath="/items/item[starts-with(@name, 'ammoGasCan')]/property[@name='Stacknumber']/@value">10000</set>
+
+<!-- for parts  you have to change the partsmaster & gunAK47Parts and add a whole new line to the rest -->
+<set xpath="/items/item[@name='partsMaster']/property[@name='Stacknumber']/@value">1000</set> <!-- partsMaster -->
+
+<set xpath="/items/item[@name='gunMGT1AK47Parts']/property[@name='Stacknumber']/@value">1000</set> <!-- gunAk47Parts -->
+
+<!-- the rest --><!-- this is to add a line to an existing code -->
+<append xpath="/items/item[@name='gunHandgunT1PistolParts']">
+<property name="Stacknumber" value="1000"/>
+</append>
+
+<append xpath="/items/item[@name='gunRifleT1HuntingRifleParts']">
+<property name="Stacknumber" value="1000"/>
+</append>
+
+<append xpath="/items/item[@name='gunShotgunT1DoubleBarrelParts']">
+<property name="Stacknumber" value="1000"/>
+</append>
+
+<append xpath="/items/item[@name='gunBowT1WoodenBowParts']">
+<property name="Stacknumber" value="1000"/>
+</append>
+
+<append xpath="/items/item[@name='gunExplosivesT3RocketLauncherParts']">
+<property name="Stacknumber" value="1000"/>
+</append>
+
+<append xpath="/items/item[@name='gunBotRoboticsParts']">
+<property name="Stacknumber" value="1000"/>
+</append>
+
+<append xpath="/items/item[@name='meleeWpnBatonT2StunBatonParts']">
+<property name="Stacknumber" value="1000"/>
+</append>
+
+<append xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnucklesParts']">
+<property name="Stacknumber" value="1000"/>
+</append>
+
+<append xpath="/items/item[@name='meleeWpnBladeT3MacheteParts']">
+<property name="Stacknumber" value="1000"/>
+</append>
+
+<append xpath="/items/item[@name='meleeWpnSpearT3SteelSpearParts']">
+<property name="Stacknumber" value="1000"/>
+</append>
+
+<append xpath="/items/item[@name='meleeWpnClubT3SteelClubParts']">
+<property name="Stacknumber" value="1000"/>
+</append>
+
+<append xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammerParts']">
+<property name="Stacknumber" value="1000"/>
+</append>
+
+<append xpath="/items/item[@name='meleeToolAllSteelParts']">
+<property name="Stacknumber" value="1000"/>
+</append>
+
+<append xpath="/items/item[@name='armorMilitarySetParts']">
+<property name="Stacknumber" value="1000"/>
+</append>
+
+<append xpath="/items/item[@name='armorSteelSetParts']">
+<property name="Stacknumber" value="1000"/>
+</append>
+
+<append xpath="/items/item[@name='meleeToolAxeT3ChainsawParts']">
+<property name="Stacknumber" value="1000"/>
+</append>
+<!-- End of Parts -->
+
+
+<!-- OR you can list every single item individually by copy and pasting this [<set xpath="/items/item[@name='ITEMNAME']/property[@name='Stacknumber']/@value">VALUE</set>] and changing the item name to which ever you like and adding a value you wish to increase it to -->
+<!-- Dummy Examples -->
+<!-- <set xpath="/items/item[@name='ammo9mmBulletBall']/property[@name='Stacknumber']/@value">1000</set>
+
+<set xpath="/items/item[@name='ammo9mmBulletHP']/property[@name='Stacknumber']/@value">1000</set>
+
+<set xpath="/items/item[@name='ammo9mmBulletAP']/property[@name='Stacknumber']/@value">1000</set>
+
+<set xpath="/items/item[@name='ammo44MagnumBulletBall']/property[@name='Stacknumber']/@value">1000</set>
+
+<set xpath="/items/item[@name='ammo44MagnumBulletHP']/property[@name='Stacknumber']/@value">1000</set> COPY AND PASTE THESE FOR INDIVIDUEL ONES OR TO BE PRECISE-->
+
+<!-- <set xpath="/items/item[@name='ITEMNAME']/property[@name='Stacknumber']/@value">1000</set> FOR YOU TO EDIT -->
+
+
+
+
+
+</stallionsden>

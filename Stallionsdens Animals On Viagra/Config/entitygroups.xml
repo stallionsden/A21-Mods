@@ -1,0 +1,67 @@
+<stallionsden>
+<csv xpath="/entitygroups/entitygroup[@name='AnimalsSmall']/text()" delim="\n" op="add" >
+        Moose, 0.5
+        deer, 0.5 
+        Hare, 0.125 
+        Hen, 0.125 
+        pig, 0.125 
+        python, 0.125 
+     </csv> 	 
+	 <csv xpath="/entitygroups/entitygroup[@name='AnimalsFarm']/text()" delim="\n" op="add" >
+        Moose, 0.5
+        deer, 0.5 
+        Hare, 0.125 
+        Hen, 0.125 
+        pig, 0.125 
+        python, 0.125 
+     </csv>	 
+	 <csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']/text()" delim="\n" op="add" >
+        Moose, 0.5
+        deer, 0.5 
+        Hare, 0.125 
+        Hen, 0.125 
+        pig, 0.125 
+        python, 0.125 
+     </csv> 	 
+	 <csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="add" >
+        Moose, 0.5
+        deer, 0.5 
+        Hare, 0.125 
+        Hen, 0.125 
+        pig, 0.125 
+        python, 0.125 
+     </csv>   	 
+	 <csv xpath="/entitygroups/entitygroup[@name='WildGameForest']/text()" delim="\n" op="add" >
+        Moose, 0.5
+        deer, 0.5 
+        Hare, 0.125 
+        Hen, 0.125 
+        pig, 0.125 
+        python, 0.125 
+     </csv> 	 
+	 <csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsForest']/text()" delim="\n" op="add" >
+        Moose, 0.5
+        deer, 0.5 
+        Hare, 0.125 
+        Hen, 0.125 
+        pig, 0.125 
+        python, 0.125 
+     </csv> 	 
+	 <csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/text()" delim="\n" op="add" >
+        Moose, 0.5
+        deer, 0.5 
+        Hare, 0.125 
+        Hen, 0.125 
+        pig, 0.125 
+        python, 0.125 
+     </csv>
+	 <insertAfter xpath="/entitygroups/entitygroup[last()]">
+	  <!-- *** POI_INDIVIDUAL_ENTITY_GROUPS -->
+	<entitygroup name="Moose">Moose</entitygroup>
+	<entitygroup name="deer">deer</entitygroup>
+	<entitygroup name="Hare">Hare</entitygroup>
+	<entitygroup name="Hen">Hen</entitygroup>
+	<entitygroup name="pig">pig</entitygroup>
+	<entitygroup name="python">python</entitygroup>
+	</insertAfter>	 
+</stallionsden>

@@ -1,0 +1,73 @@
+<stallionsden>
+	<append xpath="/blocks">
+<!-- Survival Backpacks Start -->
+<block name="survivor's Pack1 (Locked)">
+    <property name="CustomIcon" value="cntDuffle01" />
+	<property name="DescriptionKey" value="survivor's Pack1 (Locked)Desc"/>
+   <property name="Material" value="Mcloth"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+	<property name="IsTerrainDecoration" value="true"/>
+    <property name="DowngradeBlock" value="survivor's Pack1" />
+    <property name="Place" value="TowardsPlacer" />
+    <drop event="Destroy" count="0" />
+ </block>
+ 
+<block name="survivor's Pack1">
+    <property name="Extends" value="survivor's Pack1 (Locked)" param1="DowngradeBlock" />
+	<property name="DescriptionKey" value="survivor's Pack1Desc"/>
+    <property name="Class" value="Loot" />
+    <property name="LootList" value="survivor1" />
+    <drop event="Destroy" count="0" />
+ </block> 
+ 
+ <block name="survivor's Pack2 (Locked)">
+    <property name="CustomIcon" value="cntDuffle01" />
+	<property name="DescriptionKey" value="survivor's Pack2 (Locked)Desc"/>
+    <property name="Material" value="Mcloth"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+	<property name="IsTerrainDecoration" value="true"/>
+    <property name="DowngradeBlock" value="survivor's Pack2" />
+    <property name="Place" value="TowardsPlacer" />
+    <drop event="Destroy" count="0" />
+ </block>
+ 
+<block name="survivor's Pack2">
+    <property name="Extends" value="survivor's Pack2 (Locked)" param1="DowngradeBlock" />
+	<property name="DescriptionKey" value="survivor's Pack2Desc"/>
+    <property name="Class" value="Loot" />
+    <property name="LootList" value="survivor2" />
+    <drop event="Destroy" count="0" />
+ </block> 
+ 
+ <block name="survivor's Pack3 (Locked)">
+    <property name="CustomIcon" value="cntDuffle01" />
+	<property name="DescriptionKey" value="survivor's Pack3 (Locked)Desc"/>
+    <property name="Material" value="Mcloth"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+	<property name="IsTerrainDecoration" value="true"/>
+    <property name="DowngradeBlock" value="survivor's Pack3" />
+    <property name="Place" value="TowardsPlacer" />
+    <drop event="Destroy" count="0" />
+ </block>
+ 
+<block name="survivor's Pack3">
+    <property name="Extends" value="survivor's Pack3 (Locked)" param1="DowngradeBlock" />
+	<property name="DescriptionKey" value="survivor's Pack3Desc"/>
+    <property name="Class" value="Loot" />
+    <property name="LootList" value="survivor3" />
+    <drop event="Destroy" count="0" />
+ </block> 
+
+<!-- Survival Backpacks End -->
+
+</append>
+</stallionsden>

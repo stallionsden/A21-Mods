@@ -1,0 +1,10 @@
+<configs>
+
+	<!-- Main scale of UI -->
+	<set xpath="/xui/ruleset[@name='default']/@scale">.97</set>
+	<set xpath="/xui/ruleset[@name='default']/@stackpanel_scale">0.78</set>
+
+	<!-- Looting window -->
+	<set xpath="/xui/ruleset[@name='default']/window_group[@name='looting']/window[@name='windowLooting']/@name">windowLooting</set>
+
+</configs>

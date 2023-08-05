@@ -1,0 +1,52 @@
+<stallionsden>
+
+	<append xpath="/lootcontainers">
+
+<!-- LOOTGROUP INSERTION START -->
+
+<!-- The following section adds lootgroup 129 -->
+
+		<lootgroup name="wineBarrel" count="2">  
+	<item name="foodHoney" count="1,50" loot_prob_template="low" />
+	<item name="drinkJarPureMineralWater" count="1,10" loot_prob_template="low" /> 
+	<item group="groupDrinksMed01" count="1,10" loot_prob_template="low" />
+	<item name="drinkYuccaJuiceSmoothie" count="1,10" loot_prob_template="low" />
+	<item name="drinkJarBlackStrapCoffee" count="1,10" loot_prob_template="low" /> 
+	</lootgroup> 
+
+<!-- The following section adds lootgroup 130 -->
+		<lootgroup name="wineBarrelSet" count="2">  
+	<item group="rareFoodDrink" count="1,10" loot_prob_template="low" />
+	<item group="groupDrinksLarge02" count="1,10" loot_prob_template="low" />
+	<item name="drinkJarBoiledWater" count="1,10" loot_prob_template="low" />
+	</lootgroup> 
+
+<!-- The following section adds lootgroup 131 -->
+
+		<lootgroup name="wineBarrelPlain" count="2">  
+	<item name="drinkJarBeer" count="1,10" loot_prob_template="low" />
+	<item name="drinkJarRiverWater" count="1,10" loot_prob_template="low" />	
+	</lootgroup> 
+
+<!-- LOOTGROUP INSERTION END -->
+
+
+<!-- LOOTCONTAINER INSERTION START -->
+
+	<lootcontainer id="218" name="wineBarrelFull" count="0,1" size="8,9" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet" loot_quality_template="qualPlus1Template">
+	<item group="wineBarrel" count="1"/>
+</lootcontainer>
+
+<lootcontainer id="219" count="0,1" name="wineBarrelSetFull" size="8,9" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet" loot_quality_template="qualPlus1Template">
+	<item group="wineBarrelSet" count="1"/>
+</lootcontainer>
+
+<lootcontainer id="220" count="0,1" name="wineBarrelPlainFull" size="8,9" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet" loot_quality_template="qualPlus1Template">
+	<item group="wineBarrelPlain" count="1"/>
+</lootcontainer>
+
+<!-- LOOTCONTAINER INSERTION END -->
+
+	</append>
+
+</stallionsden>

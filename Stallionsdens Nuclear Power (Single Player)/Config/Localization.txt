@@ -1,0 +1,7 @@
+Key,Source,Context,Changes,English
+nuclearGeneratorBank,blocks,Container,KgNone,nuclear Generator Bank
+nuclearPoweredEngine,items,Item,KgNone,nuclear Powered Engine
+nuclearBatteryBank,blocks,Container,KgNone,nuclear Battery Bank
+nuclearPoweredBattery,items,Item,KgNone,nuclear Powered Battery
+nuclearSolarBank,blocks,Container,KgNone,nuclear Solar Bank
+nuclearSolarCell,items,Item,KgNone,nuclear Solar Cell

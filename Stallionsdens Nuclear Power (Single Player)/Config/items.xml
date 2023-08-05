@@ -1,0 +1,111 @@
+<Stallionsden>
+<append xpath="/items">
+<item name="nuclearPoweredEngine">
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MsmallEngine"/>
+			<property name="RepairTools" value="resourceRepairKit"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="UnlockedBy" value="nuclearGeneratorSchematic"/>
+			<property name="Material" value="MmechanicalParts"/> <property name="Weight" value="200"/>
+			<property name="EconomicValue" value="30000"/>
+			<property name="Group" value="Resources"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property class="Attributes">
+				<property name="DegradationMax" value="70000000"/> <!-- needed for electrical calculations -->
+				<property name="VehicleNoise" value="1,0.1"/>
+				<property name="VehicleMaxSpeed" value="50,180"/>
+				<property name="VehicleAcceleration" value="70,140"/>
+				<property name="VehicleMetersPerLiter" value="25,45"/>
+				<property name="VehicleIdleSecondsPerLiter" value="15,30"/>
+				<property name="VehicleStartDelayInSeconds" value="1,0.1"/>
+				<property name="VehicleStartChance" value="0.5,0.99"/>
+				<property name="VehicleTankSize" value="30000"/>
+				<property name="VehicleFuelItem" value="ammoGasCan"/>
+				</property>
+			<property name="CraftingSkillGroup" value="craftSkillScience"/>
+        </item>
+	<item name="nuclearPoweredBattery">
+	<property name="HoldType" value="45"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="UnlockedBy" value="nuclearBatterySchematic"/>
+	<property name="Material" value="MresourceScrapLeadLarge"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="Weight" value="160"/>
+	<property name="EconomicValue" value="25000"/>
+	<property name="Group" value="Resources,Chemicals"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="ShowQuality" value="true"/>
+	<property class="Attributes">
+		<property name="DegradationMax" value="70000000"/> <!-- needed for electrical calculations -->
+		<property name="BatteryMaxLoadInVolts" value="70000000"/>
+		<property name="BatteryDischargeTimeInMinutes" value="70000000"/>
+	</property>
+	<effect_group>
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="70000000,75000000" tier="1,6"/>
+	</effect_group>
+</item>
+<item name="nuclearSolarCell">
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="Weight" value="10"/>
+	<property name="EconomicValue" value="14000"/>
+	<property name="UnlockedBy" value="nuclearSolarSchematic"/>
+	<property name="Group" value="Resources"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="ShowQuality" value="true"/>
+	<property class="Attributes">
+		<property name="DegradationMax" value="70000000"/>
+	</property>
+	<effect_group>
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="70000000,75000000" tier="1,6"/>
+	</effect_group>
+</item>	
+
+<item name="nuclearGeneratorSchematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CustomIcon" value="nuclearGeneratorSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Unlocks" value="nuclearGeneratorBank,nuclearPoweredEngine"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="nuclearGeneratorBank" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="nuclearPoweredEngine" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
+<item name="nuclearBatterySchematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CustomIcon" value="nuclearBatterySchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Unlocks" value="nuclearBatteryBank,nuclearPoweredBattery"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="nuclearBatteryBank" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="nuclearPoweredBattery" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
+<item name="nuclearSolarSchematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CustomIcon" value="nuclearSolarSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Unlocks" value="nuclearSolarBank,nuclearSolarCell"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="nuclearSolarBank" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="nuclearSolarCell" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>	
+
+</append>
+</Stallionsden>

@@ -1,0 +1,126 @@
+<stallionsden>
+
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='weaponParts']" >
+<!-- Survival Backpack Start-->
+  <lootgroup name="specialForceCase1" count="all">  
+		 <item name="resourceRockSmall" count="250,500" />
+		 <item name="resourceFeather" count="250,500" />
+		 <item name="resourceWood" count="250,500" />
+		 <item name="resourceYuccaFibers" count="250,500" />	 
+        <item name="drugAntibiotics" count="250,500" />
+		 <item name="meleeToolSalvageT3ImpactDriver" count="1"  />
+		 <item name="meleeToolSalvageT2Ratchet" count="1"  />
+        <item name="meleeWpnBatonT2StunBaton" count="1"  />
+		 <item name="meleeWpnSpearT1IronSpear" count="1"  />
+        <item name="bedroll" count="1" />
+		<item name="armorMilitaryBoots" count="1"  />
+		<item name="armorMilitaryLegs" count="1"  />
+		<item name="armorMilitaryGloves" count="1"  />
+		<item name="armorMilitaryHelmet" count="1"  />
+		<item name="armorMilitaryVest" count="1"  />
+		<item name="armorMiningHelmet" count="1"  />
+		<item name="apparelNightvisionGoggles" count="1"  />			
+		<item name="gunBowT3CompoundBow" count="1"  />	
+		<item name="ammoArrowIron" count="1000,1500"/>
+		<item name="gunBotT3JunkDrone" count="1"  />
+		<item name="gunMGT3M60" count="1"  />
+		<item name="ammo762mmBulletHP" count="2500,5000"/>
+		<item name="gunHandgunT3DesertVulture" count="1"  />		
+        <item name="ammo44MagnumBulletBall" count="250,500" />		
+		<item name="gunShotgunT3AutoShotgun" count="1"  />		
+        <item name="ammoShotgunShell" count="250,500" />		
+		<item name="gunRifleT3SniperRifle" count="1"  />		
+		<item name="gunMGT2TacticalAR" count="1"  />
+		<item name="meleeToolPaintToolAdmin" count="1"  />	
+		<item name="resourceRepairKit" count="250,500" />   		
+		<item name="casinoCoin" count="250,500"/>		
+		<item name="resourcePaint" count="250,500"/>
+		<item name="medicalFirstAidKit" count="250,500"/>
+		<item name="medicalFirstAidBandage" count="250,500"/>		
+		<item name="vehicleMotorcyclePlaceable" count="1"  />
+		<item name="ammoGasCan" count="250,500" /> 
+		</lootgroup>  
+		
+    <lootgroup name="specialForceCase2" count="all">  
+	<item name="modArmorPlatingReinforced" count="1" />
+	<item name="modArmorWaterPurifier" count="1" />
+	<item name="modArmorCustomizedFittings" count="1" />
+	<item name="modGunMeleeTheHunter" count="1" />
+	<item name="modGunCrippleEm" count="1" />
+	<item name="modMeleeWeightedHead" count="1" />
+	<item name="modMeleeStructuralBrace" count="1" />
+	<item name="modMeleeErgonomicGrip" count="1" />
+	<item name="modMeleeFortifyingGrip" count="1" />
+	<item name="modArmorImpactBracing" count="1" />
+	<item name="modArmorBandolier" count="1" />
+	<item name="modArmorInsulatedLiner" count="1" />
+	<item name="modArmorCoolingMesh" count="1" />
+	<item name="modArmorImprovedFittings" count="1" />
+	<item name="modGunBarrelExtender" count="1" />
+	<item name="modGunSoundSuppressorSilencer" count="1" />
+	<item name="modGunLaserSight" count="1" />
+	<item name="modGunFlashlight" count="1" />
+	<item name="modGunScopeSmall" count="1" />
+	<item name="modGunScopeMedium" count="1" />
+	<item name="modGunScopeLarge" count="1" />
+	<item name="modGunReflexSight" count="1" />
+	<item name="modGunTriggerGroupSemi" count="1" />
+	<item name="modGunTriggerGroupAutomatic" count="1" />
+	<item name="modGunBipod" count="1" />
+	<item name="modGunForegrip" count="1" />
+	<item name="modGunRetractingStock" count="1" />
+	<item name="modGunMagazineExtender" count="1" />
+	<item name="modGunBowPolymerString" count="1" />
+	</lootgroup>  
+	
+	<lootgroup name="specialForceCase3" count="all">  
+	<item name="foodCanBeef" count="15,25" />
+	<item name="foodCanCatfood" count="15,25" />
+	<item name="foodCanChicken" count="15,25" />
+	<item name="foodCanChili" count="15,25" />
+	<item name="foodCanDogfood" count="15,25" />
+	<item name="drinkJarPureMineralWater" count="15,25"/>
+	<item name="foodCanLamb" count="15,25" />
+	<item name="foodCanMiso" count="15,25" />
+	<item name="foodCanPasta" count="15,25" />
+	<item name="foodCanPeas" count="15,25"/>
+	<item name="foodCanSalmon" count="15,25" />
+	<item name="foodCanSoup" count="15,25"/>
+	<item name="foodCanStock" count="15,25"/>
+	<item name="foodCanTuna" count="15,25" />
+	<item name="foodCanPears" count="15,25" />
+	<item name="foodHoney" count="15,25" />
+	<item name="foodCornMeal" count="15,25" />		
+	<item name="foodHoney" count="15,25" />
+	<item name="foodGrilledMeat" count="15,25" />
+	<item name="foodCharredMeat" count="15,25" />
+	<item name="foodMeatStew" count="15,25" />
+	<item name="foodSteakAndPotato" count="15,25" />
+	<item name="foodFishTacos" count="15,25"/>
+	<item name="drinkJarPureMineralWater" count="15,25" />
+	<item name="drinkJarYuccaJuice" count="15,25" />
+	<item name="drinkJarGoldenRodTea" count="15,25"/>
+	<item name="drinkJarRedTea" count="15,25" />
+	<item name="drinkYuccaJuiceSmoothie" count="15,25"/>
+	<item name="drinkCanMegaCrush" count="15,25" />
+	<item name="drinkJarCoffee" count="15,25" />
+	</lootgroup>  	
+	<!-- Survival Backpack Finish -->
+	</insertAfter>
+	 
+<insertAfter xpath="/lootcontainers/lootcontainer[@name='twitch_home_run_rewardsT5']" >
+<!-- Survival Backpacks Start -->
+<lootcontainer name="survivor1" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="questT3QualTemplate" >
+    <item group="specialForceCase1" />
+</lootcontainer>
+
+<lootcontainer name="survivor2" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="questT3QualTemplate" >
+    <item group="specialForceCase2" />
+</lootcontainer>
+
+<lootcontainer name="survivor3" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="questT3QualTemplate" >
+    <item group="specialForceCase3" />
+	</lootcontainer>
+</insertAfter>
+<!-- Survival Backpacks End -->
+</stallionsden>

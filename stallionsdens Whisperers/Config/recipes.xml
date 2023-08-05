@@ -1,0 +1,38 @@
+<stallionsden>
+<append xpath="/recipes">
+<recipe name="whispererMask" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="foodRottingFlesh" count="4"/>
+	<ingredient name="zombieSkin" count="1"/>
+	<ingredient name="resourceCloth" count="4"/>
+	<ingredient name="apparelHazmatMask" count="1"/>
+	</recipe>
+
+<recipe name="whispererBoots" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="foodRottingFlesh" count="12"/>
+	<ingredient name="zombieSkin" count="1"/>
+	<ingredient name="resourceCloth" count="6"/>
+	<ingredient name="apparelHazmatBoots" count="1"/>
+</recipe>
+
+<recipe name="whispererShirt" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="foodRottingFlesh" count="12"/>
+	<ingredient name="zombieSkin" count="1"/>
+	<ingredient name="resourceCloth" count="8"/>
+	<ingredient name="apparelHazmatJacket" count="1"/>
+</recipe>
+
+<recipe name="whispererGloves" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="foodRottingFlesh" count="6"/>
+	<ingredient name="zombieSkin" count="1"/>
+	<ingredient name="resourceCloth" count="4"/>
+	<ingredient name="apparelHazmatGloves" count="1"/>
+</recipe>
+
+<recipe name="whispererPants" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="foodRottingFlesh" count="12"/>
+	<ingredient name="zombieSkin" count="1"/>
+	<ingredient name="resourceCloth" count="8"/>
+	<ingredient name="apparelHazmatPants" count="1"/>
+</recipe>
+</append>
+</stallionsden>

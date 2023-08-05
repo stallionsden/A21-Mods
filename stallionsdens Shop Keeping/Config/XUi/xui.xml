@@ -1,0 +1,9 @@
+<stallionsden>
+<append xpath="/xui/ruleset">
+<window_group name="windowShopper" controller="XUiC_TraderWindowGroup">
+			<window name="windowTrader"/>
+			<window name="windowNonPagingHeader" />
+			<window name="serviceInfoPanel"/>
+		</window_group>
+</append>
+</stallionsden>

@@ -1,0 +1,6 @@
+<Stallionsden>
+<set xpath="/entity_classes/entity_class[@name='DroppedLootContainer']/property[@name='TimeStayAfterDeath'][@value='60']/@value">3000</set>
+<set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='TimeStayAfterDeath'][@value='1200']/@value">3000</set>
+<set xpath="/entity_classes/entity_class[@name='EntityLootContainerStrong']/property[@name='TimeStayAfterDeath'][@value='1200']/@value">3000</set>
+<set xpath="/entity_classes/entity_class[@name='EntityLootContainerBoss']/property[@name='TimeStayAfterDeath'][@value='1200']/@value">3000</set>
+</Stallionsden>

@@ -1,0 +1,4 @@
+<stallionsden>
+<!--Perks perks now add against negative instead of setting base skills.-->
+<set xpath="/progression/perks/perk/effect_group/passive_effect[@name='CraftingTier']">base_add</set>
+</stallionsden>

@@ -1,0 +1,2533 @@
+<stallionsden>
+<append xpath="/recipes">
+<!-- RED SHOP CABINETS -->
+<recipe name="shopCabinet" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="12"/>
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="resourceNail" count="12"/>
+	<ingredient name="resourcePaint" count="1"/>
+	</recipe>
+<recipe name="shopTopCupboardCabinet" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="8"/>
+	<ingredient name="resourceForgedIron" count="4"/>
+	<ingredient name="resourceCloth" count="4"/>
+	<ingredient name="resourceNail" count="6"/>
+	<ingredient name="resourcePaint" count="1"/>
+	</recipe>
+<recipe name="shopCornerRedCupboard" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="8"/>
+	<ingredient name="resourceForgedIron" count="4"/>
+	<ingredient name="resourceCloth" count="4"/>
+	<ingredient name="resourceNail" count="6"/>
+	<ingredient name="resourcePaint" count="1"/>
+	</recipe>
+<recipe name="shopCabinetRedTop" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="12"/>
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="resourceNail" count="12"/>
+	<ingredient name="resourcePaint" count="1"/>
+	</recipe>
+<!-- RED SHOP CABINETS -->
+<!-- OLD SHOP CABINETS -->
+<recipe name="shopOldBottomCabinet" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="8"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceForgedIron" count="3"/>
+	<ingredient name="resourceCloth" count="4"/>
+	<ingredient name="resourceNail" count="6"/>
+	</recipe>
+<recipe name="shopCabinetOldTop" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="8"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceForgedIron" count="3"/>
+	<ingredient name="resourceCloth" count="4"/>
+	<ingredient name="resourceNail" count="6"/>
+	</recipe>
+<recipe name="shopCornerOld" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="8"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceForgedIron" count="3"/>
+	<ingredient name="resourceCloth" count="4"/>
+	<ingredient name="resourceNail" count="6"/>
+	</recipe>
+<recipe name="shopCabinetFullOldTop" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="8"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceForgedIron" count="3"/>
+	<ingredient name="resourceCloth" count="4"/>
+	<ingredient name="resourceNail" count="6"/>
+	</recipe>
+<!-- OLD SHOP CABINETS -->
+<!-- MACHINES -->
+<recipe name="shopCoffeeBrewer" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="4"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+	<ingredient name="resourceMetalPipe" count="4"/>
+	<ingredient name="resourceMechanicalParts" count="3"/>
+	<ingredient name="mineAirFilter" count="1"/>
+</recipe>
+<recipe name="shopCoffeeBrewerCommercial" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedSteel" count="8"/>
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceMetalPipe" count="6"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="mineAirFilter" count="3"/>
+</recipe>
+<recipe name="shopSodaFountain" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedSteel" count="8"/>
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceMetalPipe" count="6"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="mineAirFilter" count="3"/>
+</recipe>
+<!-- MACHINES -->
+<!-- FRIDGES -->
+<recipe name="shopRetroFridge" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceDuctTape" count="6"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="smallEngine" count="1"/>
+</recipe>
+<recipe name="shopStainlessFridge" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedSteel" count="14"/>
+	<ingredient name="resourceElectricParts" count="8"/>
+	<ingredient name="resourceScrapPolymers" count="8"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+	<ingredient name="smallEngine" count="3"/>
+</recipe>
+<!-- FRIDGES -->
+<!-- MISCELLANEOUS -->
+<recipe name="shopCooler" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceCloth" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+	<ingredient name="resourceGlue" count="1"/>
+</recipe>
+<recipe name="shopBeerCooler" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="8"/>
+	<ingredient name="glassBusinessPlateCurved" count="2"/>
+	<ingredient name="resourceElectricParts" count="8"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+	<ingredient name="resourceGlue" count="1"/>
+</recipe>
+<recipe name="shopIceMachine" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceElectricParts" count="8"/>
+	<ingredient name="resourceScrapPolymers" count="4"/>
+	<ingredient name="resourceElectricParts" count="8"/>
+	<ingredient name="resourceSpring" count="6"/>
+</recipe>
+<recipe name="shopDishwasherWhite" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="5"/>
+	<ingredient name="resourceElectricParts" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="2"/>
+	<ingredient name="resourceElectricParts" count="2"/>
+	<ingredient name="resourceSpring" count="4"/>
+</recipe>
+<recipe name="shopGasPump" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceElectricParts" count="8"/>
+	<ingredient name="resourceScrapPolymers" count="4"/>
+	<ingredient name="resourceElectricParts" count="8"/>
+	<ingredient name="ammoGasCan" count="2"/>
+</recipe>
+<recipe name="shopNightstand" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceWood" count="8"/>
+	<ingredient name="resourceScrapPolymers" count="4"/>
+	<ingredient name="resourceNail" count="8"/>
+	<ingredient name="resourceSpring" count="6"/>
+</recipe>
+<recipe name="shopMedicineCabinetFaucet" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="3"/>
+	<ingredient name="resourceBrokenGlass" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="2"/>
+	<ingredient name="resourceGlue" count="1"/>
+	<ingredient name="resourceSpring" count="2"/>
+</recipe>
+<recipe name="shopMedicineCabinet" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceBrokenGlass" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="4"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceSpring" count="2"/>
+</recipe>
+<recipe name="shopPillCase" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceWood" count="8"/>
+	<ingredient name="resourceNail" count="22"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceGlue" count="4"/>
+	<ingredient name="resourceLeather" count="6"/>
+</recipe>
+<recipe name="cntWallSafe" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="15"/>
+	<ingredient name="resourceSpring" count="4"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="shopDeskSafe" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="30"/>
+	<ingredient name="resourceSpring" count="4"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceElectricParts" count="2"/>
+	<ingredient name="resourceSpring" count="2"/>
+</recipe>
+<recipe name="shopGunSafeWhite" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedSteel" count="40"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceElectricParts" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="8"/>
+</recipe>
+<recipe name="shopATM" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedSteel" count="100"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+	<ingredient name="resourceDuctTape" count="6"/>
+</recipe>
+<recipe name="shopHardenedChest" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceElectricParts" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="8"/>
+	<ingredient name="resourceElectricParts" count="2"/>
+	<ingredient name="resourceSpring" count="4"/>
+</recipe>
+<recipe name="shopSmallWeaponsBag" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceCloth" count="4"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="4"/>
+	<ingredient name="resourceForgedIron" count="1"/>
+	<ingredient name="resourceLeather" count="6"/>
+</recipe>
+<recipe name="shopLargeWeaponsBag" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceCloth" count="8"/>
+	<ingredient name="resourceDuctTape" count="6"/>
+	<ingredient name="resourceScrapPolymers" count="8"/>
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceLeather" count="8"/>
+</recipe>
+<recipe name="shopPistolMagnumAmmo" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="2"/>
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceLeather" count="2"/>
+</recipe>
+<recipe name="shopPipeweaponAmmo" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceCloth" count="4"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="4"/>
+	<ingredient name="resourceForgedIron" count="4"/>
+	<ingredient name="resourceLeather" count="4"/>
+</recipe>
+<recipe name="shopCrossbowsBowsAmmo" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceCloth" count="4"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="4"/>
+	<ingredient name="resourceForgedIron" count="4"/>
+	<ingredient name="resourceLeather" count="4"/>
+</recipe>
+<recipe name="shopAutomaticSniperAmmo" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceCloth" count="8"/>
+	<ingredient name="resourceDuctTape" count="8"/>
+	<ingredient name="resourceScrapPolymers" count="8"/>
+	<ingredient name="resourceForgedIron" count="8"/>
+	<ingredient name="resourceLeather" count="8"/>
+</recipe>
+<recipe name="shopRocketAmmo" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceCloth" count="8"/>
+	<ingredient name="resourceDuctTape" count="8"/>
+	<ingredient name="resourceScrapPolymers" count="8"/>
+	<ingredient name="resourceForgedIron" count="8"/>
+	<ingredient name="resourceLeather" count="8"/>
+</recipe>
+<recipe name="shopMedicLootPileA" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="2"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+	<ingredient name="resourceLeather" count="2"/>
+</recipe>
+<recipe name="shopMedicLootPileB" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceCloth" count="4"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="4"/>
+	<ingredient name="resourceSewingKit" count="4"/>
+	<ingredient name="resourceLeather" count="4"/>
+</recipe>
+<recipe name="shopCannedFoodPile" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceCloth" count="8"/>
+	<ingredient name="resourceDuctTape" count="8"/>
+	<ingredient name="resourceScrapPolymers" count="8"/>
+	<ingredient name="resourceSewingKit" count="8"/>
+	<ingredient name="resourceLeather" count="8"/>
+</recipe>
+<recipe name="shopMeatsFoodPile" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="2"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+	<ingredient name="resourceLeather" count="2"/>
+</recipe>
+<recipe name="shopFruitVegieFoodPile" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceCloth" count="4"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="4"/>
+	<ingredient name="resourceSewingKit" count="4"/>
+	<ingredient name="resourceLeather" count="4"/>
+</recipe>
+<recipe name="shopWoodDesk" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceNail" count="8"/>
+	<ingredient name="resourceWood" count="8"/>
+	<ingredient name="resourceScrapPolymers" count="8"/>
+	<ingredient name="resourceSewingKit" count="8"/>
+	<ingredient name="resourceLeather" count="8"/>
+</recipe>
+<recipe name="shopMetalWhiteDesk" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceScrapIron" count="2"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+	<ingredient name="resourceLeather" count="2"/>
+</recipe>
+<recipe name="shopWaterCooler" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="8"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+	<ingredient name="resourceLeather" count="4"/>
+</recipe>
+<recipe name="shopWineBarrel" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceCloth" count="4"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceForgedIron" count="4"/>
+	<ingredient name="resourceMetalPipe" count="4"/>
+	<ingredient name="resourceLeather" count="4"/>
+</recipe>
+<recipe name="shopWineBarrelSet" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceCloth" count="12"/>
+	<ingredient name="resourceNail" count="12"/>
+	<ingredient name="resourceForgedIron" count="12"/>
+	<ingredient name="resourceMetalPipe" count="12"/>
+	<ingredient name="resourceLeather" count="12"/>
+</recipe>
+<recipe name="shopWineBarrelPlain" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceCloth" count="4"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceForgedIron" count="4"/>
+	<ingredient name="resourceMetalPipe" count="4"/>
+	<ingredient name="resourceLeather" count="4"/>
+</recipe>
+<recipe name="shopFileCabinetShort" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedSteel" count="4"/>
+	<ingredient name="resourceSpring" count="4"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceGlue" count="4"/>
+	<ingredient name="resourceLeather" count="4"/>
+</recipe>
+<recipe name="shopFileCabinetTall" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedSteel" count="8"/>
+	<ingredient name="resourceSpring" count="8"/>
+	<ingredient name="resourceDuctTape" count="8"/>
+	<ingredient name="resourceGlue" count="8"/>
+	<ingredient name="resourceLeather" count="8"/>
+</recipe>
+<recipe name="shopLockersShort" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedSteel" count="6"/>
+	<ingredient name="resourceSpring" count="6"/>
+	<ingredient name="resourceDuctTape" count="6"/>
+	<ingredient name="resourceGlue" count="6"/>
+	<ingredient name="resourceLeather" count="6"/>
+</recipe>
+<recipe name="shopLockersTall" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedSteel" count="8"/>
+	<ingredient name="resourceSpring" count="8"/>
+	<ingredient name="resourceDuctTape" count="8"/>
+	<ingredient name="resourceGlue" count="8"/>
+	<ingredient name="resourceLeather" count="8"/>
+</recipe>
+<recipe name="shopLockersTallDouble" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceGlue" count="10"/>
+	<ingredient name="resourceLeather" count="10"/>
+</recipe>
+<recipe name="shopLockersTallMix" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedSteel" count="8"/>
+	<ingredient name="resourceSpring" count="8"/>
+	<ingredient name="resourceDuctTape" count="8"/>
+	<ingredient name="resourceGlue" count="8"/>
+	<ingredient name="resourceLeather" count="8"/>
+</recipe>
+<recipe name="shopLockersTallMixLink" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedSteel" count="8"/>
+	<ingredient name="resourceSpring" count="8"/>
+	<ingredient name="resourceDuctTape" count="8"/>
+	<ingredient name="resourceGlue" count="8"/>
+	<ingredient name="resourceLeather" count="8"/>
+</recipe>
+<recipe name="shopBookcase" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceWood" count="8"/>
+	<ingredient name="resourceNail" count="22"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceGlue" count="4"/>
+	<ingredient name="resourceLeather" count="6"/>
+</recipe>
+<recipe name="shopCashRegister" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedSteel" count="2"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="2"/>
+	<ingredient name="resourceElectricParts" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+</recipe>
+<recipe name="shopToolBoxWhite" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceMetalPipe" count="4"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="4"/>
+	<ingredient name="resourceForgedSteel" count="4"/>
+	<ingredient name="resourceLeather" count="4"/>
+</recipe>
+<recipe name="shopRollingToolBoxWhite" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceMetalPipe" count="6"/>
+	<ingredient name="resourceDuctTape" count="8"/>
+	<ingredient name="resourceScrapPolymers" count="8"/>
+	<ingredient name="resourceForgedSteel" count="8"/>
+	<ingredient name="resourceLeather" count="8"/>
+</recipe>
+<recipe name="shopPartsBox" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="4"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="4"/>
+	<ingredient name="resourceForgedSteel" count="4"/>
+	<ingredient name="resourceLeather" count="4"/>
+</recipe>
+<!-- MISCELLANEOUS -->
+<!-- OVEN/STOVE -->
+<recipe name="shopStove" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceForgedSteel" count="1"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopOvenWhite" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="8"/>
+	<ingredient name="resourceDuctTape" count="8"/>
+	<ingredient name="resourceMetalPipe" count="8"/>
+	<ingredient name="resourceForgedSteel" count="8"/>
+	<ingredient name="toolCookingGrill" count="4"/>
+</recipe>
+<!-- OVEN/STOVE -->
+<!-- LANDSCAPING SHOP -->
+<recipe name="shopStone" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="terrStone" count="10"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopDirt" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="terrDirt" count="10"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopForestGround" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="terrForestGround" count="10"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopDesertGround" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="terrDesertGround" count="10"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopSand" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="terrSand" count="10"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopSandStone" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="terrSandStone" count="10"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopSnow" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="terrSnow" count="10"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopDestroyedStone" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="terrDestroyedStone" count="10"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopGravel" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="terrGravel" count="10"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopAsphalt" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="terrAsphalt" count="10"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopConcrete" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="terrConcrete" count="10"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopOreIron" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="terrOreIron" count="10"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopOreLead" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="terrOreLead" count="10"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+
+<recipe name="shopOreCoal" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="terrOreCoal" count="10"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopOrePotassiumNitrate" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="terrOrePotassiumNitrate" count="10"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopOreOilDeposit" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="terrOreOilDeposit" count="10"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shoprockResource" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceRockSmall" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shoporeIronBoulder" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapIron" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shoporeLeadBoulder" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shoporeCoalBoulder" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceCoal" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shoporePotassiumNitrateBoulder" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shoporeShaleBoulder" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceOilShale" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- LANDSCAPING SHOP -->
+<!-- FREEZER GROCERY -->
+<recipe name="shopFreezerGroceriesMiddle" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopFreezerGroceriesMiddle2" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopFreezerGroceriesLeft" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopFreezerGroceriesRight" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- FREEZER GROCERY -->
+<!-- FREEZER BEVERAGES -->
+<recipe name="shopFreezerBeveragesMiddle" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopFreezerBeveragesLeft" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopFreezerBeveragesRight" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- FREEZER BEVERAGES -->
+<!-- FREEZER STANDALONE -->
+<recipe name="shopFreezerBeveragesStandalone" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- FREEZER STANDALONE -->
+<!-- WASHING MACHINE/DRYER -->
+<recipe name="shopWashingMachine" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopWasher" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopDryer" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- WASHING MACHINE/DRYER -->
+<!-- LAUNDRY BASKET -->
+<recipe name="shopLaundryBasketWhite" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- LAUNDRY BASKET -->
+<!-- TRASH PILES -->
+<recipe name="shopTrashPile01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopTrashPile02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopTrashPile03" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopTrashPile04" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopTrashPile05" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopTrashPile06" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopTrashPile07" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopTrashPile08" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopTrashPile09" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- TRASH PILES -->
+<!-- TRASH CANS -->
+<recipe name="shopTrashcanRollingWhite" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBinWhite" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopFancyGarbageCan" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopDomedTrashCan" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBruteStyleTrashCan" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopDumpster" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopTiltTruck" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- TRASH CANS -->
+<!-- MODULAR CLOSET -->
+<recipe name="shopModularCloset" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- MODULAR CLOSET -->
+<!-- FOUNTAINS -->
+<recipe name="shopdrinkingfountainSingle" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopdrinkingfountainDouble" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopWaterCoolerBottle" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- FOUNTAINS -->
+<!-- WALL SAFES -->
+<recipe name="shopWallSafeShamway" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopWallSafeBrewery" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- WALL SAFES -->
+<!-- PAINTINGS -->
+<recipe name="shopPaintingBen" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- PAINTINGS -->
+<!-- COMPUTER -->
+<recipe name="shopComputerDeskTopPC" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopComputerMonitorKeyboardMousePC" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- COMPUTER -->
+<!-- DECO STUFF -->
+<recipe name="shopReptileTerrarium" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopClassicDogHouse" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopLargePetCage" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- DECO STUFF -->
+<!-- GYM STUFF -->
+<recipe name="shopStationaryBike" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopTreadmill" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopWeightBar" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBenchPress" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- GYM STUFF -->
+<!-- MORGUE STUFF -->
+<recipe name="shopBodyBagBlack" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBodyBagYellow" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBodyBagPile" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBodyBagPileMix" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBodyBagPair" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBodyBagPairYellow" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBodyBagPairMixed" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBodyBagBlackFlies" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBodyBagYellowFlies" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCasketTan" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourcePaint" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCasketBrown" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourcePaint" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCasketGrey" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourcePaint" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCasketRed" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourcePaint" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCasketGreen" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourcePaint" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCasketBlue" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourcePaint" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCasketYellow" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourcePaint" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCasketAqua" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourcePaint" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCasketPurple" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourcePaint" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCasketWhite" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourcePaint" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCoffinWildWest" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopMorticianDrawer" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopWallCabinet" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCoffinWildWestStack" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCoffinWildWestLeaning" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopUtilityCart" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- MORGUE STUFF -->
+<!-- SHELVING FOOD STUFF -->
+<recipe name="shopStoreShelfSingleBottomFood01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfSingleBottomFood02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfSingleTopFood01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfDoubleBottomFood01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfDoubleBottomFood02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfDoubleTopFood01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- SHELVING FOOD STUFF -->
+<!-- SHELVING HARDWARE STUFF -->
+<recipe name="shopStoreShelfSingleBottomHardware01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfSingleBottomHardware02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfSingleTopHardware01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfSingleTopHardware02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfDoubleBottomHardware01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfDoubleBottomHardware02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfDoubleBottomHardware03Rags" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfDoubleTopHardware01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfDoubleTopHardware02Rags" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- SHELVING HARDWARE STUFF -->
+<!-- PHARMACY -->
+<recipe name="shopStoreShelfSingleBottomPharmaGoods01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfSingleBottomPharmaGoods02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfDoubleBottomPharmaGoods01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfDoubleBottomPharmaGoods02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- PHARMACY -->
+<!-- ELECTRONICS -->
+<recipe name="shopStoreShelfElectronicsSingleBottomPC" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfElectronicsSingleBottomGoodsMisc" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfElectronicsSingleBottomHeadphones" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfElectronicsSingleBottomKeyboard" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfElectronicsSingleBottomLaptopClosed" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfElectronicsSingleBottomLaptopOpen" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfElectronicsSingleBottomSpeaker" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfElectronicsDoubleBottomGoods01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfElectronicsDoubleBottomGoods02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfElectronicsDoubleBottomGoods03" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfElectronicsDoubleBottomGoods04" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreElectronicsBookShelfSpeaker" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreElectronicsPalletTvFallen" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreElectronicsPalletTvStanding" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- ELECTRONICS -->
+<!-- TRASH SHELVING -->
+<recipe name="shopStoreShelfSingleBottomTrash01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfSingleBottomTrash02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfSingleTopTrash01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfSingleTopTrash02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfDoubleBottomTrash01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfDoubleBottomTrash02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfDoubleTopTrash01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- TRASH SHELVING -->
+<!-- PRODUCE BASKET -->
+<recipe name="shopStoreProduceBasketApples1" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreProduceBasketApples2" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreProduceBasketGourds1" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreProduceBasketGourds2" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreProduceBasketlettuce1" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreProduceBasketlettuce2" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreProduceBasketMelons1" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreProduceBasketMelons2" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- PRODUCE BASKET -->
+<!-- DISPLAY CASES -->
+<recipe name="shopDisplayCaseLeft" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopDisplayCaseMiddle" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopDisplayCaseRight" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- DISPLAY CASES -->
+<!-- DISPLAY AMMO CASES -->
+<recipe name="shopDisplayCaseAmmoLeft" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopDisplayCaseAmmoMiddle01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopDisplayCaseAmmoMiddle02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopDisplayCaseAmmoRight" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- DISPLAY AMMO CASES -->
+<!-- GUN RACK SMALL -->
+<recipe name="shopGunRackSmallMagazines" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopGunRackSmallArmor" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- GUN RACK SMALL -->
+<!-- GUN RACK LARGE -->
+<recipe name="shopGunRackLargeGuns01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopGunRackLargeGuns02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- GUN RACK LARGE -->
+<!-- CLOTHES RACK ROUND -->
+<recipe name="shopClothesRackRoundPants" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopClothesRackRoundShirts" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- CLOTHES RACK ROUND -->
+<!-- CLOTHES RACK RECTANGLE -->
+<recipe name="shopClothesRackRectanglePants" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopClothesRackRectangleShirts" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- CLOTHES RACK RECTANGLE -->
+<!-- CLOTHES RACK WALL -->
+<recipe name="shopClothesRackWallPants" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopClothesRackWallLongSleeve" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopClothesRackWallSweater" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopClothesRackWallTShirts" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- CLOTHES RACK WALL -->
+<!-- CLOTHES SHELF HALF -->
+<recipe name="shopClothesShelfHalfJeans01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopClothesShelfHalfJeans02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopClothesShelfHalfShirts01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopClothesShelfHalfShirts02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopClothesShelfHalfSweaters01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- CLOTHES SHELF HALF -->
+<!-- CLOTHES SHELF STACK -->
+<recipe name="shopClothesShelfStackJeans01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopClothesShelfStackJeans02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopClothesShelfStackShirts01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopClothesShelfStackShirts02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- CLOTHES SHELF STACK -->
+<!-- CLOTHES PILE FLOOR -->
+<recipe name="shopClothesPileFloor01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- CLOTHES PILE FLOOR -->
+<!-- SHOES SHELF -->
+<recipe name="shopStoreShelfDoubleBottomShoes" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfDoubleTopShoes" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfSingleBottomShoes" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopStoreShelfSingleTopShoes" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- SHOES SHELF -->
+<!-- SHOES PILE -->
+<recipe name="shopShoesPileSandals" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopShoesPileWomensHeels" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopShoesPileSneakers" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopShoesPileLeatherBoots" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopShoesPileBusinessShoes" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopShoesPileCommercial01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopShoesPileCommercial02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- SHOES PILE -->
+<!-- BOOK CASE SHELF-->
+<recipe name="shopBookShelfSingleBottom01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBookShelfSingleBottom02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBookShelfSingleTop01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBookShelfSingleTop02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBookShelfDoubleBottom01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBookShelfDoubleBottom02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBookShelfDoubleTop01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBookShelfDoubleTop02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- BOOK CASE SHELF-->
+<!-- BOOK SHELF CAP-->
+<recipe name="shopBookShelfSingleCapBottom01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBookShelfSingleCapBottom02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBookShelfSingleCapTop01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBookShelfSingleCapTop02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- BOOK SHELF CAP-->
+<!-- BOOK PILE -->
+<recipe name="shopBookPile01" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBookPile02" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBookPile03" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBookPile04" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- BOOK PILE -->
+<!-- FIREWOOD -->
+<recipe name="shopModularFireWoodStackA" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopModularFireWoodStackB" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopModularFireWoodStackC" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- FIREWOOD -->
+<!-- PALLETS -->
+<recipe name="shopPalletWhiteBagsBase" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopPalletWhiteBagsTile" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopPalletWhiteBagsTop" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopPalletWhiteBagsPartial1" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopPalletWhiteBagsPartial2" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopPalletWhiteBagsLoose" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopPalletBrownBoxesBase" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopPalletBrownBoxesTile" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopPalletBrownBoxesTop" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopPalletBrownBoxesLoose" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopPalletBricksBase" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopPalletBricksTile" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopPalletBricksTop" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopPalletBricksPartial1" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopPalletBricksPartial2" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopPalletBricksLoose" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+
+<recipe name="shopPalletBlueTarpBaseWhite" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopPalletBlueTarpTileWhite" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopPalletCompressedCardboard" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- PALLETS -->
+<!-- WORK STATIONS ETC -->
+<recipe name="shopForge" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+
+<recipe name="shopWorkbench" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCementMixer" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopChemistryStation" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopTableSaw" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopGeneratorbank" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopSolarbank" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBatterybank" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- WORK STATIONS ETC -->
+<!-- CRATES -->
+<recipe name="shopGarageStorage" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCrateBookstore" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCrateCarParts" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCardboardBox" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCrateLabEquipment" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCrateShamway" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCrateConstructionSupplies" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCrateShotgunMessiah" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- CRATES -->
+<!-- BARRELS -->
+<recipe name="shopBarrelAcidSingle00" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelAcidSingle45" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelAcidQuadA" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelAcidQuadB" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelGasSingle00" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelGasSingle45" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelGasQuadA" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelGasQuadB" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelGasOld" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelGenericSingle00" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelGenericSingle45" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelGenericQuadA" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelGenericQuadB" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelOilSingle00" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelOilSingle45" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelOilQuadA" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelOilQuadB" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelRadiatedSingle00" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelRadiatedSingle45" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelRadiatedQuadA" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelRadiatedQuadB" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelWhiteSingle00" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelWhiteSingle45" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelWhiteQuadA" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelWhiteQuadB" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelPlasticSingle00" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelPlasticSingle45" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelPlasticQuadA" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopBarrelPlasticQuadB" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- BARRELS -->
+<!-- VEHICLE PARTS -->
+<recipe name="shopCarBackBumperUpright" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarBackBumperFlipped" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarFrontBumperFlat" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarFrontBumperFlipped" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarFrontDoorFlat" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarFrontDoorFlipped" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarBackDoorFlat" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarBackDoorFlipped" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarRadiatorFlat" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarRadiatorFlipped" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarSeatUpright" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarSeatFlipped" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarFenderFlat" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarFenderFlipped" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarHoodFlat" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarHoodFlipped" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarMotorFlat" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarMotorFlipped" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarTrunkLidFlat" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarTrunkLidFlipped" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarPartsRamp" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarTireSmallFlat" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarTireFlat" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarTirePile" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarTireStack" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<recipe name="shopCarWheelFlat" count="1" craft_time="25" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapLead" count="30"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+</recipe>
+<!-- VEHICLE PARTS -->
+</append>
+</stallionsden>

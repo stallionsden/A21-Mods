@@ -1,0 +1,22 @@
+<stallionsden>
+
+	<append xpath="/blockplaceholders">
+		<placeholder name="wineBarrel">
+			<block name="wineBarrelEmpty" prob=".66"/>
+			<block name="wineBarrelFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="wineBarrelSet">
+			<block name="wineBarrelSetEmpty" prob=".66"/>
+			<block name="wineBarrelSetFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="wineBarrelPlain">
+			<block name="wineBarrelPlainEmpty" prob=".66"/>
+			<block name="wineBarrelPlainFull" prob=".33"/>
+		</placeholder>
+	</append>
+
+</stallionsden>

@@ -1,0 +1,396 @@
+<stallionsden>
+	<append xpath="/items">
+	<item name="petHandMaster">
+	<property name="Tags" value="blunt,melee,light"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="9"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Canhold" value="false"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="Candrop" value="false"/>
+	<property class="Action0"><!-- AttackAction -->
+		<property name="Class" value="Melee"/>
+		<property name="Delay" value="0.8"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="1.65"/> <!-- This not what "clientside melee combat" means. =) This is the adjustment afterwards due to code changes. -->
+		<property name="Sphere" value="0.1"/>
+		<property name="Block_range" value="2.5"/>
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="0"/>
+		<property name="Sound_start" value="swoosh"/>
+	</property>
+	<effect_group name="meleeHandMaster" tiered="false">
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="1.65"/>
+	</effect_group>
+</item>
+	
+		<item name="meleeHandAnimalhandBuck">
+	<property name="Extends" value="petHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value="1"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="2"/>
+		<property name="DamageEntity" value="30"/>
+		<property name="DamageBlock" value="0"/>
+		<property name="Buff" value="buffInjuryBleeding"/>
+	</property>
+	<effect_group name="meleeHandAnimalWolf" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="85"/>  A16 .7 -->
+		<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="earth"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".4" tags="buffInjuryBleedingZombie"/>
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalBambi">
+	<property name="Extends" value="petHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value="0.7"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="2"/>
+		<property name="DamageEntity" value="25"/>
+		<property name="DamageBlock" value="0"/>
+		<property name="Buff" value="buffInjuryBleeding"/>
+	</property>
+	<effect_group name="meleeHandAnimalWolf" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="85"/>  A16 .7 -->
+		<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="earth"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".4" tags="buffInjuryBleedingZombie"/>
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalBugsBunny">
+	<property name="Extends" value="petHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value="1"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="2"/>
+		<property name="DamageEntity" value="15"/>
+		<property name="DamageBlock" value="0"/>
+		<property name="Buff" value="buffInjuryBleeding"/>
+	</property>
+		<effect_group name="meleeHandAnimalWolf" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="85"/>  A16 .7 -->
+		<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="earth"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".4" tags="buffInjuryBleedingZombie"/>
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalFoghornLeghorn">
+	<property name="Extends" value="petHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value="0.7"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="2"/>
+		<property name="DamageEntity" value="12"/>
+		<property name="DamageBlock" value="0"/>
+		<property name="Buff" value="buffInjuryBleeding"/>
+	</property>
+	<effect_group name="meleeHandAnimalWolf" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="85"/>  A16 .7 -->
+		<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="earth"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".4" tags="buffInjuryBleedingZombie"/>
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalYogiBear">
+	<property name="Extends" value="petHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="46"/>
+	<property class="Action0">
+		<property name="Delay" value="1.5"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="3.75"/>
+		<property name="Sphere" value="0.4"/>
+		<property name="DamageEntity" value="50"/>
+		<property name="DamageBlock" value="0"/>
+		<property name="Buff" value="buffInjuryBleeding,buffInjuryStunned1"/>
+	</property>
+	<effect_group name="meleeHandAnimalZombieBear" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="40"/>  A16 1.5 -->
+		<passive_effect name="BuffProcChance" operation="base_set" value=".75" tags="buffInjuryBleedingZombie"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".40" tags="buffInjuryStunned01"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="30"/><!--InfectionRegular-->
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalBaloo">
+	<property name="Extends" value="meleeHandAnimalBear"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="Range" value="2.75"/>
+		<property name="DamageEntity" value="90"/>
+		<property name="DamageBlock" value="0"/>
+		<property name="Buff" value="buffInjuryBleeding,buffInjuryStunned1,buffIllInfection0"/>
+	</property>
+	<effect_group name="meleeHandAnimalZombieBearFeral" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="40"/>  A16 1.5 -->
+		<passive_effect name="BuffProcChance" operation="base_set" value=".75" tags="buffInjuryBleedingZombie"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".40" tags="buffInjuryStunned01"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="45"/><!--InfectionFeral-->
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalWileyCoyote">
+	<property name="Extends" value="petHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value="0.7"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="2"/>
+		<property name="DamageEntity" value="45"/>
+		<property name="DamageBlock" value="0"/>
+		<property name="Buff" value="buffInjuryBleeding"/>
+	</property>
+	<effect_group name="meleeHandAnimalWolf" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="85"/>  A16 .7 -->
+		<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="earth"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".4" tags="buffInjuryBleedingZombie"/>
+	</effect_group>
+</item>
+
+<item name="meleeHandBigBadWolf">
+	<property name="Extends" value="petHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value="0.7"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="2"/>
+		<property name="DamageEntity" value="65"/>
+		<property name="DamageBlock" value="0"/>
+		<property name="Buff" value="buffInjuryBleeding"/>
+	</property>
+	<effect_group name="meleeHandAnimalWolf" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".5" tags="buffInjuryBleedingZombie"/>
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalScooby">
+	<property name="Extends" value="petHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value="0.7"/> <!-- obsolete if rounds per minute exists -->
+		<property name="DamageEntity" value="50"/>
+		<property name="DamageBlock" value="0"/>
+		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0"/>
+	</property>
+	<effect_group name="meleeHandAnimalZombieDog" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="85"/>  A16 .7 -->
+		<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="earth"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="buffInjuryBleedingZombie"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInfectionCatch"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="30"/><!--InfectionRegular-->
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalTweety">
+	<property name="Extends" value="petHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value="0.7"/> <!-- obsolete if rounds per minute exists -->
+		<property name="DamageEntity" value="8"/>
+		<property name="DamageBlock" value="0"/>
+		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Vomit"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Infinite_ammo" value="true"/>
+		<property name="Magazine_items" value="ammoProjectileTweetyVomit"/>
+		<property name="Sound_warning" value="hulkvomitwarning"/>
+		<property name="Sound_start" value="hulkvomitattack"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value=""/>
+		<property name="Sound_reload" value=""/>
+	</property>
+	<effect_group name="meleeHandZombieCopRadiated" tiered="false">
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<passive_effect name="MagazineSize" operation="base_set" value="1"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="6"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="10"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="40"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".35" tags="buffInjuryBleedingZombie"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInfectionCatch"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".35" tags="buffInjuryStunned01"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="60"/><!--InfectionRadiated-->
+	</effect_group>
+</item>
+
+<item name="ammoProjectileTweetyVomit">
+	<property name="Meshfile" value="Items/Weapons/Ranged/Vomit/vomitBulbPrefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action1">
+		<property name="Class" value="Projectile"/>
+		<property name="DamageEntity" value="85"/>
+		<property name="DamageBlock" value="0"/>
+		<property name="Explosion.ParticleIndex" value="7"/>
+		<property name="Velocity" value="13"/>
+		<property name="FlyTime" value="6"/>
+		<property name="LifeTime" value="8"/>
+		<property name="CollisionRadius" value="0.5"/>
+		<property name="Buff" value="buffIllInfection0"/>
+	</property>
+		<effect_group name="ammoProjectileZombieVomitRadiated" tiered="false">
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".40" tags="buffInfectionCatch"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="145"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="1"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="60"/><!--InfectionRadiated-->
+	</effect_group>
+</item>
+
+<item name="meleeHandBeakyBuzzard">
+	<property name="Extends" value="petHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value="0.7"/> <!-- obsolete if rounds per minute exists -->
+		<property name="DamageEntity" value="8"/>
+		<property name="DamageBlock" value="0"/>
+		<property name="Buff" value="buffInjuryBleeding,buffIllInfection0"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Vomit"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Infinite_ammo" value="true"/>
+		<property name="Magazine_items" value="ammoProjectileBeakyBuzzardVomit"/>
+		<property name="Sound_warning" value="hulkvomitwarning"/>
+		<property name="Sound_start" value="hulkvomitattack"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value=""/>
+		<property name="Sound_reload" value=""/>
+	</property>
+	<effect_group name="meleeHandAnimalZombieVulture" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="55"/>  A16 .7,  50=1.2 -->
+		<passive_effect name="MagazineSize" operation="base_set" value="1"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="2"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="15"/>
+		<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+		<passive_effect name="MaxRange" operation="base_set" value="50"/>
+
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInjuryBleedingZombie"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="60"/><!--InfectionRadiated-->
+	</effect_group>
+</item>
+
+<item name="ammoProjectileBeakyBuzzardVomit">
+	<property name="Meshfile" value="Items/Weapons/Ranged/Vomit/vomitBulbPrefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action1">
+		<property name="Class" value="Projectile"/>
+		<property name="DamageEntity" value="15"/>
+		<property name="DamageBlock" value="0"/>
+		<property name="Explosion.ParticleIndex" value="7"/>
+		<property name="Velocity" value="13"/>
+		<property name="FlyTime" value="6"/>
+		<property name="LifeTime" value="8"/>
+		<property name="CollisionRadius" value="0.5"/>
+		<property name="Buff" value="buffIllInfection0"/>
+	</property>
+	<effect_group name="ammoProjectileVultureVomit" tiered="false">
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="60"/><!--InfectionRadiated-->
+	</effect_group>
+</item>
+
+
+<item name="meleeHandAnimalSirHiss">
+	<property name="Extends" value="petHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="55"/>
+	<property class="Action0">
+		<property name="Delay" value="2.5"/>
+		<property name="Range" value="1.2"/>
+		<property name="DamageEntity" value="30"/>
+		<property name="DamageBlock" value="0"/>
+		<property name="Buff" value="buffInjuryBleeding"/>
+		<property name="Buff_chance" value="0.4,0.2"/>
+	</property>
+	<effect_group name="meleeHandAnimalSnake" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<passive_effect name="BuffProcChance" operation="base_set" value=".05" tags="buffInjuryBleedingZombie"/>
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalPorkyPig">
+	<property name="Extends" value="petHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value="0.7"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="2"/>
+		<property name="DamageEntity" value="30"/>
+		<property name="DamageBlock" value="0"/>
+		<property name="Buff" value="buffInjuryBleeding"/>
+	</property>
+	<effect_group name="meleeHandAnimalWolf" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".5" tags="buffInjuryBleedingZombie"/>
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalMissPiggy">
+	<property name="Extends" value="petHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value="0.7"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="2"/>
+		<property name="DamageEntity" value="62"/>
+		<property name="DamageBlock" value="0"/>
+		<property name="Buff" value="buffInjuryBleeding"/>
+	</property>
+	<effect_group name="meleeHandAnimalWolf" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".5" tags="buffInjuryBleedingZombie"/>
+	</effect_group>
+</item>
+
+<item name="meleeHandMrFox">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value=".7"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="1.4"/>
+		<property name="DamageEntity" value="10"/>
+		<property name="DamageBlock" value="6"/>
+		<property name="Buff" value="buffInjuryBleedingZombie"/>
+	</property>
+	<effect_group name="meleeHandAnimalCoyote" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="85"/>  A16 .7 -->
+		<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="earth"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="buffInjuryBleedingZombie"/>
+	</effect_group>
+</item>
+</append>
+</stallionsden>

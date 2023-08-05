@@ -1,0 +1,1775 @@
+Key,Source,Context,Changes,English
+shopCabinet,blocks,Container,KgNone,shop Cabinet
+shopCabinetDesc,blocks,Container,,,Sell Cupboard Goods in your very own vending machines and earn Duke coins.,,
+shopCabinet,blocks,Container,New,shop Cabinet,,,,,
+shopCabinetActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopTopCupboardCabinet,blocks,Container,KgNone,shop Top Cupboard Cabinet
+shopTopCupboardCabinetDesc,blocks,Container,,,Sell Cupboard Goods in your very own vending machines and earn Duke coins.,,
+shopTopCupboardCabinet,blocks,Container,New,shop Top Cupboard Cabinet,,,,,
+shopTopCupboardCabinetActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCornerRedCupboard,blocks,Container,KgNone,shop Corner Red Cupboard
+shopCornerRedCupboardDesc,blocks,Container,,,Sell Cupboard Goods in your very own vending machines and earn Duke coins.,,
+shopCornerRedCupboard,blocks,Container,New,shop Corner Red Cupboard,,,,,
+shopCornerRedCupboardActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCabinetRedTop,blocks,Container,KgNone,shop Cabinet Red Top
+shopCabinetRedTopDesc,blocks,Container,,,Sell Cupboard Goods in your very own vending machines and earn Duke coins.,,
+shopCabinetRedTop,blocks,Container,New,Player shop Cabinet Red Top,,,,,
+shopCabinetRedTopActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopOldBottomCabinet,blocks,Container,KgNone,shop Old Bottom Cabinet
+shopOldBottomCabinetDesc,blocks,Container,,,Sell Cupboard Goods in your very own vending machines and earn Duke coins.,,
+shopOldBottomCabinet,blocks,Container,New,shop Old Bottom Cabinet,,,,,
+shopOldBottomCabinetActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCabinetOldTop,blocks,Container,KgNone,shop Cabinet Old Top
+shopCabinetOldTopDesc,blocks,Container,,,Sell Cupboard Goods in your very own vending machines and earn Duke coins.,,
+shopCabinetOldTop,blocks,Container,New,shop Cabinet Old Top,,,,,
+shopCabinetOldTopActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCornerOld,blocks,Container,KgNone,shop Corner Old
+shopCornerOldDesc,blocks,Container,,,Sell Cupboard Goods in your very own vending machines and earn Duke coins.,,
+shopCornerOld,blocks,Container,New,shop Corner Old,,,,,
+shopCornerOldActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCabinetFullOldTop,blocks,Container,KgNone,shop Cabinet Full Old Top
+shopCabinetFullOldTopDesc,blocks,Container,,,Sell Cupboard Goods in your very own vending machines and earn Duke coins.,,
+shopCabinetFullOldTop,blocks,Container,New,shop Cabinet Full Old Top,,,,,
+shopCabinetFullOldTopActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCoffeeBrewer,blocks,Container,KgNone,shop Coffee Brewer
+shopCoffeeBrewerDesc,blocks,Container,,,Sell Coffee in your very own vending machines and earn Duke coins.,,
+shopCoffeeBrewer,blocks,Container,New,shop Coffee Brewer,,,,,
+shopCoffeeBrewerActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCoffeeBrewerCommercial,blocks,Container,KgNone,shop Coffee Brewer Commercial
+shopCoffeeBrewerCommercialDesc,blocks,Container,,,Sell Coffee in your very own vending machines and earn Duke coins.,,
+shopCoffeeBrewerCommercial,blocks,Container,New,shop Coffee Brewer Commercial,,,,,
+shopCoffeeBrewerCommercialActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopSodaFountain,blocks,Container,KgNone,shop Soda Fountain
+shopSodaFountainDesc,blocks,Container,,,Sell Drinks in your very own vending machines and earn Duke coins.,,
+shopSodaFountain,blocks,Container,New,shop Soda Fountain,,,,,
+shopSodaFountainActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopRetroFridge,blocks,Container,KgNone,shop Retro Fridge
+shopRetroFridgeDesc,blocks,Container,,,Sell Food and Drinks in your very own vending machines and earn Duke coins.,,
+shopRetroFridge,blocks,Container,New,shop Retro Fridge,,,,,
+shopRetroFridgeActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStainlessFridge,blocks,Container,KgNone,shop Stainless Fridge
+shopStainlessFridgeDesc,blocks,Container,,,Sell Food and Drinks in your very own vending machines and earn Duke coins.,,
+shopStainlessFridge,blocks,Container,New,shop Stainless Fridge,,,,,
+shopStainlessFridgeActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCooler,blocks,Container,KgNone,shop Cooler
+shopCoolerDesc,blocks,Container,,,Sell Food and Drinks in your very own vending machines and earn Duke coins.,,
+shopCooler,blocks,Container,New,shop Cooler,,,,,
+shopCoolerActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBeerCooler,blocks,Container,KgNone,shop Beer Cooler
+shopBeerCoolerDesc,blocks,Container,,,Sell Alcohol in your very own vending machines and earn Duke coins.,,
+shopBeerCooler,blocks,Container,New,shop Beer Cooler,,,,,
+shopBeerCoolerActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopIceMachine,blocks,Container,KgNone,shop Ice Machine
+shopIceMachineDesc,blocks,Container,,,Sell Ice in your very own vending machines and earn Duke coins.,,
+shopIceMachine,blocks,Container,New,shop Ice Machine,,,,,
+shopIceMachineActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopDishwasherWhite,blocks,Container,KgNone,shop Dish Washer White
+shopDishwasherWhiteDesc,blocks,Container,,,Sell Trash in your very own vending machines and earn Duke coins.,,
+shopDishwasherWhite,blocks,Container,New,shop Dish Washer White,,,,,
+shopDishwasherWhiteActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopGasPump,blocks,Container,KgNone,shop Gas Pump
+shopGasPumpDesc,blocks,Container,,,Sell Gas in your very own vending machines and earn Duke coins.,,
+shopGasPump,blocks,Container,New,shop Gas Pump,,,,,
+shopGasPumpActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopNightstand,blocks,Container,KgNone,shop Night stand
+shopNightstandDesc,blocks,Container,,,Sell Clothing in your very own vending machines and earn Duke coins.,,
+shopNightstand,blocks,Container,New,shop Night stand,,,,,
+shopNightstandActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopMedicineCabinetFaucet,blocks,Container,KgNone,shop Medicine Cabinet Faucet
+shopMedicineCabinetFaucetDesc,blocks,Container,,,Sell Medicine in your very own vending machines and earn Duke coins.,,
+shopMedicineCabinetFaucet,blocks,Container,New,shop Medicine Cabinet Faucet,,,,,
+shopMedicineCabinetFaucetActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopMedicineCabinet,blocks,Container,KgNone,shop Medicine Cabinet
+shopMedicineCabinetDesc,blocks,Container,,,Sell Medicine in your very own vending machines and earn Duke coins.,,
+shopMedicineCabinet,blocks,Container,New,shop Medicine Cabinet,,,,,
+shopMedicineCabinetActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPillCase,blocks,Container,KgNone,shop Pill Case
+shopPillCaseDesc,blocks,Container,,,Sell Pills in your very own vending machines and earn Duke coins.,,
+shopPillCase,blocks,Container,New,shop Pill Case,,,,,
+shopPillCaseActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopWallSafe,blocks,Container,KgNone,shop Wall Safe
+shopWallSafeDesc,blocks,Container,,,Sell Valuables in your very own vending machines and earn Duke coins.,,
+shopWallSafe,blocks,Container,New,shop Wall Safe,,,,,
+shopWallSafeActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopDeskSafe,blocks,Container,KgNone,shop Desk Safe
+shopDeskSafeDesc,blocks,Container,,,Sell Valuables in your very own vending machines and earn Duke coins.,,
+shopDeskSafe,blocks,Container,New,shop Desk Safe,,,,,
+shopDeskSafeActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopGunSafeWhite,blocks,Container,KgNone,shop Gun Safe
+shopGunSafeWhiteDesc,blocks,Container,,,Sell Guns in your very own vending machines and earn Duke coins.,,
+shopGunSafeWhite,blocks,Container,New,shop Gun Safe,,,,,
+shopGunSafeWhiteActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopHardenedChest,blocks,Container,KgNone,shop Hardened Chest
+shopHardenedChestDesc,blocks,Container,,,Sell Stuff in your very own vending machines and earn Duke coins.,,
+shopHardenedChest,blocks,Container,New,shop Hardened Chest,,,,,
+shopHardenedChestActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopSmallWeaponsBag,blocks,Container,KgNone,shop Small Weapons Bag
+shopSmallWeaponsBagDesc,blocks,Container,,,Sell Small Weapons in your very own vending machines and earn Duke coins.,,
+shopSmallWeaponsBag,blocks,Container,New,shop Small Weapons Bag,,,,,
+shopSmallWeaponsBagActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopLargeWeaponsBag,blocks,Container,KgNone,shop Large Weapons Bag
+shopLargeWeaponsBagDesc,blocks,Container,,,Sell Large Weapons in your very own vending machines and earn Duke coins.,,
+shopLargeWeaponsBag,blocks,Container,New,shop Large Weapons Bag,,,,,
+shopLargeWeaponsBagActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPistolMagnumAmmo,blocks,Container,KgNone,shop Pistol Magnum Ammo
+shopPistolMagnumAmmoDesc,blocks,Container,,,Sell Pistol Magnum Ammo in your very own vending machines and earn Duke coins.,,
+shopPistolMagnumAmmo,blocks,Container,New,shop Pistol Magnum Ammo,,,,,
+shopPistolMagnumAmmoActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBlunderbussShotgunAmmo,blocks,Container,KgNone,shop Blunderbuss Shotgun Ammo
+shopBlunderbussShotgunAmmoDesc,blocks,Container,,,Sell Blunderbuss Shotgun Ammo in your very own vending machines and earn Duke coins.,,
+shopBlunderbussShotgunAmmo,blocks,Container,New,shop Blunderbuss Shotgun Ammo,,,,,
+shopBlunderbussShotgunAmmoActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCrossbowsBowsAmmo,blocks,Container,KgNone,shop Crossbows Bows Ammo
+shopCrossbowsBowsAmmoDesc,blocks,Container,,,Sell Crossbows Bows Ammo in your very own vending machines and earn Duke coins.,,
+shopCrossbowsBowsAmmo,blocks,Container,New,shop Crossbows Bows Ammo,,,,,
+shopCrossbowsBowsAmmoActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopAutomaticSniperAmmo,blocks,Container,KgNone,shop Automatic Sniper Ammo
+shopAutomaticSniperAmmoDesc,blocks,Container,,,Sell Automatic Sniper Ammo in your very own vending machines and earn Duke coins.,,
+shopAutomaticSniperAmmo,blocks,Container,New,shop Automatic Sniper Ammo,,,,,
+shopAutomaticSniperAmmoActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopRocketAmmo,blocks,Container,KgNone,shop Rocket Ammo
+shopRocketAmmoDesc,blocks,Container,,,Sell Rocket Ammo in your very own vending machines and earn Duke coins.,,
+shopRocketAmmo,blocks,Container,New,shop Rocket Ammo,,,,,
+shopRocketAmmoActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopMedicLootPileA,blocks,Container,KgNone,shop Medic Loot Pile A
+shopMedicLootPileADesc,blocks,Container,,,Sell Medical in your very own vending machines and earn Duke coins.,,
+shopMedicLootPileA,blocks,Container,New,shop Medic Loot Pile A,,,,,
+shopMedicLootPileAActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopMedicLootPileB,blocks,Container,KgNone,shop Medic Loot Pile B
+shopMedicLootPileBDesc,blocks,Container,,,Sell Medical in your very own vending machines and earn Duke coins.,,
+shopMedicLootPileB,blocks,Container,New,shop Medic Loot Pile B,,,,,
+shopMedicLootPileBActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCannedFoodPile,blocks,Container,KgNone,shop Canned Food Pile
+shopCannedFoodPileDesc,blocks,Container,,,Sell Canned Food in your very own vending machines and earn Duke coins.,,
+shopCannedFoodPile,blocks,Container,New,shop Canned Food Pile,,,,,
+shopCannedFoodPileActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopMeatsFoodPile,blocks,Container,KgNone,shop Meats Food Pile
+shopMeatsFoodPileDesc,blocks,Container,,,Sell Meats in your very own vending machines and earn Duke coins.,,
+shopMeatsFoodPile,blocks,Container,New,shop Meats Food Pile,,,,,
+shopMeatsFoodPileActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopFruitVegieFoodPile,blocks,Container,KgNone,shop Fruit Vegie Food Pile
+shopFruitVegieFoodPileDesc,blocks,Container,,,Sell Fruit and Vegie in your very own vending machines and earn Duke coins.,,
+shopFruitVegieFoodPile,blocks,Container,New,shop Fruit Vegie Food Pile,,,,,
+shopFruitVegieFoodPileActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopWoodDesk,blocks,Container,KgNone,shop Wood Desk
+shopWoodDeskDesc,blocks,Container,,,Sell Stationary in your very own vending machines and earn Duke coins.,,
+shopWoodDesk,blocks,Container,New,shop Wood Desk,,,,,
+shopWoodDeskActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopMetalWhiteDesk,blocks,Container,KgNone,shop White Metal Desk
+shopMetalWhiteDeskDesc,blocks,Container,,,Sell Stationary in your very own vending machines and earn Duke coins.,,
+shopMetalWhiteDesk,blocks,Container,New,shop Metal White Desk,,,,,
+shopMetalWhiteDeskActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopWaterCooler,blocks,Container,KgNone,shop Water Cooler
+shopWaterCoolerDesc,blocks,Container,,,Sell Water in your very own vending machines and earn Duke coins.,,
+shopWaterCooler,blocks,Container,New,shop Water Cooler,,,,,
+shopWaterCoolerActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopWineBarrel,blocks,Container,KgNone,shop Wine Barrel
+shopWineBarrelDesc,blocks,Container,,,Sell Alcohol in your very own vending machines and earn Duke coins.,,
+shopWineBarrel,blocks,Container,New,shop Wine Barrel,,,,,
+shopWineBarrelActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopWineBarrelSet,blocks,Container,KgNone,shop Wine Barrel Set
+shopWineBarrelSetDesc,blocks,Container,,,Sell Alcohol in your very own vending machines and earn Duke coins.,,
+shopWineBarrelSet,blocks,Container,New,shop Wine Barrel Set,,,,,
+shopWineBarrelSetActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopWineBarrelPlain,blocks,Container,KgNone,shop Wine Barrel Plain
+shopWineBarrelPlainDesc,blocks,Container,,,Sell Alcohol in your very own vending machines and earn Duke coins.,,
+shopWineBarrelPlain,blocks,Container,New,shop Wine Barrel Plain,,,,,
+shopWineBarrelPlainActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopFileCabinetShort,blocks,Container,KgNone,shop File Cabinet Short
+shopFileCabinetShortDesc,blocks,Container,,,Sell Stationary in your very own vending machines and earn Duke coins.,,
+shopFileCabinetShort,blocks,Container,New,shop File Cabinet Short,,,,,
+shopFileCabinetShortActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopFileCabinetTall,blocks,Container,KgNone,shop File Cabinet Tall
+shopFileCabinetTallDesc,blocks,Container,,,Sell Stationary in your very own vending machines and earn Duke coins.,,
+shopFileCabinetTall,blocks,Container,New,shop File Cabinet Tall,,,,,
+shopFileCabinetTallActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopLockersShort,blocks,Container,KgNone,shop Lockers Short
+shopLockersShortDesc,blocks,Container,,,Sell Clothing in your very own vending machines and earn Duke coins.,,
+shopLockersShort,blocks,Container,New,shop Lockers Short,,,,,
+shopLockersShortActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopLockersTall,blocks,Container,KgNone,shop Lockers Tall
+shopLockersTallDesc,blocks,Container,,,Sell Clothing in your very own vending machines and earn Duke coins.,,
+shopLockersTall,blocks,Container,New,shop Lockers Tall,,,,,
+shopLockersTallActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopLockersTallDouble,blocks,Container,KgNone,shop Lockers Tall Double
+shopLockersTallDoubleDesc,blocks,Container,,,Sell Clothing in your very own vending machines and earn Duke coins.,,
+shopLockersTallDouble,blocks,Container,New,shop Lockers Tall Double,,,,,
+shopLockersTallDoubleActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopLockersTallMix,blocks,Container,KgNone,shop Lockers Tall Mix
+shopLockersTallMixDesc,blocks,Container,,,Sell Clothing in your very own vending machines and earn Duke coins.,,
+shopLockersTallMix,blocks,Container,New,shop Lockers Tall Mix,,,,,
+shopLockersTallMixActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopLockersTallMixLink,blocks,Container,KgNone,shop Lockers Tall Mix Link
+shopLockersTallMixLinkDesc,blocks,Container,,,Sell Clothing in your very own vending machines and earn Duke coins.,,
+shopLockersTallMixLink,blocks,Container,New,shop Lockers Tall Mix Link,,,,,
+shopLockersTallMixLinkActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBookcase,blocks,Container,KgNone,shop Book case
+shopBookcaseDesc,blocks,Container,,,Sell Books in your very own vending machines and earn Duke coins.,,
+shopBookcase,blocks,Container,New,shop Book case,,,,,
+shopBookcaseActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCashRegister,blocks,Container,KgNone,shop Cash Register
+shopCashRegisterDesc,blocks,Container,,,Sell Cash in your very own vending machines and earn Duke coins.,,
+shopCashRegister,blocks,Container,New,shop Cash Register,,,,,
+shopCashRegisterActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopToolBoxWhite,blocks,Container,KgNone,shop Tool White Box
+shopToolBoxWhiteDesc,blocks,Container,,,Sell Tools in your very own vending machines and earn Duke coins.,,
+shopToolBoxWhite,blocks,Container,New,shop Tool Box,,,,,
+shopToolBoxWhiteActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopRollingToolBoxWhite,blocks,Container,KgNone,shop Rolling Tool Box White
+shopRollingToolBoxWhiteDesc,blocks,Container,,,Sell Tools in your very own vending machines and earn Duke coins.,,
+shopRollingToolBoxWhite,blocks,Container,New,shop Rolling Tool Box White,,,,,
+shopRollingToolBoxWhiteActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelving01,blocks,Container,KgNone,shop Store Shelving 01
+shopStoreShelving01Desc,blocks,Container,,,Sell Miscellaneous Stock in your very own vending machines and earn Duke coins.,,
+shopStoreShelving01,blocks,Container,New,shop Store Shelving 01,,,,,
+shopStoreShelving01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelvingDouble,blocks,Container,KgNone,shop Store Shelving Double
+shopStoreShelvingDoubleDesc,blocks,Container,,,Sell Miscellaneous Stock in your very own vending machines and earn Duke coins.,,
+shopStoreShelvingDouble,blocks,Container,New,shop Store Shelving Double,,,,,
+shopStoreShelvingDoubleActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelvingTop,blocks,Container,KgNone,shop Store Shelving Top
+shopStoreShelvingTopDesc,blocks,Container,,,Sell Miscellaneous Stock in your very own vending machines and earn Duke coins.,,
+shopStoreShelvingTop,blocks,Container,New,shop Store Shelving Top,,,,,
+shopStoreShelvingTopActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopShelvingTopDouble,blocks,Container,KgNone,shop Shelving Top Double
+shopShelvingTopDoubleDesc,blocks,Container,,,Sell Miscellaneous Stock in your very own vending machines and earn Duke coins.,,
+shopShelvingTopDouble,blocks,Container,New,shop Shelving Top Double,,,,,
+shopShelvingTopDoubleActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPartsBox,blocks,Container,KgNone,shop Parts Box
+shopPartsBoxDesc,blocks,Container,,,Sell Parts in your very own vending machines and earn Duke coins.,,
+shopPartsBox,blocks,Container,New,shop Parts Box,,,,,
+shopPartsBoxActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStove,blocks,Container,KgNone,shop Stove
+shopStoveDesc,blocks,Container,,,Sell Cookware in your very own vending machines and earn Duke coins.,,
+shopStove,blocks,Container,New,shop Stove,,,,,
+shopStoveActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopOvenWhite,blocks,Container,KgNone,shop Oven White
+shopOvenWhiteDesc,blocks,Container,,,Sell Cookware in your very own vending machines and earn Duke coins.,,
+shopOvenWhite,blocks,Container,New,shop Oven White,,,,,
+shopOvenWhiteActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStone,blocks,Container,KgNone,shop Stone
+shopStoneDesc,blocks,Container,,,Sell Stone in your very own vending machines and earn Duke coins.,,
+shopStone,blocks,Container,New,shop Stone,,,,,
+shopStoneActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shopDirt,blocks,Container,KgNone,shop Dirt
+shopDirtDesc,blocks,Container,,,Sell Dirt in your very own vending machines and earn Duke coins.,,
+shopDirt,blocks,Container,New,shop Dirt,,,,,
+shopDirtActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shopForestGround,blocks,Container,KgNone,shop Forest Ground
+shopForestGroundDesc,blocks,Container,,,Sell Forest Ground in your very own vending machines and earn Duke coins.,,
+shopForestGround,blocks,Container,New,shop Forest Ground,,,,,
+shopForestGroundActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shopDesertGround,blocks,Container,KgNone,shop Desert Ground
+shopDesertGroundDesc,blocks,Container,,,Sell Desert Ground in your very own vending machines and earn Duke coins.,,
+shopDesertGround,blocks,Container,New,shop Desert Ground,,,,,
+shopDesertGroundActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shopSand,blocks,Container,KgNone,shop Sand
+shopSandDesc,blocks,Container,,,Sell Sand in your very own vending machines and earn Duke coins.,,
+shopSand,blocks,Container,New,shop Sand,,,,,
+shopSandActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shopSandStone,blocks,Container,,KgNone,shop SandStone
+shopSandStoneDesc,blocks,Container,,,Sell SandStone in your very own vending machines and earn Duke coins.,,
+shopSandStone,blocks,Container,New,shop SandStone,,,,,
+shopSandStoneActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shopSnow,blocks,Container,KgNone,shop Snow
+shopSnowDesc,blocks,Container,,,Sell Snow in your very own vending machines and earn Duke coins.,,
+shopSnow,blocks,Container,New,shop Snow,,,,,
+shopSnowActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shopDestroyedStone,blocks,Container,KgNone,shop Destroyed Stone
+shopDestroyedStoneDesc,blocks,Container,,,Sell Destroyed Stone in your very own vending machines and earn Duke coins.,,
+shopDestroyedStone,blocks,Container,New,shop Destroyed Stone,,,,,
+shopDestroyedStoneActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shopGravel,blocks,Container,KgNone,shop Gravel
+shopGravelDesc,blocks,Container,,,Sell Gravel in your very own vending machines and earn Duke coins.,,
+shopGravel,blocks,Container,New,shop Gravel,,,,,
+shopGravelActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shopAsphalt,blocks,Container,KgNone,shop Asphalt
+shopAsphaltDesc,blocks,Container,,,Sell Asphalt in your very own vending machines and earn Duke coins.,,
+shopAsphalt,blocks,Container,New,shop Asphalt,,,,,
+shopAsphaltActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shopConcrete,blocks,Container,KgNone,shop Concrete
+shopConcreteDesc,blocks,Container,,,Sell Concrete in your very own vending machines and earn Duke coins.,,
+shopConcrete,blocks,Container,New,shop Concrete,,,,,
+shopConcreteActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shopOreIron,blocks,Container,KgNone,shop Ore Iron
+shopOreIronDesc,blocks,Container,,,Sell Iron in your very own vending machines and earn Duke coins.,,
+shopOreIron,blocks,Container,New,shop Ore Iron,,,,,
+shopOreIronActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shopOreLead,blocks,Container,KgNone,shop Ore Lead
+shopOreLeadDesc,blocks,Container,,,Sell Lead in your very own vending machines and earn Duke coins.,,
+shopOreLead,blocks,Container,New,shop Ore Lead,,,,,
+shopOreLeadActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shopOreCoal,blocks,Container,KgNone,shop Ore Coal
+shopOreCoalDesc,blocks,Container,,,Sell Coal in your very own vending machines and earn Duke coins.,,
+shopOreCoal,blocks,Container,New,shop Ore Coal,,,,,
+shopOreCoalActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shopOrePotassiumNitrate,blocks,Container,KgNone,shop Ore Potassium Nitrate
+shopOrePotassiumNitrateDesc,blocks,Container,,,Sell Potassium Nitrate in your very own vending machines and earn Duke coins.,,
+shopOrePotassiumNitrate,blocks,Container,New,shop Ore Potassium Nitrate,,,,,
+shopOrePotassiumNitrateActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shopOreOilDeposit,blocks,Container,KgNone,shop Ore Oil Deposit
+shopOreOilDepositDesc,blocks,Container,,,Sell Oil Deposit in your very own vending machines and earn Duke coins.,,
+shopOreOilDeposit,blocks,Container,New,shop Ore Oil Deposit,,,,,
+shopOreOilDepositActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shoprockResource,blocks,Container,KgNone,shop Rock Resource
+shoprockResourceDesc,blocks,Container,,,Sell rocks in your very own vending machines and earn Duke coins.,,
+shoprockResource,blocks,Container,New,shop Rock Resource,,,,,
+shoprockResourceActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shoporeIronBoulder,blocks,Container,KgNone,shop Ore Iron Boulder
+shoporeIronBoulderDesc,blocks,Container,,,Sell ore Iron in your very own vending machines and earn Duke coins.,,
+shoporeIronBoulder,blocks,Container,New,shop Ore Iron Boulder,,,,,
+shoporeIronBoulderActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shoporeLeadBoulder,blocks,Container,KgNone,shop Ore Lead Boulder
+shoporeLeadBoulderDesc,blocks,Container,,,Sell Lead in your very own vending machines and earn Duke coins.,,
+shoporeLeadBoulder,blocks,Container,New,shop Ore Lead Boulder,,,,,
+shoporeLeadBoulderActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shoporeCoalBoulder,blocks,Container,KgNone,shop Ore Coal Boulder
+shoporeCoalBoulderDesc,blocks,Container,,,Sell Coal in your very own vending machines and earn Duke coins.,,
+shoporeCoalBoulder,blocks,Container,New,shop Ore Coal Boulder,,,,,
+shoporeCoalBoulderActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+
+shoporePotassiumNitrateBoulder,blocks,Container,KgNone,shop Potassium Nitrate Boulder
+shoporePotassiumNitrateBoulderDesc,blocks,Container,,,Sell Potassium Nitrate in your very own vending machines and earn Duke coins.,,
+shoporePotassiumNitrateBoulder,blocks,Container,New,shop Potassium Nitrate Boulder,,,,,
+shoporePotassiumNitrateBoulderActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shoporeShaleBoulder,blocks,Container,KgNone,shop Ore Shale Boulder
+shoporeShaleBoulderDesc,blocks,Container,,,Sell Shale in your very own vending machines and earn Duke coins.,,
+shoporeShaleBoulder,blocks,Container,New,shop Ore Shale Boulder,,,,,
+shoporeShaleBoulderActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopFreezerGroceriesMiddle,blocks,Container,KgNone,shop Freezer Groceries Middle 
+shopFreezerGroceriesMiddleDesc,blocks,Container,,,Sell cold items in your very own vending machines and earn Duke coins.,,
+shopFreezerGroceriesMiddle,blocks,Container,New,shop Freezer Groceries Middle,,,,,
+shopFreezerGroceriesMiddleActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopFreezerGroceriesMiddle2,blocks,Container,KgNone,shop Freezer Groceries Middle 2
+shopFreezerGroceriesMiddle2Desc,blocks,Container,,,Sell cold items in your very own vending machines and earn Duke coins.,,
+shopFreezerGroceriesMiddle2,blocks,Container,New,shop Freezer Groceries Middle 2,,,,,
+shopFreezerGroceriesMiddle2Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopFreezerGroceriesLeft,blocks,Container,KgNone,shop Freezer Groceries Left
+shopFreezerGroceriesLeftDesc,blocks,Container,,,Sell cold items in your very own vending machines and earn Duke coins.,,
+shopFreezerGroceriesLeft,blocks,Container,New,shop Freezer Groceries Left,,,,,
+shopFreezerGroceriesLeftActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopFreezerGroceriesRight,blocks,Container,KgNone,shop Freezer Groceries Right
+shopFreezerGroceriesRightDesc,blocks,Container,,,Sell cold items in your very own vending machines and earn Duke coins.,,
+shopFreezerGroceriesRight,blocks,Container,New,shop Freezer Groceries Right,,,,,
+shopFreezerGroceriesRightActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopFreezerBeveragesMiddle,blocks,Container,KgNone,shop Freezer Beverages Middle
+shopFreezerBeveragesMiddleDesc,blocks,Container,,,Sell cold items in your very own vending machines and earn Duke coins.,,
+shopFreezerBeveragesMiddle,blocks,Container,New,shop Freezer Beverages Middle,,,,,
+shopFreezerBeveragesMiddleActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopFreezerBeveragesLeft,blocks,Container,KgNone,shop Freezer Beverages Left
+shopFreezerBeveragesLeftDesc,blocks,Container,,,Sell cold items in your very own vending machines and earn Duke coins.,,
+shopFreezerBeveragesLeft,blocks,Container,New,shop Freezer Beverages Left,,,,,
+shopFreezerBeveragesLeftActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopFreezerBeveragesRight,blocks,Container,KgNone,shop Freezer Beverages Right
+shopFreezerBeveragesRightDesc,blocks,Container,,,Sell cold items in your very own vending machines and earn Duke coins.,,
+shopFreezerBeveragesRight,blocks,Container,New,shop Freezer Beverages Right,,,,,
+shopFreezerBeveragesRightActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopFreezerBeveragesStandalone,blocks,Container,KgNone,shop Freezer Beverages Standalone
+shopFreezerBeveragesStandaloneDesc,blocks,Container,,,Sell cold items in your very own vending machines and earn Duke coins.,,
+shopFreezerBeveragesStandalone,blocks,Container,New,shop Freezer Beverages Standalone,,,,,
+shopFreezerBeveragesStandaloneActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopWashingMachine,blocks,Container,KgNone,shop Washing Machine
+shopWashingMachineDesc,blocks,Container,,,Sell clean clothes in your very own vending machines and earn Duke coins.,,
+shopWashingMachine,blocks,Container,New,shop Washing Machine,,,,,
+shopWashingMachineActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopWasher,blocks,Container,KgNone,shop Washing 
+shopWasherDesc,blocks,Container,,,Sell clean clothes in your very own vending machines and earn Duke coins.,,
+shopWasher,blocks,Container,New,shop Washing ,,,,,
+shopWasherActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopDryer,blocks,Container,KgNone,shop Dryer 
+shopDryerDesc,blocks,Container,,,Sell clean clothes in your very own vending machines and earn Duke coins.,,
+shopDryer,blocks,Container,New,shop Dryer ,,,,,
+shopDryerActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopLaundryBasketWhite,blocks,Container,KgNone,shop Laundry Basket
+shopLaundryBasketWhiteDesc,blocks,Container,,,Sell clean clothes in your very own vending machines and earn Duke coins.,,
+shopLaundryBasketWhite,blocks,Container,New,shop Laundry Basket,,,,,
+shopLaundryBasketWhiteActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopTrashPile01,blocks,Container,KgNone,shop Trash Pile 01
+shopTrashPile01Desc,blocks,Container,,,Sell your junk in your very own vending machines and earn Duke coins.,,
+shopTrashPile01,blocks,Container,New,shop Trash Pile 01,,,,,
+shopTrashPile01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopTrashPile02,blocks,Container,,KgNone,shop Trash Pile 02
+shopTrashPile02Desc,blocks,Container,,,Sell your junk in your very own vending machines and earn Duke coins.,,
+shopTrashPile02,blocks,Container,New,shop Trash Pile 02,,,,,
+shopTrashPile02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopTrashPile03,blocks,Container,KgNone,shop Trash Pile 03
+shopTrashPile03Desc,blocks,Container,,,Sell your junk in your very own vending machines and earn Duke coins.,,
+shopTrashPile03,blocks,Container,New,shop Trash Pile 03,,,,,
+shopTrashPile03Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopTrashPile04,blocks,Container,KgNone,shop Trash Pile 04
+shopTrashPile04Desc,blocks,Container,,,Sell your junk in your very own vending machines and earn Duke coins.,,
+shopTrashPile04,blocks,Container,New,shop Trash Pile 04,,,,,
+shopTrashPile04Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopTrashPile05,blocks,Container,KgNone,shop Trash Pile 05
+shopTrashPile05Desc,blocks,Container,,,Sell your junk in your very own vending machines and earn Duke coins.,,
+shopTrashPile05,blocks,Container,New,shop Trash Pile 05,,,,,
+shopTrashPile05Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopTrashPile06,blocks,Container,KgNone,shop Trash Pile 06
+shopTrashPile06Desc,blocks,Container,,,Sell your junk in your very own vending machines and earn Duke coins.,,
+shopTrashPile06,blocks,Container,New,shop Trash Pile 06,,,,,
+shopTrashPile06Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopTrashPile07,blocks,Container,KgNone,shop Trash Pile 07
+shopTrashPile07Desc,blocks,Container,,,Sell your junk in your very own vending machines and earn Duke coins.,,
+shopTrashPile07,blocks,Container,New,shop Trash Pile 07,,,,,
+shopTrashPile07Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopTrashPile08,blocks,Container,KgNone,shop Trash Pile 08
+shopTrashPile08Desc,blocks,Container,,,Sell your junk in your very own vending machines and earn Duke coins.,,
+shopTrashPile08,blocks,Container,New,shop Trash Pile 08,,,,,
+shopTrashPile08Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopTrashPile09,blocks,Container,KgNone,shop Trash Pile 09
+shopTrashPile09Desc,blocks,Container,,,Sell your junk in your very own vending machines and earn Duke coins.,,
+shopTrashPile09,blocks,Container,New,shop Trash Pile 09,,,,,
+shopTrashPile09Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopTrashcanRollingWhite,blocks,Container,KgNone,shop Trash Can
+shopTrashcanRollingWhiteDesc,blocks,Container,,,Sell your junk in your very own vending machines and earn Duke coins.,,
+shopTrashcanRollingWhite,blocks,Container,New,shop Trash Can,,,,,
+shopTrashcanRollingWhiteActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBinWhite,blocks,Container,KgNone,shop Bin
+shopBinWhiteDesc,blocks,Container,,,Sell your junk in your very own vending machines and earn Duke coins.,,
+shopBinWhite,blocks,Container,New,shop Bin,,,,,
+shopBinWhiteActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopFancyGarbageCan,blocks,Container,KgNone,shop Fancy Garbage Can
+shopFancyGarbageCanDesc,blocks,Container,,,Sell your junk in your very own vending machines and earn Duke coins.,,
+shopFancyGarbageCan,blocks,Container,New,shop Fancy Garbage Can,,,,,
+shopFancyGarbageCanActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopDomedTrashCan,blocks,Container,KgNone,shop Domed Trash Can
+shopDomedTrashCanDesc,blocks,Container,,,Sell your junk in your very own vending machines and earn Duke coins.,,
+shopDomedTrashCan,blocks,Container,New,shop Domed Trash Can,,,,,
+shopDomedTrashCanActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBruteStyleTrashCan,blocks,Container,KgNone,shop Brute Style Trash Can
+shopBruteStyleTrashCanDesc,blocks,Container,,,Sell your junk in your very own vending machines and earn Duke coins.,,
+shopBruteStyleTrashCan,blocks,Container,New,shop Brute Style Trash Can,,,,,
+shopBruteStyleTrashCanActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopDumpster,blocks,Container,KgNone,shop Dumpster
+shopDumpsterDesc,blocks,Container,,,Sell your junk in your very own vending machines and earn Duke coins.,,
+shopDumpster,blocks,Container,New,shop Dumpster,,,,,
+shopDumpsterActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopTiltTruck,blocks,Container,KgNone,shop Tilt Truck
+shopTiltTruckDesc,blocks,Container,,,Sell your junk in your very own vending machines and earn Duke coins.,,
+shopTiltTruck,blocks,Container,New,shop Tilt Truck,,,,,
+shopTiltTruckActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopModularCloset,blocks,Container,KgNone,shop Modular Closet
+shopModularClosetDesc,blocks,Container,,,Sell your clothing in your very own vending machines and earn Duke coins.,,
+shopModularCloset,blocks,Container,New,shop Modular Closet,,,,,
+shopModularClosetActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopdrinkingfountainSingle,blocks,Container,KgNone,shop drinking fountain Single
+shopdrinkingfountainSingleDesc,blocks,Container,,,Sell your Water in your very own vending machines and earn Duke coins.,,
+shopdrinkingfountainSingle,blocks,Container,New,shop drinking fountain Single,,,,,
+shopdrinkingfountainSingleActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopdrinkingfountainDouble,blocks,Container,KgNone,shop drinking fountain Double
+shopdrinkingfountainDoubleDesc,blocks,Container,,,Sell your Water in your very own vending machines and earn Duke coins.,,
+shopdrinkingfountainDouble,blocks,Container,New,shop drinking fountain Double,,,,,
+shopdrinkingfountainDoubleActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopWaterCoolerBottle,blocks,Container,KgNone,shop Water Cooler Bottle
+shopWaterCoolerBottleDesc,blocks,Container,,,Sell your Water in your very own vending machines and earn Duke coins.,,
+shopWaterCoolerBottle,blocks,Container,New,shop Water Cooler Bottle,,,,,
+shopWaterCoolerBottleActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopWallSafeShamway,blocks,Container,KgNone,shop Wall Safe Shamway
+shopWallSafeShamwayDesc,blocks,Container,,,Sell your Valuables in your very own vending machines and earn Duke coins.,,
+shopWallSafeShamway,blocks,Container,New,shop Wall Safe Shamway,,,,,
+shopWallSafeShamwayActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopWallSafeBrewery,blocks,Container,KgNone,shop Wall Safe Brewery
+shopWallSafeBreweryDesc,blocks,Container,,,Sell your Valuables in your very own vending machines and earn Duke coins.,,
+shopWallSafeBrewery,blocks,Container,New,shop Wall Safe Brewery,,,,,
+shopWallSafeBreweryActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPaintingBen,blocks,Container,KgNone,shop Painting Ben
+shopPaintingBenDesc,blocks,Container,,,Sell your Artwork in your very own vending machines and earn Duke coins.,,
+shopPaintingBen,blocks,Container,New,shop Painting Ben,,,,,
+shopPaintingBenActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopComputerDeskTopPC,blocks,Container,KgNone,shop Computer Desk Top PC
+shopComputerDeskTopPCDesc,blocks,Container,,,Sell your PC Parts in your very own vending machines and earn Duke coins.,,
+shopComputerDeskTopPC,blocks,Container,New,shop Computer Desk Top PC,,,,,
+shopComputerDeskTopPCActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopComputerMonitorKeyboardMousePC,blocks,Container,KgNone,shop Computer Monitor Keyboard Mouse PC
+shopComputerMonitorKeyboardMousePCDesc,blocks,Container,,,Sell your PC Parts in your very own vending machines and earn Duke coins.,,
+shopComputerMonitorKeyboardMousePC,blocks,Container,New,shop Computer Monitor Keyboard Mouse PC,,,,,
+shopComputerMonitorKeyboardMousePCActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopReptileTerrarium,blocks,Container,KgNone,shop Reptile Terrarium
+shopReptileTerrariumDesc,blocks,Container,,,Sell your Pet Products in your very own vending machines and earn Duke coins.,,
+shopReptileTerrarium,blocks,Container,New,shop Reptile Terrarium,,,,,
+shopReptileTerrariumActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClassicDogHouse,blocks,Container,KgNone,shop Classic Dog House
+shopClassicDogHouseDesc,blocks,Container,,,Sell your Pet Products in your very own vending machines and earn Duke coins.,,
+shopClassicDogHouse,blocks,Container,New,shop Classic Dog House,,,,,
+shopClassicDogHouseActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopLargePetCage,blocks,Container,KgNone,shop Large Pet Cage
+shopLargePetCageDesc,blocks,Container,,,Sell your Pet Products in your very own vending machines and earn Duke coins.,,
+shopLargePetCage,blocks,Container,New,shop Large Pet Cage,,,,,
+shopLargePetCageActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStationaryBike,blocks,Container,KgNone,shop Stationary Bike
+shopStationaryBikeDesc,blocks,Container,,,Sell your Excercise Equipment in your very own vending machines and earn Duke coins.,,
+shopStationaryBike,blocks,Container,New,shop Stationary Bike,,,,,
+shopStationaryBikeActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopTreadmill,blocks,Container,KgNone,shop Treadmill
+shopTreadmillDesc,blocks,Container,,,Sell your Excercise Equipment in your very own vending machines and earn Duke coins.,,
+shopTreadmill,blocks,Container,New,shop Treadmill,,,,,
+shopTreadmillActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopWeightBar,blocks,Container,KgNone,shop Weight Bar
+shopWeightBarDesc,blocks,Container,,,Sell your Excercise Equipment in your very own vending machines and earn Duke coins.,,
+shopWeightBar,blocks,Container,New,shop Weight Bar,,,,,
+shopWeightBarActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBenchPress,blocks,Container,KgNone,shop Bench Press
+shopBenchPressDesc,blocks,Container,,,Sell your Excercise Equipment in your very own vending machines and earn Duke coins.,,
+shopBenchPress,blocks,Container,New,shop Bench Press,,,,,
+shopBenchPressActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBodyBagBlack,blocks,Container,KgNone,shop Body Bag Black
+shopBodyBagBlackDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopBodyBagBlack,blocks,Container,New,shop Body Bag Black,,,,,
+shopBodyBagBlackActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBodyBagYellow,blocks,Container,KgNone,shop Body Bag Yellow
+shopBodyBagYellowDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopBodyBagYellow,blocks,Container,New,shop Body Bag Yellow,,,,,
+shopBodyBagYellowActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBodyBagPile,blocks,Container,KgNone,shop Body Bag Pile
+shopBodyBagPileDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopBodyBagPile,blocks,Container,New,shop Body Bag Pile,,,,,
+shopBodyBagPileActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBodyBagPileMix,blocks,Container,KgNone,shop Body Bag Pile Mix
+shopBodyBagPileMixDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopBodyBagPileMix,blocks,Container,New,shop Body Bag Pile Mix,,,,,
+shopBodyBagPileMixActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBodyBagPair,blocks,Container,KgNone,shop Body Bag Pair
+shopBodyBagPairDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopBodyBagPair,blocks,Container,New,shop Body Bag Pair,,,,,
+shopBodyBagPairActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBodyBagPairYellow,blocks,Container,KgNone,shop Body Bag Pair Yellow
+shopBodyBagPairYellowDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopBodyBagPairYellow,blocks,Container,New,shop Body Bag Pair Yellow,,,,,
+shopBodyBagPairYellowActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBodyBagPairMixed,blocks,Container,KgNone,shop Body Bag Pair Mixed
+shopBodyBagPairMixedDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopBodyBagPairMixed,blocks,Container,New,shop Body Bag Pair Mixed,,,,,
+shopBodyBagPairMixedActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBodyBagBlackFlies,blocks,Container,KgNone,shop Body Bag Black Flies
+shopBodyBagBlackFliesDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopBodyBagBlackFlies,blocks,Container,New,shop Body Bag Black Flies,,,,,
+shopBodyBagBlackFliesActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBodyBagYellowFlies,blocks,Container,KgNone,shop Body Bag Yellow Flies
+shopBodyBagYellowFliesDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopBodyBagYellowFlies,blocks,Container,New,shop Body Bag Yellow Flies,,,,,
+shopBodyBagYellowFliesActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCasketTan,KgNone,blocks,Container,shop Casket
+shopCasketTanDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopCasketTan,blocks,Container,New,shop Casket,,,,,
+shopCasketTanActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCasketBrown,KgNone,blocks,Container,shop Casket Brown
+shopCasketBrownDescDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopCasketBrown,blocks,Container,New,shop Casket Brown,,,,,
+shopCasketBrownActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCasketGrey,KgNone,blocks,Container,shop Casket Grey
+shopCasketGreyDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopCasketGrey,blocks,Container,New,shop Casket Grey,,,,,
+shopCasketGreyActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCasketRed,KgNone,blocks,Container,shop Casket Red
+shopCasketRedDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopCasketRed,blocks,Container,New,shop Casket Red,,,,,
+shopCasketRedActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCasketGreen,KgNone,blocks,Container,shop Casket Green
+shopCasketGreenDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopCasketGreen,blocks,Container,New,shop Casket Green,,,,,
+shopCasketGreenActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCasketBlue,KgNone,blocks,Container,shop Casket Blue
+shopCasketBlueDescDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopCasketBlue,blocks,Container,New,shop Casket Blue,,,,,
+shopCasketBlueActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCasketYellow,KgNone,blocks,Container,shop Casket Yellow
+shopCasketYellowDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopCasketYellow,blocks,Container,New,shop Casket Yellow,,,,,
+shopCasketYellowActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCasketAqua,KgNone,blocks,Container,shop Casket Aqua
+shopCasketAquaDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopCasketAqua,blocks,Container,New,shop Casket Aqua,,,,,
+shopCasketAquaActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCasketPurple,KgNone,blocks,Container,shop Casket Purple
+shopCasketPurpleDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopCasketPurple,blocks,Container,New,shop Casket Purple,,,,,
+shopCasketPurpleActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCasketWhite,KgNone,blocks,Container,shop Casket White
+shopCasketWhiteDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopCasketWhite,blocks,Container,New,shop Casket White,,,,,
+shopCasketWhiteActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCoffinWildWest,blocks,Container,KgNone,shop Coffin Wild West
+shopCoffinWildWestDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopCoffinWildWest,blocks,Container,New,shop Coffin Wild West,,,,,
+shopCoffinWildWestActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopMorticianDrawer,blocks,Container,KgNone,shop Mortician Drawer
+shopMorticianDrawerDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopMorticianDrawer,blocks,Container,New,shop Mortician Drawer,,,,,
+shopMorticianDrawerActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopWallCabinet,blocks,Container,KgNone,shop Furnace Drawer
+shopWallCabinetDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopWallCabinet,blocks,Container,New,shop Furnace Drawer,,,,,
+shopWallCabinetActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCoffinWildWestStack,blocks,Container,KgNone,shop Coffin Wild West Stack
+shopCoffinWildWestStackDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopCoffinWildWestStack,blocks,Container,New,shop Coffin Wild West Stack,,,,,
+shopCoffinWildWestStackActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCoffinWildWestLeaning,blocks,Container,KgNone,shop Coffin Wild West Leaning
+shopCoffinWildWestLeaningDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopCoffinWildWestLeaning,blocks,Container,New,shop Coffin Wild West Leaning,,,,,
+shopCoffinWildWestLeaningActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopUtilityCart,blocks,Container,KgNone,shop Utility Cart
+shopUtilityCartDesc,blocks,Container,,,Sell your Morgue Stuff in your very own vending machines and earn Duke coins.,,
+shopUtilityCart,blocks,Container,New,shop Utility Cart,,,,,
+shopUtilityCartActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfSingleBottomFood01,blocks,Container,KgNone,shop Store Shelf Single Bottom Food 01
+shopStoreShelfSingleBottomFood01Desc,blocks,Container,,,Sell your Food Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfSingleBottomFood01,blocks,Container,New,shop Store Shelf Single Bottom Food 01,,,,,
+shopStoreShelfSingleBottomFood01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfSingleBottomFood02,blocks,Container,KgNone,shop Store Shelf Single Bottom Food 02
+shopStoreShelfSingleBottomFood02Desc,blocks,Container,,,Sell your Food Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfSingleBottomFood02,blocks,Container,New,shop Store Shelf Single Bottom Food 02,,,,,
+shopStoreShelfSingleBottomFood02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfSingleTopFood01,blocks,Container,KgNone,shop Store Shelf Single Top Food 01
+shopStoreShelfSingleTopFood01Desc,blocks,Container,,,Sell your Food Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfSingleTopFood01,blocks,Container,New,shop Store Shelf Single Top Food 01,,,,,
+shopStoreShelfSingleTopFood01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfDoubleBottomFood01,blocks,Container,KgNone,shop Store Shelf Double Bottom Food 01
+shopStoreShelfDoubleBottomFood01Desc,blocks,Container,,,Sell your Food Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfDoubleBottomFood01,blocks,Container,New,shop Store Shelf Double Bottom Food 01,,,,,
+shopStoreShelfDoubleBottomFood01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfDoubleBottomFood02,blocks,Container,KgNone,shop Store Shelf Double Bottom Food 02
+shopStoreShelfDoubleBottomFood02Desc,blocks,Container,,,Sell your Food Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfDoubleBottomFood02,blocks,Container,New,shop Store Shelf Double Bottom Food 02,,,,,
+shopStoreShelfDoubleBottomFood02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfDoubleTopFood01,blocks,Container,KgNone,shop Store Shelf Double Top Food 01
+shopStoreShelfDoubleTopFood01Desc,blocks,Container,,,Sell your Food Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfDoubleTopFood01,blocks,Container,New,shop Store Shelf Double Top Food 01,,,,,
+shopStoreShelfDoubleTopFood01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfSingleBottomHardware01,blocks,Container,KgNone,shop Store Shelf Single Bottom Hardware 02
+shopStoreShelfSingleBottomHardware01Desc,blocks,Container,,,Sell your Hardware Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfSingleBottomHardware01,blocks,Container,New,shop Store Shelf Single Bottom Hardware 02,,,,,
+shopStoreShelfSingleBottomHardware01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfSingleBottomHardware02,blocks,Container,KgNone,shop Store Shelf Single Bottom Hardware 02
+shopStoreShelfSingleBottomHardware02Desc,blocks,Container,,,Sell your Hardware Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfSingleBottomHardware02,blocks,Container,New,shop Store Shelf Single Bottom Hardware 02,,,,,
+shopStoreShelfSingleBottomHardware02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfSingleTopHardware01,blocks,Container,KgNone,shop Store Shelf Single Top Hardware 01
+shopStoreShelfSingleTopHardware01Desc,blocks,Container,,,Sell your Hardware Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfSingleTopHardware01,blocks,Container,New,shop Store Shelf Single Top Hardware 01,,,,,
+shopStoreShelfSingleTopHardware01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfSingleTopHardware02,blocks,Container,KgNone,shop Store Shelf Single Top Hardware 02
+shopStoreShelfSingleTopHardware02Desc,blocks,Container,,,Sell your Hardware Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfSingleTopHardware02,blocks,Container,New,shop Store Shelf Single Top Hardware 02,,,,,
+shopStoreShelfSingleTopHardware02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfDoubleBottomHardware01,blocks,Container,KgNone,shop Store Shelf Double Bottom Hardware 01
+shopStoreShelfDoubleBottomHardware01Desc,blocks,Container,,,Sell your Hardware Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfDoubleBottomHardware01,blocks,Container,New,shop Store Shelf Double Bottom Hardware 01,,,,,
+shopStoreShelfDoubleBottomHardware01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfDoubleBottomHardware02,blocks,Container,KgNone,shop Store Shelf Double Bottom Hardware 02
+shopStoreShelfDoubleBottomHardware02Desc,blocks,Container,,,Sell your Hardware Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfDoubleBottomHardware02,blocks,Container,New,shop Store Shelf Double Bottom Hardware 02,,,,,
+shopStoreShelfDoubleBottomHardware02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfDoubleBottomHardware03Rags,blocks,Container,KgNone,shop Store Shelf Double Bottom Hardware 03 Rags
+shopStoreShelfDoubleBottomHardware03RagsDesc,blocks,Container,,,Sell your Hardware Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfDoubleBottomHardware03Rags,blocks,Container,New,shop Store Shelf Double Bottom Hardware 03 Rags,,,,,
+shopStoreShelfDoubleBottomHardware03RagsActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfDoubleTopHardware01,blocks,Container,KgNone,shop Store Shelf Double Top Hardware 01
+shopStoreShelfDoubleTopHardware01Desc,blocks,Container,,,Sell your Hardware Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfDoubleTopHardware01,blocks,Container,New,shop Store Shelf Double Top Hardware 01,,,,,
+shopStoreShelfDoubleTopHardware01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfDoubleTopHardware02Rags,blocks,Container,KgNone,shop Store Shelf Double Top Hardware 02 Rags
+shopStoreShelfDoubleTopHardware02RagsDesc,blocks,Container,,,Sell your Hardware Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfDoubleTopHardware02Rags,blocks,Container,New,shop Store Shelf Double Top Hardware 02 Rags,,,,,
+shopStoreShelfDoubleTopHardware02RagsActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfSingleBottomPharmaGoods01,blocks,Container,KgNone,shop Store Shelf Single Bottom Pharma Goods 01
+shopStoreShelfSingleBottomPharmaGoods01Desc,blocks,Container,,,Sell your Pharmaceutical Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfSingleBottomPharmaGoods01,blocks,Container,New,shop Store Shelf Single Bottom Pharma Goods 01,,,,,
+shopStoreShelfSingleBottomPharmaGoods01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfSingleBottomPharmaGoods02,blocks,Container,KgNone,shop Store Shelf Single Bottom Pharma Goods 02
+shopStoreShelfSingleBottomPharmaGoods02Desc,blocks,Container,,,Sell your Pharmaceutical Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfSingleBottomPharmaGoods02,blocks,Container,New,shop Store Shelf Single Bottom Pharma Goods 02,,,,,
+shopStoreShelfSingleBottomPharmaGoods02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfDoubleBottomPharmaGoods01,blocks,Container,KgNone,shop Store Shelf Double Bottom Pharma Goods 01
+shopStoreShelfDoubleBottomPharmaGoods01Desc,blocks,Container,,,Sell your Pharmaceutical Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfDoubleBottomPharmaGoods01,blocks,Container,New,shop Store Shelf Double Bottom Pharma Goods 01,,,,,
+shopStoreShelfDoubleBottomPharmaGoods01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfDoubleBottomPharmaGoods02,blocks,Container,KgNone,shop Store Shelf Double Bottom Pharma Goods 02
+shopStoreShelfDoubleBottomPharmaGoods02Desc,blocks,Container,,,Sell your Pharmaceutical Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfDoubleBottomPharmaGoods02,blocks,Container,New,shop Store Shelf Double Bottom Pharma Goods 02,,,,,
+shopStoreShelfDoubleBottomPharmaGoods02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfElectronicsSingleBottomPC,blocks,Container,KgNone,shop Store Shelf Electronics Single Bottom PC
+shopStoreShelfElectronicsSingleBottomPCDesc,blocks,Container,,,Sell your Electronic Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfElectronicsSingleBottomPC,blocks,Container,New,shop Store Shelf Electronics Single Bottom PC,,,,,
+shopStoreShelfElectronicsSingleBottomPCActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfElectronicsSingleBottomGoodsMisc,blocks,Container,KgNone,shop Store Shelf Electronics Single Bottom Goods Misc
+shopStoreShelfElectronicsSingleBottomGoodsMiscDesc,blocks,Container,,,Sell your Electronic Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfElectronicsSingleBottomGoodsMisc,blocks,Container,New,shop Store Shelf Electronics Single Bottom Goods Misc,,,,,
+shopStoreShelfElectronicsSingleBottomGoodsMiscActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfElectronicsSingleBottomHeadphones,blocks,Container,KgNone,shop Store Shelf Electronics Single Bottom Headphones
+shopStoreShelfElectronicsSingleBottomHeadphonesDesc,blocks,Container,,,Sell your Electronic Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfElectronicsSingleBottomHeadphones,blocks,Container,New,shop Store Shelf Electronics Single Bottom Headphones,,,,,
+shopStoreShelfElectronicsSingleBottomHeadphonesActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfElectronicsSingleBottomKeyboard,blocks,Container,KgNone,shop Store Shelf Electronics Single Bottom Keyboard
+shopStoreShelfElectronicsSingleBottomKeyboardDesc,blocks,Container,,,Sell your Electronic Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfElectronicsSingleBottomKeyboard,blocks,Container,New,shop Store Shelf Electronics Single Bottom Keyboard,,,,,
+shopStoreShelfElectronicsSingleBottomKeyboardActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfElectronicsSingleBottomLaptopClosed,blocks,Container,KgNone,shop Store Shelf Electronics Single Bottom Laptop Closed
+shopStoreShelfElectronicsSingleBottomLaptopClosedDesc,blocks,Container,,,Sell your Electronic Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfElectronicsSingleBottomLaptopClosed,blocks,Container,New,shop Store Shelf Electronics Single Bottom Laptop Closed,,,,,
+shopStoreShelfElectronicsSingleBottomLaptopClosedActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfElectronicsSingleBottomLaptopOpen,blocks,Container,KgNone,shop Store Shelf Electronics Single Bottom Laptop Open
+shopStoreShelfElectronicsSingleBottomLaptopOpenDesc,blocks,Container,,,Sell your Electronic Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfElectronicsSingleBottomLaptopOpen,blocks,Container,New,shop Store Shelf Electronics Single Bottom Laptop Open,,,,,
+shopStoreShelfElectronicsSingleBottomLaptopOpenActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfElectronicsSingleBottomSpeaker,blocks,Container,KgNone,shop Store Shelf Electronics Single Bottom Speaker
+shopStoreShelfElectronicsSingleBottomSpeakerDesc,blocks,Container,,,Sell your Electronic Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfElectronicsSingleBottomSpeaker,blocks,Container,New,shop Store Shelf Electronics Single Bottom Speaker,,,,,
+shopStoreShelfElectronicsSingleBottomSpeakerActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfElectronicsDoubleBottomGoods01,blocks,Container,KgNone,shop Store Shelf Electronics Double BottomGoods 01
+shopStoreShelfElectronicsDoubleBottomGoods01Desc,blocks,Container,,,Sell your Electronic Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfElectronicsDoubleBottomGoods01,blocks,Container,New,shop Store Shelf Electronics Double BottomGoods 01,,,,,
+shopStoreShelfElectronicsDoubleBottomGoods01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfElectronicsDoubleBottomGoods02,blocks,Container,KgNone,shop Store Shelf Electronics Double BottomGoods 02
+shopStoreShelfElectronicsDoubleBottomGoods02Desc,blocks,Container,,,Sell your Electronic Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfElectronicsDoubleBottomGoods02,blocks,Container,New,shop Store Shelf Electronics Double BottomGoods 02,,,,,
+shopStoreShelfElectronicsDoubleBottomGoods02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfElectronicsDoubleBottomGoods03,blocks,Container,KgNone,shop Store Shelf Electronics Double BottomGoods 03
+shopStoreShelfElectronicsDoubleBottomGoods03Desc,blocks,Container,,,Sell your Electronic Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfElectronicsDoubleBottomGoods03,blocks,Container,New,shop Store Shelf Electronics Double BottomGoods 03,,,,,
+shopStoreShelfElectronicsDoubleBottomGoods03Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfElectronicsDoubleBottomGoods04,blocks,Container,KgNone,shop Store Shelf Electronics Double BottomGoods 04
+shopStoreShelfElectronicsDoubleBottomGoods04Desc,blocks,Container,,,Sell your Electronic Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreShelfElectronicsDoubleBottomGoods04,blocks,Container,New,shop Store Shelf Electronics Double BottomGoods 04,,,,,
+shopStoreShelfElectronicsDoubleBottomGoods04Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreElectronicsBookShelfSpeaker,blocks,Container,KgNone,shop Store Electronics Book Shelf Speaker
+shopStoreElectronicsBookShelfSpeakerDesc,blocks,Container,,,Sell your Electronic Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreElectronicsBookShelfSpeaker,blocks,Container,New,shop Store Electronics Book Shelf Speaker,,,,,
+shopStoreElectronicsBookShelfSpeakerActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreElectronicsPalletTvFallen,blocks,Container,KgNone,shop Store Electronics Pallet Tv Fallen
+shopStoreElectronicsPalletTvFallenDesc,blocks,Container,,,Sell your Electronic Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreElectronicsPalletTvFallen,blocks,Container,New,shop Store Electronics Pallet Tv Fallen,,,,,
+shopStoreElectronicsPalletTvFallenActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreElectronicsPalletTvStanding,blocks,Container,KgNone,shop Store Electronics Pallet Tv Standing
+shopStoreElectronicsPalletTvStandingesc,blocks,Container,,,Sell your Electronic Stuff in your very own vending machines and earn Duke coins.,,
+shopStoreElectronicsPalletTvStanding,blocks,Container,New,shop Store Electronics Pallet Tv Standing,,,,,
+shopStoreElectronicsPalletTvStandingActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfSingleBottomTrash01,blocks,Container,KgNone,shop Store Shelf Single Bottom Trash 01
+shopStoreShelfSingleBottomTrash01Desc,blocks,Container,,,Sell your Trash in your very own vending machines and earn Duke coins.,,
+shopStoreShelfSingleBottomTrash01,blocks,Container,New,shop Store Shelf Single Bottom Trash 01,,,,,
+shopStoreShelfSingleBottomTrash01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfSingleBottomTrash02,blocks,Container,KgNone,shop Store Shelf Single Bottom Trash 02
+shopStoreShelfSingleBottomTrash02Desc,blocks,Container,,,Sell your Trash in your very own vending machines and earn Duke coins.,,
+shopStoreShelfSingleBottomTrash02,blocks,Container,New,shop Store Shelf Single Bottom Trash 02,,,,,
+shopStoreShelfSingleBottomTrash02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfSingleTopTrash01,blocks,Container,KgNone,shop Store Shelf Single Top Trash 01
+shopStoreShelfSingleTopTrash01Desc,blocks,Container,,,Sell your Trash in your very own vending machines and earn Duke coins.,,
+shopStoreShelfSingleTopTrash01,blocks,Container,New,shop Store Shelf Single Top Trash 01,,,,,
+shopStoreShelfSingleTopTrash01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfSingleTopTrash02,blocks,Container,KgNone,shop Store Shelf Single Top Trash 02
+shopStoreShelfSingleTopTrash02Desc,blocks,Container,,,Sell your Trash in your very own vending machines and earn Duke coins.,,
+shopStoreShelfSingleTopTrash02,blocks,Container,New,shop Store Shelf Single Top Trash 02,,,,,
+shopStoreShelfSingleTopTrash02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfDoubleBottomTrash01,blocks,Container,KgNone,shop Store Shelf Double Bottom Trash 01
+shopStoreShelfDoubleBottomTrash01Desc,blocks,Container,,,Sell your Trash in your very own vending machines and earn Duke coins.,,
+shopStoreShelfDoubleBottomTrash01,blocks,Container,New,shop Store Shelf Double Bottom Trash 01,,,,,
+shopStoreShelfDoubleBottomTrash01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfDoubleBottomTrash02,blocks,Container,KgNone,shop Store Shelf Double Bottom Trash 02
+shopStoreShelfDoubleBottomTrash02Desc,blocks,Container,,,Sell your Trash in your very own vending machines and earn Duke coins.,,
+shopStoreShelfDoubleBottomTrash02,blocks,Container,New,shop Store Shelf Double Bottom Trash 02,,,,,
+shopStoreShelfDoubleBottomTrash02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfDoubleTopTrash01,blocks,Container,KgNone,shop Store Shelf Double Top Trash 01
+shopStoreShelfDoubleTopTrash01Desc,blocks,Container,,,Sell your Trash in your very own vending machines and earn Duke coins.,,
+shopStoreShelfDoubleTopTrash01,blocks,Container,New,shop Store Shelf Double Top Trash 01,,,,,
+shopStoreShelfDoubleTopTrash01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreProduceBasketApples1,blocks,Container,KgNone,shop Store Produce Basket Apples 1
+shopStoreProduceBasketApples1Desc,blocks,Container,,,Sell your Fruit in your very own vending machines and earn Duke coins.,,
+shopStoreProduceBasketApples1,blocks,Container,New,shop Store Produce Basket Apples 1,,,,,
+shopStoreProduceBasketApples1Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreProduceBasketApples2,blocks,Container,KgNone,shop Store Produce Basket Apples 2
+shopStoreProduceBasketApples2Desc,blocks,Container,,,Sell your Fruit in your very own vending machines and earn Duke coins.,,
+shopStoreProduceBasketApples2,blocks,Container,New,shop Store Produce Basket Apples 2,,,,,
+shopStoreProduceBasketApples2Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreProduceBasketGourds1,blocks,Container,KgNone,shop Store Produce Basket Gourds 1
+shopStoreProduceBasketGourds1Desc,blocks,Container,,,Sell your Fruit in your very own vending machines and earn Duke coins.,,
+shopStoreProduceBasketGourds1,blocks,Container,New,shop Store Produce Basket Gourds 1,,,,,
+shopStoreProduceBasketGourds1Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreProduceBasketApples2,blocks,Container,KgNone,shop Store Produce Basket Gourds 2
+shopStoreProduceBasketApples2Desc,blocks,Container,,,Sell your Fruit in your very own vending machines and earn Duke coins.,,
+shopStoreProduceBasketApples2,blocks,Container,New,shop Store Produce Basket Gourds 2,,,,,
+shopStoreProduceBasketApples2Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreProduceBasketlettuce1,blocks,Container,KgNone,shop Store Produce Basket lettuce 1
+shopStoreProduceBasketlettuce1Desc,blocks,Container,,,Sell your Fruit in your very own vending machines and earn Duke coins.,,
+shopStoreProduceBasketlettuce1,blocks,Container,New,shop Store Produce Basket lettuce 1,,,,,
+shopStoreProduceBasketlettuce1Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreProduceBasketlettuce2,blocks,Container,KgNone,shop Store Produce Basket lettuce 2
+shopStoreProduceBasketlettuce2Desc,blocks,Container,,,Sell your Fruit in your very own vending machines and earn Duke coins.,,
+shopStoreProduceBasketlettuce2,blocks,Container,New,shop Store Produce Basket lettuce 2,,,,,
+shopStoreProduceBasketlettuce2Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreProduceBasketMelons1,blocks,Container,KgNone,shop Store Produce Basket Melons 1
+shopStoreProduceBasketMelons1Desc,blocks,Container,,,Sell your Fruit in your very own vending machines and earn Duke coins.,,
+shopStoreProduceBasketMelons1,blocks,Container,New,shop Store Produce Basket Melons 1,,,,,
+shopStoreProduceBasketMelons1Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreProduceBasketMelons2,blocks,Container,KgNone,shop Store Produce Basket Melons 2
+shopStoreProduceBasketMelons2Desc,blocks,Container,,,Sell your Fruit in your very own vending machines and earn Duke coins.,,
+shopStoreProduceBasketMelons2,blocks,Container,New,shop Store Produce Basket Melons 2,,,,,
+shopStoreProduceBasketMelons2Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopDisplayCaseLeft,blocks,Container,KgNone,shop Display Case Left
+shopDisplayCaseLeftDesc,blocks,Container,,,Sell your Valuables in your very own vending machines and earn Duke coins.,,
+shopDisplayCaseLeft,blocks,Container,New,shop Display Case Left,,,,,
+shopDisplayCaseLeftActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopDisplayCaseMiddle,blocks,Container,KgNone,shop Display Case Middle
+shopDisplayCaseMiddleDesc,blocks,Container,,,Sell your Valuables in your very own vending machines and earn Duke coins.,,
+shopDisplayCaseMiddle,blocks,Container,New,shop Display Case Middle,,,,,
+shopDisplayCaseMiddleActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopDisplayCaseRight,blocks,Container,KgNone,shop Display Case Right
+shopDisplayCaseRightDesc,blocks,Container,,,Sell your Valuables in your very own vending machines and earn Duke coins.,,
+shopDisplayCaseRight,blocks,Container,New,shop Display Case Right,,,,,
+shopDisplayCaseRightActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopDisplayCaseAmmoLeft,blocks,Container,KgNone,shop Display Case Ammo Left
+shopDisplayCaseAmmoLeftDesc,blocks,Container,,,Sell your Ammo in your very own vending machines and earn Duke coins.,,
+shopDisplayCaseAmmoLeft,blocks,Container,New,shop Display Case Ammo Left,,,,,
+shopDisplayCaseAmmoLeftActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopDisplayCaseAmmoMiddle01,blocks,Container,KgNone,shop Display Case Ammo Middle 01
+shopDisplayCaseAmmoMiddle01Desc,blocks,Container,,,Sell your Ammo in your very own vending machines and earn Duke coins.,,
+shopDisplayCaseAmmoMiddle01,blocks,Container,New,shop Display Case Ammo Middle 01,,,,,
+shopDisplayCaseAmmoMiddle01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopDisplayCaseAmmoMiddle02,blocks,Container,KgNone,shop Display Case Ammo Middle 02
+shopDisplayCaseAmmoMiddle02Desc,blocks,Container,,,Sell your Ammo in your very own vending machines and earn Duke coins.,,
+shopDisplayCaseAmmoMiddle02,blocks,Container,New,shop Display Case Ammo Middle 02,,,,,
+shopDisplayCaseAmmoMiddle02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopDisplayCaseAmmoRight,blocks,Container,KgNone,shop Display Case Ammo Right
+shopDisplayCaseAmmoRightDesc,blocks,Container,,,Sell your Ammo in your very own vending machines and earn Duke coins.,,
+shopDisplayCaseAmmoRight,blocks,Container,New,shop Display Case Ammo Right,,,,,
+shopDisplayCaseAmmoRightActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopGunRackSmallMagazines,blocks,Container,KgNone,shop Gun Rack Small Magazines
+shopGunRackSmallMagazinesDesc,blocks,Container,,,Sell your Ammo in your very own vending machines and earn Duke coins.,,
+shopGunRackSmallMagazines,blocks,Container,New,shop Gun Rack Small Magazines,,,,,
+shopGunRackSmallMagazinesActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopGunRackSmallArmor,blocks,Container,KgNone,shop Gun Rack Small Armor
+shopGunRackSmallArmorDesc,blocks,Container,,,Sell your Armor in your very own vending machines and earn Duke coins.,,
+shopGunRackSmallArmor,blocks,Container,New,shop Gun Rack Small Armor,,,,,
+shopGunRackSmallArmorActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopGunRackLargeGuns01,blocks,Container,KgNone,shop Gun Rack Large Guns 01
+shopGunRackLargeGuns01Desc,blocks,Container,,,Sell your Large Weapons in your very own vending machines and earn Duke coins.,,
+shopGunRackLargeGuns01,blocks,Container,New,shop Gun Rack Large Guns 01,,,,,
+shopGunRackLargeGuns01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopGunRackLargeGuns02,blocks,Container,KgNone,shop Gun Rack Large Guns 02
+shopGunRackLargeGuns02Desc,blocks,Container,,,Sell your Large Weapons in your very own vending machines and earn Duke coins.,,
+shopGunRackLargeGuns02,blocks,Container,New,shop Gun Rack Large Guns 02,,,,,
+shopGunRackLargeGuns02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClothesRackRoundPants,blocks,Container,KgNone,shop Clothes Rack Round Pants
+shopClothesRackRoundPantsDesc,blocks,Container,,,Sell your Pants in your very own vending machines and earn Duke coins.,,
+shopClothesRackRoundPants,blocks,Container,New,shop Clothes Rack Round Pants,,,,,
+shopClothesRackRoundPantsActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClothesRackRoundShirts,blocks,Container,KgNone,shop Clothes Rack Round Shirts
+shopClothesRackRoundShirtsDesc,blocks,Container,,,Sell your Shirts in your very own vending machines and earn Duke coins.,,
+shopClothesRackRoundShirts,blocks,Container,New,shop Clothes Rack Round Shirts,,,,,
+shopClothesRackRoundShirtsActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClothesRackRectanglePants,blocks,Container,KgNone,shop Clothes Rack Rectangle Pants
+shopClothesRackRectanglePantsDesc,blocks,Container,,,Sell your Pants in your very own vending machines and earn Duke coins.,,
+shopClothesRackRectanglePants,blocks,Container,New,shop Clothes Rack Rectangle Pants,,,,,
+shopClothesRackRectanglePantsActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClothesRackRectangleShirts,blocks,Container,KgNone,shop Clothes Rack Rectangle Shirts
+shopClothesRackRectangleShirtsDesc,blocks,Container,,,Sell your Shirts in your very own vending machines and earn Duke coins.,,
+shopClothesRackRectangleShirts,blocks,Container,New,shop Clothes Rack Rectangle Shirts,,,,,
+shopClothesRackRectangleShirtsActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClothesRackWallPants,blocks,Container,KgNone,shop Clothes Rack Wall Pants
+shopClothesRackWallPantsDesc,blocks,Container,,,Sell your Pants in your very own vending machines and earn Duke coins.,,
+shopClothesRackWallPants,blocks,Container,New,shop Clothes Rack Wall Pants,,,,,
+shopClothesRackWallPantsActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClothesRackWallLongSleeve,blocks,Container,KgNone,shop Clothes Rack Wall Long Sleeve
+shopClothesRackWallLongSleeveDesc,blocks,Container,,,Sell your Long Sleeve Shirts in your very own vending machines and earn Duke coins.,,
+shopClothesRackWallLongSleeve,blocks,Container,New,shop Clothes Rack Wall Long Sleeve,,,,,
+shopClothesRackWallLongSleeveActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClothesRackWallSweater,blocks,Container,KgNone,shop Clothes Rack Wall Sweater
+shopClothesRackWallSweaterDesc,blocks,Container,,,Sell your Sweaters in your very own vending machines and earn Duke coins.,,
+shopClothesRackWallSweater,blocks,Container,New,shop Clothes Rack Wall Sweater,,,,,
+shopClothesRackWallSweaterActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClothesRackWallTShirts,blocks,Container,KgNone,shop Clothes Rack Wall TShirts
+shopClothesRackWallTShirtsDesc,blocks,Container,,,Sell your TShirts in your very own vending machines and earn Duke coins.,,
+shopClothesRackWallTShirts,blocks,Container,New,shop Clothes Rack Wall TShirts,,,,,
+shopClothesRackWallTShirtsActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClothesShelfHalfJeans01,blocks,Container,KgNone,shop Clothes Shelf Half Jeans 01
+shopClothesShelfHalfJeans01Desc,blocks,Container,,,Sell your Jeans in your very own vending machines and earn Duke coins.,,
+shopClothesShelfHalfJeans01,blocks,Container,New,shop Clothes Shelf Half Jeans 01,,,,,
+shopClothesShelfHalfJeans01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClothesShelfHalfJeans02,blocks,Container,KgNone,shop Clothes Shelf Half Jeans 02
+shopClothesShelfHalfJeans02Desc,blocks,Container,,,Sell your Jeans in your very own vending machines and earn Duke coins.,,
+shopClothesShelfHalfJeans02,blocks,Container,New,shop Clothes Shelf Half Jeans 02,,,,,
+shopClothesShelfHalfJeans02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClothesShelfHalfShirts01,blocks,Container,KgNone,shop Clothes Shelf Half Shirts 01
+shopClothesShelfHalfShirts01Desc,blocks,Container,,,Sell your Shirts in your very own vending machines and earn Duke coins.,,
+shopClothesShelfHalfShirts01,blocks,Container,New,shop Clothes Shelf Half Shirts 01,,,,,
+shopClothesShelfHalfShirts01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClothesShelfHalfShirts02,blocks,Container,KgNone,shop Clothes Shelf Half Shirts 02
+shopClothesShelfHalfShirts02Desc,blocks,Container,,,Sell your Shirts in your very own vending machines and earn Duke coins.,,
+shopClothesShelfHalfShirts02,blocks,Container,New,shop Clothes Shelf Half Shirts 02,,,,,
+shopClothesShelfHalfShirts02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClothesShelfHalfSweaters01,blocks,Container,KgNone,shop Clothes Shelf Half Sweaters 01
+shopClothesShelfHalfSweaters01Desc,blocks,Container,,,Sell your Sweaters in your very own vending machines and earn Duke coins.,,
+shopClothesShelfHalfSweaters01,blocks,Container,New,shop Clothes Shelf Half Sweaters 01,,,,,
+shopClothesShelfHalfSweaters01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClothesShelfStackJeans01,blocks,Container,KgNone,shop Clothes Shelf Stack Jeans 01
+shopClothesShelfStackJeans01Desc,blocks,Container,,,Sell your Jeans in your very own vending machines and earn Duke coins.,,
+shopClothesShelfStackJeans01,blocks,Container,New,shop Clothes Shelf Stack Jeans 01,,,,,
+shopClothesShelfStackJeans01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClothesShelfStackJeans02,blocks,Container,KgNone,shop Clothes Shelf Stack Jeans 02
+shopClothesShelfStackJeans02Desc,blocks,Container,,,Sell your Jeans in your very own vending machines and earn Duke coins.,,
+shopClothesShelfStackJeans02,blocks,Container,New,shop Clothes Shelf Stack Jeans 02,,,,,
+shopClothesShelfStackJeans02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClothesShelfStackShirts01,blocks,Container,KgNone,shop Clothes Shelf Stack Shirts 01
+shopClothesShelfStackShirts01Desc,blocks,Container,,,Sell your Shirts in your very own vending machines and earn Duke coins.,,
+shopClothesShelfStackShirts01,blocks,Container,New,shop Clothes Shelf Stack Shirts 01,,,,,
+shopClothesShelfStackShirts01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClothesShelfStackShirts02,blocks,Container,KgNone,shop Clothes Shelf Stack Shirts 02
+shopClothesShelfStackShirts02Desc,blocks,Container,,,Sell your Shirts in your very own vending machines and earn Duke coins.,,
+shopClothesShelfStackShirts02,blocks,Container,New,shop Clothes Shelf Stack Shirts 02,,,,,
+shopClothesShelfStackShirts02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopClothesPileFloor01,blocks,Container,KgNone,shop Clothes Pile Floor 01
+shopClothesPileFloor01Desc,blocks,Container,,,Sell your Loose Mixed Clothing in your very own vending machines and earn Duke coins.,,
+shopClothesPileFloor01,blocks,Container,New,shop Clothes Pile Floor 01,,,,,
+shopClothesPileFloor01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfDoubleBottomShoes,blocks,Container,KgNone,shop Store Shelf Double Bottom Shoes
+shopStoreShelfDoubleBottomShoesDesc,blocks,Container,,,Sell your Shoes in your very own vending machines and earn Duke coins.,,
+shopStoreShelfDoubleBottomShoes,blocks,Container,New,shop Store Shelf Double Bottom Shoes,,,,,
+shopStoreShelfDoubleBottomShoesActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfDoubleTopShoes,blocks,Container,KgNone,shop Store Shelf Double Top Shoes
+shopStoreShelfDoubleTopShoesDesc,blocks,Container,,,Sell your Shoes in your very own vending machines and earn Duke coins.,,
+shopStoreShelfDoubleTopShoes,blocks,Container,New,shop Store Shelf Double Top Shoes,,,,,
+shopStoreShelfDoubleTopShoesActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfSingleBottomShoes,blocks,Container,KgNone,shop Store Shelf Single Bottom Shoes
+shopStoreShelfSingleBottomShoesDesc,blocks,Container,,,Sell your Shoes in your very own vending machines and earn Duke coins.,,
+shopStoreShelfSingleBottomShoes,blocks,Container,New,shop Store Shelf Single Bottom Shoes,,,,,
+shopStoreShelfSingleBottomShoesActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopStoreShelfSingleTopShoes,blocks,Container,KgNone,shop Store Shelf Single Top Shoes
+shopStoreShelfSingleTopShoesDesc,blocks,Container,,,Sell your Shoes in your very own vending machines and earn Duke coins.,,
+shopStoreShelfSingleTopShoes,blocks,Container,New,shop Store Shelf Single Top Shoes,,,,,
+shopStoreShelfSingleTopShoesActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopShoesPileSandals,blocks,Container,KgNone,shop Shoes Pile Sandals
+shopShoesPileSandalsDesc,blocks,Container,,,Sell your Sandals in your very own vending machines and earn Duke coins.,,
+shopShoesPileSandals,blocks,Container,New,shop Shoes Pile Sandals,,,,,
+shopShoesPileSandalsActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopShoesPileWomensHeels,blocks,Container,KgNone,shop Shoes Pile Womens Heels
+shopShoesPileWomensHeelsDesc,blocks,Container,,,Sell your Womens Heels in your very own vending machines and earn Duke coins.,,
+shopShoesPileWomensHeels,blocks,Container,New,shop Shoes Pile Womens Heels,,,,,
+shopShoesPileWomensHeelsActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopShoesPileSneakers,blocks,Container,KgNone,shop Shoes Pile Sneakers
+shopShoesPileSneakersDesc,blocks,Container,,,Sell your Sneakers in your very own vending machines and earn Duke coins.,,
+shopShoesPileSneakers,blocks,Container,New,shop Shoes Pile Sneakers,,,,,
+shopShoesPileSneakersActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopShoesPileLeatherBoots,blocks,Container,KgNone,shop Shoes Pile Leather Boots
+shopShoesPileLeatherBootsDesc,blocks,Container,,,Sell your Leather Boots in your very own vending machines and earn Duke coins.,,
+shopShoesPileLeatherBoots,blocks,Container,New,shop Shoes Pile Leather Boots,,,,,
+shopShoesPileLeatherBootsActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopShoesPileBusinessShoes,blocks,Container,KgNone,shop Shoes Pile Business Shoes
+shopShoesPileBusinessShoesDesc,blocks,Container,,,Sell your Business Shoes in your very own vending machines and earn Duke coins.,,
+shopShoesPileBusinessShoes,blocks,Container,New,shop Shoes Pile Business Shoes,,,,,
+shopShoesPileBusinessShoesActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopShoesPileCommercial01,blocks,Container,KgNone,shop Shoes Pile Commercial 01
+shopShoesPileCommercial01Desc,blocks,Container,,,Sell your Commercial 01 Shoes in your very own vending machines and earn Duke coins.,,
+shopShoesPileCommercial01,blocks,Container,New,shop Shoes Pile Commercial 01,,,,,
+shopShoesPileCommercial01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopShoesPileCommercial02,blocks,Container,KgNone,shop Shoes Pile Commercial 02
+shopShoesPileCommercial02Desc,blocks,Container,,,Sell your Commercial 02 Shoes in your very own vending machines and earn Duke coins.,,
+shopShoesPileCommercial02,blocks,Container,New,shop Shoes Pile Commercial 02,,,,,
+shopShoesPileCommercial02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBookShelfSingleBottom01,blocks,Container,KgNone,shop Book Shelf Single Bottom 01
+shopBookShelfSingleBottom01Desc,blocks,Container,,,Sell your Books in your very own vending machines and earn Duke coins.,,
+shopBookShelfSingleBottom01,blocks,Container,New,shop Book Shelf Single Bottom 01,,,,,
+shopBookShelfSingleBottom01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBookShelfSingleBottom02,blocks,Container,KgNone,shop Book Shelf Single Bottom 02
+shopBookShelfSingleBottom02Desc,blocks,Container,,,Sell your Books in your very own vending machines and earn Duke coins.,,
+shopBookShelfSingleBottom02,blocks,Container,New,shop Book Shelf Single Bottom 02,,,,,
+shopBookShelfSingleBottom02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBookShelfSingleTop01,blocks,Container,KgNone,shop Book Shelf Single Top 01
+shopBookShelfSingleTop01Desc,blocks,Container,,,Sell your Books in your very own vending machines and earn Duke coins.,,
+shopBookShelfSingleTop01,blocks,Container,New,shop Book Shelf Single Top 01,,,,,
+shopBookShelfSingleTop01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBookShelfSingleTop02,blocks,Container,KgNone,shop Book Shelf Single Top 02
+shopBookShelfSingleTop02Desc,blocks,Container,,,Sell your Books in your very own vending machines and earn Duke coins.,,
+shopBookShelfSingleTop02,blocks,Container,New,shop Book Shelf Single Top 02,,,,,
+shopBookShelfSingleTop02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBookShelfDoubleBottom01,blocks,Container,KgNone,shop Book Shelf Double Bottom 01
+shopBookShelfDoubleBottom01Desc,blocks,Container,,,Sell your Books in your very own vending machines and earn Duke coins.,,
+shopBookShelfDoubleBottom01,blocks,Container,New,shop Book Shelf Double Bottom 01,,,,,
+shopBookShelfDoubleBottom01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBookShelfDoubleBottom02,blocks,Container,KgNone,shop Book Shelf Double Bottom 02
+shopBookShelfDoubleBottom02Desc,blocks,Container,,,Sell your Books in your very own vending machines and earn Duke coins.,,
+shopBookShelfDoubleBottom02,blocks,Container,New,shop Book Shelf Double Bottom 02,,,,,
+shopBookShelfDoubleBottom02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBookShelfDoubleTop01,blocks,Container,KgNone,shop Book Shelf Double Top 01
+shopBookShelfDoubleTop01Desc,blocks,Container,,,Sell your Books in your very own vending machines and earn Duke coins.,,
+shopBookShelfDoubleTop01,blocks,Container,New,shop Book Shelf Double Top 01,,,,,
+shopBookShelfDoubleTop01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBookShelfDoubleTop02,blocks,Container,KgNone,shop Book Shelf Double Top 02
+shopBookShelfDoubleTop02Desc,blocks,Container,,,Sell your Books in your very own vending machines and earn Duke coins.,,
+shopBookShelfDoubleTop02,blocks,Container,New,shop Book Shelf Double Top 02,,,,,
+shopBookShelfDoubleTop02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBookShelfSingleCapBottom01,blocks,Container,KgNone,shop Book Shelf Single Cap Bottom 01
+shopBookShelfSingleCapBottom01Desc,blocks,Container,,,Sell your Magazines in your very own vending machines and earn Duke coins.,,
+shopBookShelfSingleCapBottom01,blocks,Container,New,shop Book Shelf Single Cap Bottom 01,,,,,
+shopBookShelfSingleCapBottom01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBookShelfSingleCapBottom02,blocks,Container,KgNone,shop Book Shelf Single Cap Bottom 02
+shopBookShelfSingleCapBottom02Desc,blocks,Container,,,Sell your Magazines in your very own vending machines and earn Duke coins.,,
+shopBookShelfSingleCapBottom02,blocks,Container,New,shop Book Shelf Single Cap Bottom 02,,,,,
+shopBookShelfSingleCapBottom02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBookShelfSingleCapTop01,blocks,Container,KgNone,shop Book Shelf Single Cap Top 01
+shopBookShelfSingleCapTop01Desc,blocks,Container,,,Sell your Magazines in your very own vending machines and earn Duke coins.,,
+shopBookShelfSingleCapTop01,blocks,Container,New,shop Book Shelf Single Cap Top 01,,,,,
+shopBookShelfSingleCapTop01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBookShelfSingleCapTop02,blocks,Container,KgNone,shop Book Shelf Single Cap Top 02
+shopBookShelfSingleCapTop02Desc,blocks,Container,,,Sell your Magazines in your very own vending machines and earn Duke coins.,,
+shopBookShelfSingleCapTop02,blocks,Container,New,shop Book Shelf Single Cap Top 02,,,,,
+shopBookShelfSingleCapTop02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBookPile01,blocks,Container,KgNone,shop Book Pile 01
+shopBookPile01Desc,blocks,Container,,,Sell your Loose Books in your very own vending machines and earn Duke coins.,,
+shopBookPile01,blocks,Container,New,shop Book Pile 01,,,,,
+shopBookPile01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBookPile02,blocks,Container,KgNone,shop Book Pile 02
+shopBookPile02Desc,blocks,Container,,,Sell your Loose Books in your very own vending machines and earn Duke coins.,,
+shopBookPile02,blocks,Container,New,shop Book Pile 02,,,,,
+shopBookPile02Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBookPile03,blocks,Container,KgNone,shop Book Pile 03
+shopBookPile03Desc,blocks,Container,,,Sell your Loose Books in your very own vending machines and earn Duke coins.,,
+shopBookPile03,blocks,Container,New,shop Book Pile 03,,,,,
+shopBookPile03Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBookPile04,blocks,Container,KgNone,shop Book Pile 04
+shopBookPile04Desc,blocks,Container,,,Sell your Loose Books in your very own vending machines and earn Duke coins.,,
+shopBookPile04,blocks,Container,New,shop Book Pile 04,,,,,
+shopBookPile04Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopModularFireWoodStackA,blocks,Container,KgNone,shop Modular FireWood Stack A
+shopModularFireWoodStackADesc,blocks,Container,,,Sell your Wood in your very own vending machines and earn Duke coins.,,
+shopModularFireWoodStackA,blocks,Container,New,shop Modular FireWood Stack A,,,,,
+shopModularFireWoodStackAActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopModularFireWoodStackB,blocks,Container,KgNone,shop Modular FireWood Stack B
+shopModularFireWoodStackBDesc,blocks,Container,,,Sell your Wood in your very own vending machines and earn Duke coins.,,
+shopModularFireWoodStackB,blocks,Container,New,shop Modular FireWood Stack B,,,,,
+shopModularFireWoodStackBActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopModularFireWoodStackC,blocks,Container,KgNone,shop Modular FireWood Stack C
+shopModularFireWoodStackCDesc,blocks,Container,,,Sell your Wood in your very own vending machines and earn Duke coins.,,
+shopModularFireWoodStackC,blocks,Container,New,shop Modular FireWood Stack C,,,,,
+shopModularFireWoodStackCActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletWhiteBagsBase,blocks,Container,KgNone,shop Pallet White Bags Base
+shopPalletWhiteBagsBaseDesc,blocks,Container,,,Sell your Concrete in your very own vending machines and earn Duke coins.,,
+shopPalletWhiteBagsBase,blocks,Container,New,shop Pallet White Bags Base,,,,,
+shopPalletWhiteBagsBaseActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletWhiteBagsTile,blocks,Container,KgNone,shop Pallet White Bags Tile
+shopPalletWhiteBagsTileDesc,blocks,Container,,,Sell your Concrete in your very own vending machines and earn Duke coins.,,
+shopPalletWhiteBagsTile,blocks,Container,New,shop Pallet White Bags Tile,,,,,
+shopPalletWhiteBagsTileActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletWhiteBagsTop,blocks,Container,KgNone,shop Pallet White Bags Top
+shopPalletWhiteBagsTopDesc,blocks,Container,,,Sell your Concrete in your very own vending machines and earn Duke coins.,,
+shopPalletWhiteBagsTop,blocks,Container,New,shop Pallet White Bags Top,,,,,
+shopPalletWhiteBagsTopActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletWhiteBagsPartial1,blocks,Container,KgNone,shop Pallet White Bags Partial 1
+shopPalletWhiteBagsPartial1Desc,blocks,Container,,,Sell your Concrete in your very own vending machines and earn Duke coins.,,
+shopPalletWhiteBagsPartial1,blocks,Container,New,shop Pallet White Bags Partial 1,,,,,
+shopPalletWhiteBagsPartial1Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletWhiteBagsPartial2,blocks,Container,KgNone,shop Pallet White Bags Partial 2
+shopPalletWhiteBagsPartial2Desc,blocks,Container,,,Sell your Concrete in your very own vending machines and earn Duke coins.,,
+shopPalletWhiteBagsPartial2,blocks,Container,New,shop Pallet White Bags Partial 2,,,,,
+shopPalletWhiteBagsPartial2Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletWhiteBagsLoose,blocks,Container,KgNone,shop Pallet White Bags Loose
+shopPalletWhiteBagsLooseDesc,blocks,Container,,,Sell your Concrete in your very own vending machines and earn Duke coins.,,
+shopPalletWhiteBagsLoose,blocks,Container,New,shop Pallet White Bags Loose,,,,,
+shopPalletWhiteBagsLooseActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletBrownBoxesBase,blocks,Container,KgNone,shop Pallet Brown Boxes Base
+shopPalletBrownBoxesBaseDesc,blocks,Container,,,Sell your Small Goods in your very own vending machines and earn Duke coins.,,
+shopPalletBrownBoxesBase,blocks,Container,New,shop Pallet Brown Boxes Base,,,,,
+shopPalletBrownBoxesBaseActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletBrownBoxesTile,blocks,Container,KgNone,shop Pallet Brown Boxes Tile
+shopPalletBrownBoxesTileDesc,blocks,Container,,,Sell your Small Goods in your very own vending machines and earn Duke coins.,,
+shopPalletBrownBoxesTile,blocks,Container,New,shop Pallet Brown Boxes Tile,,,,,
+shopPalletBrownBoxesTileActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletBrownBoxesTop,blocks,Container,KgNone,shop Pallet Brown Boxes Top
+shopPalletBrownBoxesTopDesc,blocks,Container,,,Sell your Small Goods in your very own vending machines and earn Duke coins.,,
+shopPalletBrownBoxesTop,blocks,Container,New,shop Pallet Brown Boxes Top,,,,,
+shopPalletBrownBoxesTopActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletBrownBoxesLoose,blocks,Container,KgNone,shop Pallet Brown Boxes Loose
+shopPalletBrownBoxesLooseDesc,blocks,Container,,,Sell your Small Goods in your very own vending machines and earn Duke coins.,,
+shopPalletBrownBoxesLoose,blocks,Container,New,shop Pallet Brown Boxes Loose,,,,,
+shopPalletBrownBoxesLooseActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletBricksBase,blocks,Container,KgNone,shop Pallet Bricks Base
+shopPalletBricksBaseDesc,blocks,Container,,,Sell your Bricks in your very own vending machines and earn Duke coins.,,
+shopPalletBricksBase,blocks,Container,New,shop Pallet Bricks Base,,,,,
+shopPalletBricksBaseActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletBricksTile,blocks,Container,KgNone,shop Pallet Bricks Tile
+shopPalletBricksTileDesc,blocks,Container,,,Sell your Bricks in your very own vending machines and earn Duke coins.,,
+shopPalletBricksTile,blocks,Container,New,shop Pallet Bricks Tile,,,,,
+shopPalletBricksTileActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletBricksTop,blocks,Container,KgNone,shop Pallet Bricks Top
+shopPalletBricksTopDesc,blocks,Container,,,Sell your Bricks in your very own vending machines and earn Duke coins.,,
+shopPalletBricksTop,blocks,Container,New,shop Pallet Bricks Top,,,,,
+shopPalletBricksTopActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletBricksPartial1,blocks,Container,KgNone,shop Pallet Bricks Partial 1
+shopPalletBricksPartial1Desc,blocks,Container,,,Sell your Bricks in your very own vending machines and earn Duke coins.,,
+shopPalletBricksPartial1,blocks,Container,New,shop Pallet Bricks Partial 1,,,,,
+shopPalletBricksPartial1Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletBricksPartial2,blocks,Container,KgNone,shop Pallet BricksPartial 2
+shopPalletBricksPartial2Desc,blocks,Container,,,Sell your Bricks in your very own vending machines and earn Duke coins.,,
+shopPalletBricksPartial2,blocks,Container,New,shop Pallet BricksPartial 2,,,,,
+shopPalletBricksPartial2Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletBricksLoose,blocks,Container,KgNone,shop Pallet Bricks Loose
+shopPalletBricksLooseDesc,blocks,Container,,,Sell your Bricks in your very own vending machines and earn Duke coins.,,
+shopPalletBricksLoose,blocks,Container,New,shop Pallet Bricks Loose,,,,,
+shopPalletBricksLooseActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletBlueTarpBaseWhite,blocks,Container,KgNone,shop Pallet Blue Tarp Base
+shopPalletBlueTarpBaseWhiteDesc,blocks,Container,,,Sell your Goods in your very own vending machines and earn Duke coins.,,
+shopPalletBlueTarpBaseWhite,blocks,Container,New,shop Pallet Blue Tarp Base,,,,,
+shopPalletBlueTarpBaseWhiteActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletBlueTarpTileWhite,blocks,Container,KgNone,shop Pallet Blue Tarp Tile
+shopPalletBlueTarpTileWhiteDesc,blocks,Container,,,Sell your Goods in your very own vending machines and earn Duke coins.,,
+shopPalletBlueTarpTileWhite,blocks,Container,New,shop Pallet Blue Tarp Tile,,,,,
+shopPalletBlueTarpTileWhiteActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopPalletCompressedCardboard,blocks,Container,KgNone,shop Pallet Compressed Cardboard
+shopPalletCompressedCardboardDesc,blocks,Container,,,Sell your Damaged Goods in your very own vending machines and earn Duke coins.,,
+shopPalletCompressedCardboard,blocks,Container,New,shop Pallet Compressed Cardboard,,,,,
+shopPalletCompressedCardboardActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopForge,blocks,Container,KgNone,shop Forge
+shopForgeDesc,blocks,Container,,,Sell all your Forge Supplies needs in your very own vending machines and earn Duke coins.,,
+shopForge,blocks,Container,New,shop Forge,,,,,
+shopForgeActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopWorkbench,blocks,Container,KgNone,shop Workbench
+shopWorkbenchDesc,blocks,Container,,,Sell all your Workbench Supplies needs in your very own vending machines and earn Duke coins.,,
+shopWorkbench,blocks,Container,New,shop Workbench,,,,,
+shopWorkbenchActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCementMixer,blocks,Container,KgNone,shop Cement Mixer
+shopCementMixerDesc,blocks,Container,,,Sell all your Cement Mixer Supplies needs in your very own vending machines and earn Duke coins.,,
+shopCementMixer,blocks,Container,New,shop Cement Mixer,,,,,
+shopCementMixerActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopChemistryStation,blocks,Container,KgNone,shop Chemistry Station
+shopChemistryStationDesc,blocks,Container,,,Sell all your Chemistry Station Supplies needs in your very own vending machines and earn Duke coins.,,
+shopChemistryStation,blocks,Container,New,shop Chemistry Station,,,,,
+shopChemistryStationActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopTableSaw,blocks,Container,KgNone,shop Table Saw
+shopTableSawDesc,blocks,Container,,,Sell all your Table Saw Supplies needs in your very own vending machines and earn Duke coins.,,
+shopTableSaw,blocks,Container,New,shop Table Saw,,,,,
+shopTableSawActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopGeneratorbank,blocks,Container,KgNone,shop Generator bank
+shopForgeDesc,blocks,Container,,,Sell all your Generator bank Supplies needs in your very own vending machines and earn Duke coins.,,
+shopGeneratorbank,blocks,Container,New,shop Generator bank,,,,,
+shopGeneratorbankActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopSolarbank,blocks,Container,KgNone,shop Solar bank
+shopSolarbankDesc,blocks,Container,,,Sell all your Solar bank Supplies needs in your very own vending machines and earn Duke coins.,,
+shopSolarbank,blocks,Container,New,shop Solar bank,,,,,
+shopSolarbankActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBatterybank,blocks,Container,KgNone,shop Battery bank
+shopBatterybankDesc,blocks,Container,,,Sell all your Battery bank Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBatterybank,blocks,Container,New,shop Battery bank,,,,,
+shopBatterybankActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopGarageStorage,blocks,Container,KgNone,shop Garage Storage
+shopGarageStorageDesc,blocks,Container,,,Sell all your Garage Junk needs in your very own vending machines and earn Duke coins.,,
+shopGarageStorage,blocks,Container,New,shop Garage Storage,,,,,
+shopGarageStorageActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCrateBookstore,blocks,Container,KgNone,shop Crate Bookstore
+shopCrateBookstoreDesc,blocks,Container,,,Sell all your Books needs in your very own vending machines and earn Duke coins.,,
+shopCrateBookstore,blocks,Container,New,shop Crate Bookstore,,,,,
+shopCrateBookstoreActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCrateCarParts,blocks,Container,KgNone,shop Crate Car Parts
+shopCrateCarPartsDesc,blocks,Container,,,Sell all your Car Parts needs in your very own vending machines and earn Duke coins.,,
+shopCrateCarParts,blocks,Container,New,shop Crate Car Parts,,,,,
+shopCrateCarPartsActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCardboardBox,blocks,Container,KgNone,shop Cardboard Box
+shopCardboardBoxDesc,blocks,Container,,,Sell all your Junk needs in your very own vending machines and earn Duke coins.,,
+shopCardboardBox,blocks,Container,New,shop Cardboard Box,,,,,
+shopCardboardBoxActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCrateLabEquipment,blocks,Container,KgNone,shop Crate Lab Equipment
+shopCrateLabEquipmentDesc,blocks,Container,,,Sell all your Lab Equipment Supplies needs in your very own vending machines and earn Duke coins.,,
+shopCrateLabEquipment,blocks,Container,New,shop Crate Lab Equipment,,,,,
+shopCrateLabEquipmentActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCrateShamway,blocks,Container,KgNone,shop Crate Shamway
+shopCrateShamwayDesc,blocks,Container,,,Sell all your Kitchen Supplies needs in your very own vending machines and earn Duke coins.,,
+shopCrateShamway,blocks,Container,New,shop Crate Shamway,,,,,
+shopCrateShamwayActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCrateConstructionSupplies,blocks,Container,KgNone,shop Crate Construction Supplies
+shopCrateConstructionSuppliesDesc,blocks,Container,,,Sell all your Construction Supplies needs in your very own vending machines and earn Duke coins.,,
+shopCrateConstructionSupplies,blocks,Container,New,shop Crate Construction Supplies,,,,,
+shopCrateConstructionSuppliesActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCrateShotgunMessiah,blocks,Container,KgNone,shop Crate Shotgun Messiah
+shopCrateShotgunMessiahDesc,blocks,Container,,,Sell all your Weapon Supplies needs in your very own vending machines and earn Duke coins.,,
+shopCrateShotgunMessiah,blocks,Container,New,shop Crate Shotgun Messiah,,,,,
+shopCrateShotgunMessiahActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelAcidSingle00,blocks,Container,KgNone,shop Barrel Acid Single 00
+shopBarrelAcidSingle00Desc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelAcidSingle00,blocks,Container,New,shop Barrel Acid Single 00,,,,,
+shopBarrelAcidSingle00Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelAcidSingle45,blocks,Container,KgNone,shop Barrel Acid Single 45
+shopBarrelAcidSingle45Desc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelAcidSingle45,blocks,Container,New,shop Barrel Acid Single 45,,,,,
+shopBarrelAcidSingle45Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelAcidQuadA,blocks,Container,KgNone,shop Barrel Acid Quad A
+shopBarrelAcidQuadADesc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelAcidQuadA,blocks,Container,New,shop Barrel Acid Quad A,,,,,
+shopBarrelAcidQuadAActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelAcidQuadB,blocks,Container,KgNone,shop Barrel Acid Quad B
+shopBarrelAcidQuadBDesc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelAcidQuadB,blocks,Container,New,shop Barrel Acid Quad B,,,,,
+shopBarrelAcidQuadBActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelGasSingle00,blocks,Container,KgNone,shop Barrel Gas Single 00
+shopBarrelGasSingle00Desc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelGasSingle00,blocks,Container,New,shop Barrel Gas Single 00,,,,,
+shopBarrelGasSingle00Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelGasSingle45,blocks,Container,KgNone,shop Barrel Gas Single 45
+shopBarrelGasSingle45Desc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelGasSingle45,blocks,Container,New,shop Barrel Gas Single 45,,,,,
+shopBarrelGasSingle45Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelGasQuadA,blocks,Container,KgNone,shop Barrel Gas Quad A
+shopBarrelGasQuadADesc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelGasQuadA,blocks,Container,New,shop Barrel Gas Quad A,,,,,
+shopBarrelGasQuadAActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelGasQuadB,blocks,Container,KgNone,shop Barrel Gas Quad B
+shopBarrelGasQuadBDesc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelGasQuadB,blocks,Container,New,shop Barrel Gas Quad B,,,,,
+shopBarrelGasQuadBActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelGasOld,blocks,Container,KgNone,shop Barrel Gas Old
+shopBarrelGasOldDesc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelGasOld,blocks,Container,New,shop Barrel Gas Old,,,,,
+shopBarrelGasOldActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelGenericSingle00,blocks,Container,KgNone,shop Barrel Generic Single 00
+shopBarrelGenericSingle00Desc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelGenericSingle00,blocks,Container,New,shop Barrel Generic Single 00,,,,,
+shopBarrelGenericSingle00Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelGenericSingle45,blocks,Container,KgNone,shop Barrel Generic Single 45
+shopBarrelGenericSingle45Desc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelGenericSingle45,blocks,Container,New,shop Barrel Generic Single 45,,,,,
+shopBarrelGenericSingle45Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelGenericQuadA,blocks,Container,KgNone,shop Barrel Generic Quad A
+shopBarrelGenericQuadADesc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelGenericQuadA,blocks,Container,New,shop Barrel Generic Quad A,,,,,
+shopBarrelGenericQuadAActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelGenericQuadB,blocks,Container,KgNone,shop Barrel Generic Quad B
+shopBarrelGenericQuadBDesc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelGenericQuadB,blocks,Container,New,shop Barrel Generic Quad B,,,,,
+shopBarrelGenericQuadBActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelOilSingle00,blocks,Container,KgNone,shop Barrel Oil Single 00
+shopBarrelOilSingle00Desc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelOilSingle00,blocks,Container,New,shop Barrel Oil Single 00,,,,,
+shopBarrelOilSingle00Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelOilSingle45,blocks,Container,KgNone,shop Barrel Oil Single 45
+shopBarrelOilSingle45Desc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelOilSingle45,blocks,Container,New,shop Barrel Oil Single 45,,,,,
+shopBarrelOilSingle45Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelOilQuadA,blocks,Container,KgNone,shop Barrel Oil Quad A
+shopBarrelOilQuadADesc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelOilQuadA,blocks,Container,New,shop Barrel Oil Quad A,,,,,
+shopBarrelOilQuadAActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelOilQuadB,blocks,Container,KgNone,shop Barrel Oil Quad B
+shopBarrelOilQuadBDesc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelOilQuadB,blocks,Container,New,shop Barrel Oil Quad B,,,,,
+shopBarrelOilQuadBActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelRadiatedSingle00,blocks,Container,KgNone,shop Barrel Radiated Single 00
+shopBarrelRadiatedSingle00Desc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelRadiatedSingle00,blocks,Container,New,shop Barrel Radiated Single 00,,,,,
+shopBarrelRadiatedSingle00Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelRadiatedSingle45,blocks,Container,KgNone,shop Barrel Radiated Single 45
+shopBarrelRadiatedSingle45Desc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelRadiatedSingle45,blocks,Container,New,shop Barrel Radiated Single 45,,,,,
+shopBarrelRadiatedSingle45Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelRadiatedQuadA,blocks,Container,KgNone,shop Barrel Radiated Quad A 
+shopBarrelRadiatedQuadADesc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelRadiatedQuadA,blocks,Container,New,shop Barrel Radiated Quad A ,,,,,
+shopBarrelRadiatedQuadAActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelRadiatedQuadB,blocks,Container,KgNone,shop Barrel Radiated Quad B
+shopBarrelRadiatedQuadBDesc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelRadiatedQuadB,blocks,Container,New,shop Barrel Radiated Quad B,,,,,
+shopBarrelRadiatedQuadBActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelWhiteSingle00,blocks,Container,KgNone,shop Barrel White Single 00
+shopBarrelWhiteSingle00Desc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelWhiteSingle00,blocks,Container,New,shop Barrel White Single 00,,,,,
+shopBarrelWhiteSingle00Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelWhiteSingle45,blocks,Container,KgNone,shop Barrel White Single 45
+shopBarrelWhiteSingle45Desc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelWhiteSingle45,blocks,Container,New,shop Barrel White Single 45,,,,,
+shopBarrelWhiteSingle45Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelWhiteQuadA,blocks,Container,KgNone,shop Barrel White Quad A
+shopBarrelWhiteQuadADesc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelWhiteQuadA,blocks,Container,New,shop Barrel White Quad A,,,,,
+shopBarrelWhiteQuadAActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelWhiteQuadB,blocks,Container,KgNone,shop Barrel White Quad B
+shopBarrelWhiteQuadBDesc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelWhiteQuadB,blocks,Container,New,shop Barrel White Quad B,,,,,
+shopBarrelWhiteQuadBActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelPlasticSingle00,blocks,Container,KgNone,shop Barrel Plastic Single 00
+shopBarrelPlasticSingle00Desc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelPlasticSingle00,blocks,Container,New,shop Barrel Plastic Single 00,,,,,
+shopBarrelPlasticSingle00Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelPlasticSingle45,blocks,Container,KgNone,shop Barrel Plastic Single 45
+shopBarrelPlasticSingle45Desc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelPlasticSingle45,blocks,Container,New,shop Barrel Plastic Single 45,,,,,
+shopBarrelPlasticSingle45Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelPlasticQuadA,blocks,Container,KgNone,shop Barrel Plastic Quad A
+shopBarrelPlasticQuadADesc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelPlasticQuadA,blocks,Container,New,shop Barrel Plastic Quad A,,,,,
+shopBarrelPlasticQuadAActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopBarrelPlasticQuadB,blocks,Container,KgNone,shop Barrel Plastic Quad B
+shopBarrelPlasticQuadBDesc,blocks,Container,,,Sell all your Waste Supplies needs in your very own vending machines and earn Duke coins.,,
+shopBarrelPlasticQuadB,blocks,Container,New,shop Barrel Plastic Quad B,,,,,
+shopBarrelPlasticQuadBActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarBackBumperUpright,blocks,Container,KgNone,shop Car Back Bumper Upright
+shopCarBackBumperUprightDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarBackBumperUpright,blocks,Container,New,shop Car Back Bumper Upright,,,,,
+shopCarBackBumperUprightActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarBackBumperFlipped,blocks,Container,KgNone,shop Car Back Bumper Flipped
+shopCarBackBumperFlippedDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarBackBumperFlipped,blocks,Container,New,shop Car Back Bumper Flipped,,,,,
+shopCarBackBumperFlippedActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarFrontBumperFlat,blocks,Container,KgNone,shop Car Front Bumper Flat
+shopCarFrontBumperFlatDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarFrontBumperFlat,blocks,Container,New,shop Car Front Bumper Flat,,,,,
+shopCarFrontBumperFlatActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarFrontBumperFlipped,blocks,Container,KgNone,shop Car Front Bumper Flipped
+shopCarFrontBumperFlippedDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarFrontBumperFlipped,blocks,Container,New,shop Car Front Bumper Flipped,,,,,
+shopCarFrontBumperFlippedActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarFrontDoorFlat,blocks,Container,KgNone,shop Car Front Door Flat
+shopCarFrontDoorFlatDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarFrontDoorFlat,blocks,Container,New,shop Car Front Door Flat,,,,,
+shopCarFrontDoorFlatActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarFrontDoorFlipped,blocks,Container,KgNone,shop Car Front Door Flipped
+shopCarFrontDoorFlippedDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarFrontDoorFlipped,blocks,Container,New,shop Car Front Door Flipped,,,,,
+shopCarFrontDoorFlippedActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarBackDoorFlat,blocks,Container,KgNone,shop Car Back Door Flat
+shopCarBackDoorFlatDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarBackDoorFlat,blocks,Container,New,shop Car Back Door Flat,,,,,
+shopCarBackDoorFlatActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarBackDoorFlipped,blocks,Container,KgNone,shop Car Back Door Flipped
+shopCarBackDoorFlippedDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarBackDoorFlipped,blocks,Container,New,shop Car Back Door Flipped,,,,,
+shopCarBackDoorFlippedActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarRadiatorFlat,blocks,Container,KgNone,shop Car Radiator Flat
+shopCarRadiatorFlatDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarRadiatorFlat,blocks,Container,New,shop Car Radiator Flat,,,,,
+shopCarRadiatorFlatActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarRadiatorFlipped,blocks,Container,KgNone,shop Car Radiator Flipped
+shopCarRadiatorFlippedDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarRadiatorFlipped,blocks,Container,New,shop Car Radiator Flipped,,,,,
+shopCarRadiatorFlippedActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarSeatUpright,blocks,Container,KgNone,shop Car Seat Upright
+shopCarSeatUprightDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarSeatUpright,blocks,Container,New,shop Car Seat Upright,,,,,
+shopCarSeatUprightActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarSeatFlipped,blocks,Container,KgNone,shop Car Seat Flipped
+shopCarSeatFlippedDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarSeatFlipped,blocks,Container,New,shop Car Seat Flipped,,,,,
+shopCarSeatFlippedActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarFenderFlat,blocks,Container,KgNone,shop Car Fender Flat
+shopCarFenderFlatDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarFenderFlat,blocks,Container,New,shop Car Fender Flat,,,,,
+shopCarFenderFlatActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarFenderFlipped,blocks,Container,KgNone,shop Car Fender Flipped
+shopCarFenderFlippedDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarFenderFlipped,blocks,Container,New,shop Car Fender Flipped,,,,,
+shopCarFenderFlippedActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarHoodFlat,blocks,Container,KgNone,shop Car Hood Flat
+shopCarHoodFlatDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarHoodFlat,blocks,Container,New,shop Car Hood Flat,,,,,
+shopCarHoodFlatActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarHoodFlipped,blocks,Container,KgNone,shop Car Hood Flipped
+shopCarHoodFlippedDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarHoodFlipped,blocks,Container,New,shop Car Hood Flipped,,,,,
+shopCarHoodFlippedActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarMotorFlat,blocks,Container,KgNone,shop Car Motor Flat
+shopCarMotorFlatDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarMotorFlat,blocks,Container,New,shop Car Motor Flat,,,,,
+shopCarMotorFlatActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarMotorFlipped,blocks,Container,KgNone,shop Car Motor Flipped
+shopCarMotorFlippedDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarMotorFlipped,blocks,Container,New,shop Car Motor Flipped,,,,,
+shopCarMotorFlippedActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarTrunkLidFlat,blocks,Container,KgNone,shop Car Trunk Lid Flat
+shopCarTrunkLidFlatDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarTrunkLidFlat,blocks,Container,New,shop Car Trunk Lid Flat,,,,,
+shopCarTrunkLidFlatActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarTrunkLidFlipped,blocks,Container,KgNone,shop Car Trunk Lid Flipped
+shopCarTrunkLidFlippedDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarTrunkLidFlipped,blocks,Container,New,shop Car Trunk Lid Flipped,,,,,
+shopCarTrunkLidFlippedActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarPartsRamp,blocks,Container,KgNone,shop Car Parts Ramp
+shopCarPartsRampDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarPartsRamp,blocks,Container,New,shop Car Parts Ramp,,,,,
+shopCarPartsRampActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarTireSmallFlat,blocks,Container,KgNone,shop Car Tire Small Flat
+shopCarTireSmallFlatDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarTireSmallFlat,blocks,Container,New,shop Car Tire Small Flat,,,,,
+shopCarTireSmallFlatActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarTireFlat,blocks,Container,KgNone,shop Car Tire Flat
+shopCarTireFlatDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarTireFlat,blocks,Container,New,shop Car Tire Flat,,,,,
+shopCarTireFlatActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarTirePile,blocks,Container,KgNone,shop Car Tire Pile
+shopCarTirePileDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarTirePile,blocks,Container,New,shop Car Tire Pile,,,,,
+shopCarTirePileActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarTireStack,blocks,Container,KgNone,shop Car Tire Stack
+shopCarTireStackDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarTireStack,blocks,Container,New,shop Car Tire Stack,,,,,
+shopCarTireStackActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopCarWheelFlat,blocks,Container,KgNone,shop Car Wheel Flat
+shopCarWheelFlatDesc,blocks,Container,,,Sell all your Vehicle Parts needs in your very own vending machines and earn Duke coins.,,
+shopCarWheelFlat,blocks,Container,New,shop Car Wheel Flat,,,,,
+shopCarWheelFlatActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+
+shopATM,blocks,Container,KgNone,shop Atm
+shopATMDesc,blocks,Container,,,Sell all your Valuables in your very own vending machines and earn Duke coins.,,
+shopATM,blocks,Container,New,shop ATM,,,,,
+shopATMActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,

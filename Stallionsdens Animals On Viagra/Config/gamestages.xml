@@ -1,0 +1,60 @@
+<COMPOPACK>
+ <insertAfter xpath="/gamestages/spawner[last()]">	
+			  <!-- Groups -->
+	<group name="Moose" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="Moose" count="1"/>
+	</group>
+	<group name="deer" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="deer" count="1"/>
+	</group>
+	<group name="Hare" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="Hare" count="1"/>
+	</group>
+	<group name="Hen" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="Hen" count="1"/>
+	</group>
+	<group name="pig" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="pig" count="1"/>
+	</group>
+	<group name="python" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="python" count="1"/>
+	</group>
+	
+	  <!-- Individual Zombie Spawners -->
+	<spawner name="Moose">
+		<gamestage stage="1">
+			<spawn group="Moose" num="1" maxAlive="1" duration="10"/>
+		</gamestage>
+	</spawner>
+
+	<spawner name="deer">
+		<gamestage stage="1">
+			<spawn group="deer" num="1" maxAlive="1" duration="10"/>
+		</gamestage>
+	</spawner>
+
+	<spawner name="Hare">
+		<gamestage stage="1">
+			<spawn group="Hare" num="1" maxAlive="1" duration="10"/>
+		</gamestage>
+	</spawner>
+
+	<spawner name="Hen">
+		<gamestage stage="1">
+			<spawn group="Hen" num="1" maxAlive="1" duration="10"/>
+		</gamestage>
+	</spawner>
+
+	<spawner name="pig">
+		<gamestage stage="1">
+			<spawn group="pig" num="1" maxAlive="1" duration="10"/>
+		</gamestage>
+	</spawner>
+
+	<spawner name="python">
+		<gamestage stage="1">
+			<spawn group="python" num="1" maxAlive="1" duration="10"/>
+		</gamestage>
+	</spawner>  						
+ </insertAfter>	        
+</COMPOPACK>

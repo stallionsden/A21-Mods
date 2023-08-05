@@ -1,0 +1,8 @@
+<stallionsden>
+	<!-- Looting window -->
+	<!-- adjust the rows, and columns -->
+    <!-- <set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/@rows">15</set>
+    <set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/@cols">20</set> -->
+   	<!-- adjust the rows, and columns -->
+	<!-- Looting window -->
+</stallionsden>

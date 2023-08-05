@@ -1,0 +1,23 @@
+<stallionsden>
+<!-- Activated Carbon -->
+<append xpath="/lootcontainers/lootgroup[@name='groupCookingTools']">	
+		<item name="theBBQSchematic" count="0,1" loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupCupboard01']">	
+		<item name="Clingwrap" count="0,4" loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupGrills']">	
+		<item name="activatedCarbon" count="0,5" loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupFoodTrashUncommon']">	
+		<item name="activatedCarbon" count="0,5" loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='cannedfood']">	
+		<item name="activatedCarbon" count="0,5" loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='shamwaySafeFiller']">	
+		<item name="activatedCarbon" count="0,5" loot_prob_template="veryLow" />
+</append>
+
+	<!-- Activated Carbon -->
+</stallionsden>

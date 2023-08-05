@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<configs>
+
+<set xpath="/progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity'][@value='3,6,10,14,18']/@value">60,140,220,450,615</set>
+
+<!--<set xpath="progression/perks/perk[@name='perkFiremansAlmanacComplete']/effect_group/passive_effect[@name='CarryCapacity']/@value">240</set>
+
+<set xpath="progression/perks/perk[@name='perkNightStalkerThiefAdrenaline']/effect_group/passive_effect[@name='CarryCapacity']/@value">320</set>-->
+
+</configs>

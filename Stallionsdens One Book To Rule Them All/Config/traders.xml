@@ -1,0 +1,6 @@
+<stallionsden>
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']">
+		<item name="youShallNotPassSchematic" count="1,2" prob="0.1"/>
+		<item name="fellowshipOfTheRingSchematic" count="1,2" prob="0.1"/>
+</append>
+</stallionsden>

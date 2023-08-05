@@ -1,0 +1,5 @@
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+theOneBook,,items,Item,New,The One Book
+theOneBookDesc,items,Item,New,Book,This book teaches you all books.,,,,,
+theOneBookSchematic,,items,Item,New,The One Book Schematic
+theOneBookSchematicDesc,items,Item,New,Book,This book teaches you all schematics.,,,,,

@@ -1,0 +1,7 @@
+<stallionsden>
+ <append xpath="/blocks/block">
+
+       <property name="SellableToTrader" value="true"/>
+
+</append> 
+</stallionsden>

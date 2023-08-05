@@ -1,0 +1,13 @@
+<Stallionsden>
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']">
+			<item name="nuclearGeneratorBank" count="1" prob="0.007"/>  
+			<item name="nuclearPoweredEngine" count="1" prob="0.005"/>
+			<item name="nuclearBatteryBank" count="1" prob="0.007"/>  
+			<item name="nuclearPoweredBattery" count="1" prob="0.006"/>
+			<item name="nuclearSolarBank" count="1" prob="0.005"/>
+			<item name="nuclearSolarCell" count="1" prob="0.007"/>  
+			<item name="nuclearSolarSchematic" count="1" prob="0.007"/>  
+			<item name="nuclearBatterySchematic" count="1" prob="0.005"/>
+			<item name="nuclearGeneratorSchematic" count="1" prob="0.007"/>  
+			</append>
+</Stallionsden>

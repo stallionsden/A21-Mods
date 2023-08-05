@@ -1,0 +1,4 @@
+<stallionsden>
+<set xpath="/item_modifiers/item_modifier[@name='modGunMagazineExtender']/effect_group/passive_effect[@name='MagazineSize']/@value">5</set>
+<set xpath="/item_modifiers/item_modifier/property[@name='Stacknumber']/@value">30000</set>
+</stallionsden>

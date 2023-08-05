@@ -1,0 +1,405 @@
+<stallionsden>
+<append xpath="/items">
+<item name="youShallNotPassSchematic">
+	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="youShallNotPassSchematic"/>
+	<property name="EconomicValue" value="25000"/>
+	<property name="Unlocks" value="theOneBook"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="TheOneBook" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+	<item name="fellowshipOfTheRingSchematic">
+	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="fellowshipOfTheRingSchematic"/>
+	<property name="EconomicValue" value="20000"/>
+	<property name="Unlocks" value="theOneBookSchematic"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="theOneBookSchematic" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
+	<item name="theOneBook">
+	<property name="DescriptionKey" value="theOneBookDesc"/>
+	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="CustomIcon" value="TheOneBook"/>	
+	<effect_group tiered="false"> 
+	 <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="theOneBook" operation="set" value="1"/>
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkFiremansAlmanacHeat" level="-1"/> 
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkFiremansAlmanacAxes" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkFiremansAlmanacSpeed" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkFiremansAlmanacMolotov" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkFiremansAlmanacPrevention" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkFiremansAlmanacHarvest" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkFiremansAlmanacEquipment" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkFiremansAlmanacComplete" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkNeedleAndThreadWinterWear" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkNeedleAndThreadLegwear" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkNeedleAndThreadFootwear" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkNeedleAndThreadDesertWear" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkNeedleAndThreadDusters" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkNeedleAndThreadPufferCoats" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkNeedleAndThreadPockets" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkNeedleAndThreadComplete" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkNightStalkerStealthDamage" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkNightStalkerSilentNight" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkNightStalkerBlades" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkNightStalkerThiefAdrenaline" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkNightStalkerArchery" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkNightStalkerTwilightThief" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkNightStalkerSlumberParty" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkNightStalkerComplete" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkLuckyLooterDukes" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkLuckyLooterAmmunition" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkLuckyLooterBrass" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkLuckyLooterLead" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkLuckyLooterBooks" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkLuckyLooterFood" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkLuckyLooterMedical" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkLuckyLooterComplete" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkEnforcerDamage" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkEnforcerApparel" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkEnforcerPunks" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkEnforcerIntimidation" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkEnforcerAPAmmo" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkEnforcerHPAmmo" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkEnforcerCriminalPursuit" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkEnforcerComplete" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkBatterUpBigHits" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkBatterUpStealingBases" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkBatterUpSlowPitch" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkBatterUpKnockdown" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkBatterUpMaintenance" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkBatterUpFoulBalls" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkBatterUpMetalChain" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkBatterUpComplete" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkGreatHeistSafes" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkGreatHeistGems" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkGreatHeistTimedCharge" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkGreatHeistClaimed" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkGreatHeistAdrenalineFall" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkGreatHeistSprintSneak" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkGreatHeistMotionDetection" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkGreatHeistComplete" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkWasteTreasuresHoney" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkWasteTreasuresCoffins" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkWasteTreasuresAcid" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkWasteTreasuresWater" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkWasteTreasuresDoors" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkWasteTreasuresCloth" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkWasteTreasuresSinks" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkWasteTreasuresComplete" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkHuntingJournalBears" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkHuntingJournalWolves" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkHuntingJournalCoyotes" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkHuntingJournalMountainLions" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkHuntingJournalDeer" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkHuntingJournalVultures" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkHuntingJournalSelfDefense" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkHuntingJournalComplete" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkArtOfMiningLuckyStrike" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkArtOfMiningDiamondTools" level="-1"/>		
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkArtOfMiningCoffee" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkArtOfMiningBlackStrap" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkArtOfMiningPallets" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkArtOfMiningAvalanche" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkArtOfMiningLantern" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkArtOfMiningComplete" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkRangersArrowRecovery" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkRangersExplodingBolts" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkRangersCripplingShot" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkRangersAPAmmo" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkRangersFlamingArrows" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkRangersForestGuide" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkRangersKnockdown" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkRangersComplete" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPistolPeteTakeAim" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPistolPeteSwissKnees" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPistolPeteSteadyHand" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPistolPeteMaintenance" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPistolPeteHPAmmo" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPistolPeteAPAmmo" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPistolPeteDamage" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkPistolPeteComplete" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkShotgunMessiahDamage" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkShotgunMessiahBreachingSlugs" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkShotgunMessiahLimbShot" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkShotgunMessiahSlugs" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkShotgunMessiahMaintenance" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkShotgunMessiahMagazine" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkShotgunMessiahPartyStarter" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkShotgunMessiahComplete" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkSniperDamage" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkSniperCripplingShot" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkSniperHeadShot" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkSniperReload" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkSniperControlledBreathing" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkSniperAPAmmo" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkSniperHPAmmo" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkSniperComplete" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkAutoWeaponsDamage" level="-1"/>
+	    <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkAutoWeaponsUncontrolledBurst" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkAutoWeaponsMaintenance" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkAutoWeaponsDrumMag" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkAutoWeaponsRecoil" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkAutoWeaponsRagdoll" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkAutoWeaponsMachineGuns" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkAutoWeaponsComplete" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUrbanCombatLanding" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUrbanCombatCigar" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUrbanCombatSneaking" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUrbanCombatJumping" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUrbanCombatLandMines" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUrbanCombatAdrenalineRush" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUrbanCombatRoomClearing" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUrbanCombatComplete" level="-1"/>	
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkTechJunkie1Damage" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkTechJunkie2Maintenance" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkTechJunkie3APAmmo" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkTechJunkie4Shells" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkTechJunkie5Repulsor" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkTechJunkie6BatonCharge" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkTechJunkie7Hydraulics" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkTechJunkie8Complete" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkBarBrawling1BasicMoves" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkBarBrawling2DropABomb" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkBarBrawling3KillerInstinct" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkBarBrawling4FinishingMoves" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkBarBrawling5AdrenalineHealing" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkBarBrawling6RageMode" level="-1"/>
+	    <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkBarBrawling7BoozedUp" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkBarBrawling8Complete" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkSpearHunter1Damage" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkSpearHunter2Maintenance" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkSpearHunter3Bleed" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkSpearHunter4KillMove" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkSpearHunter5RapidStrike" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkSpearHunter6PenetratingShaft" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkSpearHunter7QuickStrike" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkSpearHunter8Complete" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkLightArmor" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkHeavyArmor" level="-1"/>			
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="500"/>
+		</effect_group>
+</item>
+
+	<item name="theOneBookSchematic">
+	<property name="DescriptionKey" value="theOneBookSchematicDesc"/>
+	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="CustomIcon" value="theOneBookSchematic"/>
+	<effect_group tiered="false"> 
+	 <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="theOneBookSchematic" operation="set" value="1"/>
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="theOneBook" operation="set" value="1"/>
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="theOneBookSchematic" operation="set" value="1"/>
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolRepairT1ClawHammer" operation="set" value="1"/>
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolPickT1IronPickaxe" operation="set" value="1"/>
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolPickT2SteelPickaxe" operation="set" value="1"/>	
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolShovelT1IronShovel" operation="set" value="1"/>
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolShovelT2SteelShovel" operation="set" value="1"/>
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnClubT3SteelClub" operation="set" value="1"/>
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnSpearT3SteelSpear" operation="set" value="1"/>
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnSledgeT3SteelSledgehammer" operation="set" value="1"/>
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunRifleT2LeverActionRifle" operation="set" value="1"/>
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBotT3JunkDrone" operation="set" value="1"/>
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnClubT1BaseballBat" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnSledgeT1IronSledgehammer" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnBladeT1HuntingKnife" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnBladeT3Machete" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnBatonT2StunBaton" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolAxeT1IronFireaxe" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolAxeT2SteelAxe" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolSalvageT1Wrench" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolSalvageT2Ratchet" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolSalvageT3ImpactDriver" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolFarmT1IronHoe" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolPickT3Auger" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolAxeT3Chainsaw" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnSpearT1IronSpear" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnKnucklesT1IronKnuckles" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnKnucklesT3SteelKnuckles" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBowT1WoodenBow" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBowT3CompoundBow" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBowT1IronCrossbow" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBowT3CompoundCrossbow" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunHandgunT1Pistol" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunHandgunT2Magnum44" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunHandgunT3DesertVulture" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunShotgunT1DoubleBarrel" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunShotgunT2PumpShotgun" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunShotgunT3AutoShotgun" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunHandgunT3SMG5" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunMGT1AK47" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunMGT2TacticalAR" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunMGT3M60" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunRifleT1HuntingRifle" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunRifleT2MarksmanRifle" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunRifleT3SniperRifle" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunExplosivesT3RocketLauncher" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBotT1JunkSledge" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBotT2JunkTurret" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownAmmoPipeBomb" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownGrenadeContact" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownGrenade" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownDynamite" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolRepairT3Nailgun" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorLeatherChest" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorMilitaryVest" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceMilitaryFiber" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorIronChest" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorSteelChest" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalFirstAidBandage" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalFirstAidKit" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalPlasterCast" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolBellows" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolForgeCrucible" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolAnvil" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cementMixer" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="workbench" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="forge" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="chemistryStation" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleBicycleChassis" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleBicycleHandlebars" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleMinibikeChassis" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleMinibikeHandlebars" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleMotorcycleChassis" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleMotorcycleHandlebars" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicle4x4TruckChassis" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicle4x4TruckAccessories" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleGyroCopterChassis" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleGyroCopterAccessories" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="generatorbank" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pressureplate" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vaultDoor03_Powered" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="bladeTrap" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="dartTrap" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="shotgunTurret" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="autoTurret" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="electricfencepost" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="motionsensor" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="speaker" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="spotlightPlayer" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="switch" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="batterybank" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="electrictimerrelay" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunBarrelExtender" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunMuzzleBrake" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunSoundSuppressorSilencer" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunLaserSight" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunFlashlight" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunScopeSmall" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunScopeMedium" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunScopeLarge" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunReflexSight" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunTriggerGroupSemi" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunTriggerGroupBurst3" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunTriggerGroupAutomatic" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunBipod" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunForegrip" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunRetractingStock" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunDuckbill" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunChoke" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunMagazineExtender" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modShotgunSawedOffBarrel" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunCrippleEm" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunBowPolymerString" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunBowArrowRest" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunMeleeTheHunter" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunMeleeRadRemover" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunMeleeBlessedMetal" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeTemperedBlade" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeSerratedBlade" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeWeightedHead" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeStructuralBrace" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeErgonomicGrip" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeFortifyingGrip" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeClubBarbedWire" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeClubMetalSpikes" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeGraveDigger" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeBunkerBuster" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeIronBreaker" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeWoodSplitter" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeClubBurningShaft" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorInsulatedLiner" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorCoolingMesh" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorImprovedFittings" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorCustomizedFittings" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPlatingBasic" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPlatingReinforced" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorStoragePocket" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorDoubleStoragePocket" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorTripleStoragePocket" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorMuffledConnectors" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorAdvancedMuffledConnectors" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorImpactBracing" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorBandolier" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorWaterPurifier" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorHelmetLight" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modFuelTankSmall" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modFuelTankLarge" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modRoboticDroneCargoMod" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modRoboticDroneMedicMod" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modRoboticDroneHeadlampMod" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modRoboticDroneArmorPlatingMod" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modRoboticDroneMoraleBoosterMod" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modVehicleFuelSaver" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modVehicleOffRoadHeadlights" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modVehicleSuperCharger" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modVehicleExpandedSeat" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modVehicleReserveFuelTank" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ammoGasCan" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceOil" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drugAntibiotics" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drugHerbalAntibiotics" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodCanSham" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarBeer" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarCoffee" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarGoldenRodTea" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarGrandpasAwesomeSauce" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarGrandpasLearningElixir" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarGrandpasMoonshine" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarRedTea" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkYuccaJuiceSmoothie" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBaconAndEggs" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBakedPotato" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBlueberryPie" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodPumpkinPie" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodPumpkinCheesecake" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodPumpkinBread" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodGumboStew" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodShepardsPie" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodSpaghetti" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodTunaFishGravyToast" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBoiledMeat" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodChiliDog" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodCornBread" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodCornOnTheCob" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodFishTacos" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodGrilledMeat" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHoboStew" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodMeatStew" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodShamChowder" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodSteakAndPotato" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodVegetableStew" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedAloe1" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedBlueberry1" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedChrysanthemum1" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedCoffee1" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedCorn1" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedCotton1" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedGoldenrod1" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedGraceCorn1" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedHop1" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedMushroom1" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedPotato1" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedYucca1" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedPumpkin1" operation="set" value="1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="500"/>
+</effect_group>
+</item>	
+</append>
+</stallionsden>

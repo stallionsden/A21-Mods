@@ -1,0 +1,6 @@
+Key,Source,Context,Changes,English
+wineBarrelEmpty,blocks,Container,KgNone,wine Barrel Empty
+wineBarrelSetEmpty,blocks,Container,KgNone,wine Barrel Set Empty 
+wineBarrelPlainEmpty,blocks,Container,KgNone,wine Barrel Plain Empty 
+wineBarrelFull,blocks,Container,KgNone,wine Barrel
+wineBarrelPlainFull,blocks,Container,KgNone,wine Barrel Plain

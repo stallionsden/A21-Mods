@@ -1,0 +1,27 @@
+<stallionsden>
+	<append xpath="/recipes">
+		<recipe name="wineBarrel" count="1" craft_area="workbench" >
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceLeather" count="10"/>
+			<ingredient name="resourceCloth" count="10"/>
+			<ingredient name="resourceWood" count="25"/>
+			<ingredient name="resourceNail" count="20"/>
+		</recipe>
+		
+		<recipe name="wineBarrelSet" count="1" craft_area="workbench" >
+			<ingredient name="resourceForgedIron" count="30"/>
+			<ingredient name="resourceLeather" count="30"/>
+			<ingredient name="resourceCloth" count="30"/>
+			<ingredient name="resourceWood" count="150"/>
+			<ingredient name="resourceNail" count="60"/>
+		</recipe>
+	
+		<recipe name="wineBarrelPlain" count="1" craft_area="workbench" >
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceLeather" count="10"/>
+			<ingredient name="resourceCloth" count="10"/>
+			<ingredient name="resourceWood" count="50"/>
+			<ingredient name="resourceNail" count="10"/>
+		</recipe>
+		</append>
+</stallionsden>

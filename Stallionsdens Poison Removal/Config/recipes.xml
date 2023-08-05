@@ -1,0 +1,254 @@
+<stallionsden>
+<append xpath="/recipes">
+<!-- Sealed Meat -->
+	<recipe name="stripsClingwrap" count="7" scrapable="False" >
+  <ingredient name="Clingwrap" count="1" />
+</recipe>
+
+	<recipe name="foodRawMeat" count="1" scrapable="False" >
+  <ingredient name="sealedMeat" count="1" />
+</recipe>
+	<recipe name="foodShamSandwich" count="1" scrapable="False" >
+  <ingredient name="sealedMeat" count="1" />
+</recipe>
+	<recipe name="foodRottingFlesh" count="1" scrapable="False" >
+  <ingredient name="sealedMeat" count="1" />
+</recipe>
+	<recipe name="resourceAnimalFat" count="1" scrapable="False" >
+  <ingredient name="sealedMeat" count="1" />
+</recipe>
+
+	<recipe name="sealedMeat" count="1" scrapable="False" craft_time="0.1" >
+  <ingredient name="foodRawMeat" count="1" />
+  <ingredient name="stripsClingwrap" count="1" />
+</recipe>
+	<recipe name="sealedShamSandwich" count="1" scrapable="False" craft_time="0.1" >
+  <ingredient name="foodShamSandwich" count="1" />
+  <ingredient name="stripsClingwrap" count="1" />
+</recipe>
+	<recipe name="sealedRottingFlesh" count="1" scrapable="False" craft_time="0.1" >
+  <ingredient name="foodRottingFlesh" count="1" />
+  <ingredient name="stripsClingwrap" count="1" />
+</recipe>
+	<recipe name="sealedAnimalFat" count="1" scrapable="False" craft_time="0.1" >
+  <ingredient name="resourceAnimalFat" count="1" />
+  <ingredient name="stripsClingwrap" count="1" />
+</recipe>
+<!-- Sealed Meat -->
+
+<!-- Possible Non Poisoning Food -->
+<recipe name="foodRawCharredMeat" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingGrill" >
+	<ingredient name="foodRawMeat" count="5"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodRawGrilledMeat" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingGrill" >
+	<ingredient name="foodRawMeat" count="5"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodRawBoiledMeat" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="foodRawMeat" count="5"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodRawMeatStew" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="foodRawMeat" count="5"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropCorn" count="2"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodRawSteakAndPotato" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingGrill" >
+	<ingredient name="foodRawMeat" count="5"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropMushrooms" count="2"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodRawShamChowder" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="foodShamSandwich" count="1"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropCorn" count="2"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodRawHoboStew" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="foodRawRottingFlesh" count="10"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropCorn" count="2"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodRawFishTacos" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingGrill" >
+	<ingredient name="foodCanSalmon" count="1"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodRawChiliDog" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="foodCanChili" count="1"/>
+	<ingredient name="foodCornBread" count="1"/>
+	<ingredient name="foodRawMeat" count="5"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodRawBakedPotato" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="foodCropPotato" count="1"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodRawBlueberryPie" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="foodCropBlueberries" count="5"/>
+	<ingredient name="foodEgg" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodRawEggBoiled" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="foodEgg" count="1"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodRawBaconAndEggs" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="foodEgg" count="2"/>
+	<ingredient name="foodRawMeat" count="5"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodRawVegetableStew" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropCorn" count="2"/>
+	<ingredient name="foodCropMushrooms" count="2"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+<!-- Possible Non Poisoning food -->
+
+<!-- treated food -->
+<recipe name="foodTreatedCharredMeat" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingGrill" >
+	<ingredient name="sealedMeat" count="5"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodTreatedGrilledMeat" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingGrill" >
+	<ingredient name="sealedMeat" count="5"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodTreatedBoiledMeat" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="sealedMeat" count="5"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodTreatedMeatStew" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="sealedMeat" count="5"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropCorn" count="2"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="sealedAnimalFat" count="1"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodTreatedSteakAndPotato" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingGrill" >
+	<ingredient name="sealedMeat" count="5"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropMushrooms" count="2"/>
+	<ingredient name="sealedAnimalFat" count="1"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodTreatedShamChowder" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="sealedShamSandwich" count="1"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropCorn" count="2"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodTreatedHoboStew" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="sealedRottingFlesh" count="10"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropCorn" count="2"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodTreatedFishTacos" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingGrill" >
+	<ingredient name="foodCanSalmon" count="1"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodTreatedChiliDog" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="foodCanChili" count="1"/>
+	<ingredient name="foodCornBread" count="1"/>
+	<ingredient name="sealedMeat" count="5"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodTreatedBakedPotato" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="foodCropPotato" count="1"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodTreatedBlueberryPie" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="foodCropBlueberries" count="5"/>
+	<ingredient name="foodEgg" count="1"/>
+	<ingredient name="foodCornMeal" count="1"/>
+	<ingredient name="sealedAnimalFat" count="1"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodTreatedEggBoiled" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="foodEgg" count="1"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodTreatedBaconAndEggs" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="foodEgg" count="2"/>
+	<ingredient name="sealedMeat" count="5"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+
+<recipe name="foodTreatedVegetableStew" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropCorn" count="2"/>
+	<ingredient name="foodCropMushrooms" count="2"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="activatedCarbon" count="1"/>
+</recipe>
+<!-- treated food -->
+<!-- Poison Removal Spices -->
+<recipe name="activatedCarbon" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolBeaker" >
+	<ingredient name="drugHerbalAntibiotics" count="2"/>
+	<ingredient name="drugSteroids" count="2"/>
+	<ingredient name="foodCropMushrooms" count="2"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="foodHoney" count="1"/>
+</recipe>
+<!-- Poison Removal Spices -->
+<!-- Weber 9000 -->
+<recipe name="TheWeber9000" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceMechanicalParts" count="6"/>
+	<ingredient name="burningBarrelPlayer" count="1"/>
+	<ingredient name="toolCookingGrill" count="3"/>
+	<ingredient name="resourceMetalPipe" count="10"/>
+	<ingredient name="resourceForgedIron" count="20"/>
+</recipe>
+<!-- Weber 9000 -->
+</append>
+</stallionsden>

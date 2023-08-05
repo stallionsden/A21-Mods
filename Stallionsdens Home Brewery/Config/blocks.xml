@@ -1,0 +1,36 @@
+<stallionsden>
+<remove xpath="blocks/block[@name='wineBarrelSet']/property[@name='DisplayType' or @name='MultiBlockDim']"/>
+
+<append xpath="/blocks">
+		<block name="wineBarrelEmpty"><property name="Extends" value="wineBarrel"/></block>
+		<block name="wineBarrelSetEmpty"><property name="Extends" value="wineBarrelSet"/></block>
+		<block name="wineBarrelPlainEmpty"><property name="Extends" value="wineBarrelPlain"/></block>
+		
+		<block name="wineBarrelFull"><property name="Extends" value="wineBarrelEmpty"/></block>
+		<block name="wineBarrelSetFull"><property name="Extends" value="wineBarrelSetEmpty"/></block>
+		<block name="wineBarrelPlainFull"><property name="Extends" value="wineBarrelPlainEmpty"/></block>
+</append>
+
+	<append xpath="/blocks/block[@name='wineBarrelSet']">
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="2,2,1"/>
+	</append>
+
+<append xpath="/blocks/block[@name='wineBarrelFull']">
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="wineBarrelFull"/>
+	</append>
+
+<append xpath="/blocks/block[@name='wineBarrelSetFull']">
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="wineBarrelSetFull"/>
+	</append>
+	
+<append xpath="/blocks/block[@name='wineBarrelPlainFull']">
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="wineBarrelPlainFull"/>
+	</append>
+
+<!-- WINE BARREL -->
+
+</stallionsden>

@@ -1,0 +1,5 @@
+<stallionsden>
+	<remove xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='DropInventoryBlock'][@value='cntBackpackDropped']" />
+    <set xpath="/entity_classes/entity_class[@name='playerMale']/property[starts-with(@name, 'ItemsOnEnterGame')]/@value">survivor's Pack1 (Locked),survivor's Pack2 (Locked),survivor's Pack3 (Locked),keystoneBlock</set> 
+    </stallionsden>
+	

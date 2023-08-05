@@ -1,0 +1,28 @@
+<stallionsden>
+<append xpath="/lootcontainers/lootgroup[@name='groupRottenChest']">	
+		<item name="zombieSkin" count="0,2"  loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupOven']">	
+		<item name="zombieSkin" count="0,2"  loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupRefrigerator']">	
+		<item name="zombieSkin" count="0,2"  loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupZpackReg']">	
+		<item name="zombieSkin" count="0,2"  loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupZpackStrong']">	
+		<item name="zombieSkin" count="0,2"  loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupZpackBoss']">	
+		<item name="zombieSkin" count="0,2"  loot_prob_template="veryLow" />
+</append>
+
+<!-- remove the brackets to use with my lootable objects modlet -->
+<!-- <append xpath="/lootcontainers/lootcontainer[@id='228']">	
+		<item name="zombieSkin" count="0,2" />
+</append>
+<append xpath="/lootcontainers/lootcontainer[@id='229']">	
+		<item name="zombieSkin" count="0,2" />
+</append> -->
+</stallionsden>

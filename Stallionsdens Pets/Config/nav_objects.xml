@@ -1,0 +1,178 @@
+<stallionsden>
+<append xpath="/nav_object_classes">
+<nav_object_class name="animaltracking_pets">
+			<property name="requirement_type" value="Tracking" />
+			<property name="use_override_icon" value="true" />
+
+			<map_settings>
+				<property name="sprite_name" value="ui_game_symbol_animal_tracker"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="-1"/>
+				<property name="color" value="255,255,255,255"/>
+				<property name="has_pulse" value="true"/>
+			</map_settings>
+
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_animal_tracker"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_scale_distance" value="1024"/>
+				<property name="color" value="255,255,255,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="ui_game_symbol_animal_tracker"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="25"/>
+				<property name="color" value="255,255,255,255"/>
+				<property name="has_pulse" value="false"/>
+				<property name="offset" value="0,0,0" />
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="animaltracking_foghornleghorn" extends="animaltracking_pets">
+			<property name="requirement_type" value="Tracking" />
+			<property name="use_override_icon" value="true" />
+
+			<onscreen_settings>
+				<property name="offset" value="0,0.45,0"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="animaltracking_bugsbunny" extends="animaltracking_pets">
+			<property name="requirement_type" value="Tracking" />
+			<property name="use_override_icon" value="true" />
+
+			<onscreen_settings>
+				<property name="offset" value="0,0.45,0"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="animaltracking_bambi" extends="animaltracking_pets">
+			<property name="requirement_type" value="Tracking" />
+			<property name="use_override_icon" value="true" />
+
+			<onscreen_settings>
+				<property name="offset" value="0,1.6,0"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="animaltracking_buck" extends="animaltracking_pets">
+			<property name="requirement_type" value="Tracking" />
+			<property name="use_override_icon" value="true" />
+
+			<onscreen_settings>
+				<property name="offset" value="0,1.9,0"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="animaltracking_yogibear" extends="animaltracking_pets">
+			<property name="requirement_type" value="Tracking" />
+			<property name="use_override_icon" value="true" />
+
+			<onscreen_settings>
+				<property name="offset" value="0,2.2,0"/>
+			</onscreen_settings>
+		</nav_object_class>
+		
+		<nav_object_class name="animaltracking_baloo" extends="animaltracking_pets">
+			<property name="requirement_type" value="Tracking" />
+			<property name="use_override_icon" value="true" />
+
+			<onscreen_settings>
+				<property name="offset" value="0,2.2,0"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="animaltracking_porkypig" extends="animaltracking_pets">
+			<property name="requirement_type" value="Tracking" />
+			<property name="use_override_icon" value="true" />
+
+			<onscreen_settings>
+				<property name="offset" value="0,1.1,0"/>
+			</onscreen_settings>
+		</nav_object_class>
+		
+		<nav_object_class name="animaltracking_misspiggy" extends="animaltracking_pets">
+			<property name="requirement_type" value="Tracking" />
+			<property name="use_override_icon" value="true" />
+
+			<onscreen_settings>
+				<property name="offset" value="0,1.1,0"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="animaltracking_wileycoyote" extends="animaltracking_pets">
+			<property name="requirement_type" value="Tracking" />
+			<property name="use_override_icon" value="true" />
+
+			<onscreen_settings>
+				<property name="offset" value="0,0.9,0"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="animaltracking_bigbadwolf" extends="animaltracking_pets">
+			<property name="requirement_type" value="Tracking" />
+			<property name="use_override_icon" value="true" />
+
+			<onscreen_settings>
+				<property name="offset" value="0,1.75,0"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="animaltracking_luca" extends="animaltracking_pets">
+			<property name="requirement_type" value="Tracking" />
+			<property name="use_override_icon" value="true" />
+
+			<onscreen_settings>
+				<property name="offset" value="0,1.1,0"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="animaltracking_sirhiss" extends="animaltracking_pets">
+			<property name="requirement_type" value="Tracking" />
+			<property name="use_override_icon" value="true" />
+
+			<onscreen_settings>
+				<property name="offset" value="0,0.45,0"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="animaltracking_mrfox" extends="animaltracking_pets">
+			<property name="requirement_type" value="Tracking" />
+			<property name="use_override_icon" value="true" />
+
+			<onscreen_settings>
+				<property name="offset" value="0,1.2,0"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="animaltracking_scooby" extends="animaltracking_pets">
+			<property name="requirement_type" value="Tracking" />
+			<property name="use_override_icon" value="true" />
+
+			<onscreen_settings>
+				<property name="offset" value="0,1.2,0"/>
+			</onscreen_settings>
+		</nav_object_class>
+		
+		<nav_object_class name="animaltracking_tweety" extends="animaltracking_pets">
+			<property name="requirement_type" value="Tracking" />
+			<property name="use_override_icon" value="true" />
+
+			<onscreen_settings>
+				<property name="offset" value="0,1.1,0"/>
+			</onscreen_settings>
+		</nav_object_class>
+		
+		<nav_object_class name="animaltracking_beakybuzzard" extends="animaltracking_pets">
+			<property name="requirement_type" value="Tracking" />
+			<property name="use_override_icon" value="true" />
+
+			<onscreen_settings>
+				<property name="offset" value="0,1.1,0"/>
+			</onscreen_settings>
+		</nav_object_class>
+		</append>	
+</stallionsden>

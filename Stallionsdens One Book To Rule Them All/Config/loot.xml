@@ -1,0 +1,7 @@
+<stallionsden>
+<append xpath="/lootcontainers/lootgroup[@name='groupMilitaryBooks']">	
+		<item name="youShallNotPassSchematic" count="0,1" loot_prob_template="veryLow" />
+		<item name="fellowshipOfTheRingSchematic" count="0,1" loot_prob_template="veryLow" />
+</append> 
+
+</stallionsden>

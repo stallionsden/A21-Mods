@@ -1,0 +1,21 @@
+<Stallionsden>
+<append xpath="/lootcontainers/lootgroup[@name='groupWorkingStiffsCrate']">	
+		<item name="nuclearGeneratorSchematic" count="0,1" loot_prob_template="veryLow" />
+		</append>
+<append xpath="/lootcontainers/lootgroup[@name='booksRareOnlyScaled']">	
+		<item name="nuclearSolarSchematic" count="0,1" loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='perkBooks']">	
+		<item name="nuclearBatterySchematic" count="0,1" loot_prob_template="veryLow" />
+		</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupQuestSchematics']">	
+		<item name="nuclearGeneratorSchematic" count="0,1" loot_prob_template="veryLow" />
+		<item name="nuclearBatterySchematic" count="0,1" loot_prob_template="veryLow" />
+		<item name="nuclearSolarSchematic" count="0,1" loot_prob_template="veryLow" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupHiddenStash01']">	
+		<item name="nuclearGeneratorSchematic" count="0,1" loot_prob_template="veryLow" />
+		<item name="nuclearBatterySchematic" count="0,1" loot_prob_template="veryLow" />
+		<item name="nuclearSolarSchematic" count="0,1" loot_prob_template="veryLow" />
+</append>
+</Stallionsden>

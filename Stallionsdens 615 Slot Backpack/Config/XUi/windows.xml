@@ -1,0 +1,29 @@
+<configs>
+
+	<!-- Player backpack window -->
+	<set xpath="/windows/window[@name='windowBackpack']/@width">2750</set>
+	<set xpath="/windows/window[@name='windowBackpack']/@height">950</set>
+	
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/@height">850</set>
+	
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@rows">15</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cols">41</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cell_height">50</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cell_width">50</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@width">598</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@height">433</set>
+	
+	<set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/@rows">16</set>
+	<set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/@cols">42</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@width">1008</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@height">950</set>
+	
+	<!--<set xpath="/windows/window[@name='windowVehicleContainer']/panel[@controller='VehicleContainer']/grid[@name='queue']/@rows">20</set>
+    <set xpath="/windows/window[@name='windowVehicleContainer']/panel[@controller='VehicleContainer']/grid[@name='queue']/@cols">13</set> -->
+	
+	<remove xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/backpack_item_stack"></remove>
+	
+	<append xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']">
+       <Stall_backpack_item_stack name="0"/>
+	</append>
+</configs>
